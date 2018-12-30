@@ -1,11 +1,11 @@
-package tui
+package tu
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.{DataFrame, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
-object ParquetTest {
+object CorrelationCoefficient {
 
 
   var baseSchema = StructType(Array(

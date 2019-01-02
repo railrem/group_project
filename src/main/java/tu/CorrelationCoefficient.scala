@@ -1,5 +1,7 @@
 package tu
 
+import java.util.logging.{Level, Logger}
+
 import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.spark.mllib.linalg.Matrix
 import org.apache.spark.mllib.stat.Statistics

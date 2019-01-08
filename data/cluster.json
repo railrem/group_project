@@ -37,9 +37,21 @@
       "cluster": 1
     },
     {
+      "city": "Bochum",
+      "avg_P1": 65.06767068493,
+      "avg_P2": 25.6066148707,
+      "cluster": 1
+    },
+    {
       "city": "Magdeburg",
       "avg_P1": 44.06767068493,
       "avg_P2": 44.6066148707,
+      "cluster": 3
+    },
+    {
+      "city": "Krefeld",
+      "avg_P1": 50.06767068493,
+      "avg_P2": 50.6066148707,
       "cluster": 3
     },
     {

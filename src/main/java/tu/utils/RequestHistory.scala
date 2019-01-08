@@ -1,23 +1,9 @@
-package tu
+package tu.utils
 
 import java.util
 import java.util.HashMap
 
-import org.apache.spark.sql.{DataFrame, SQLContext}
-import org.apache.spark.sql.types._
-
-class RequestHistory(val sqlContext: SQLContext) {
-
-  var schema = StructType(Array(
-    StructField("lat", DoubleType),
-    StructField("lon", DoubleType),
-    StructField("city", StringType),
-    StructField("region", StringType)
-  ))
-
-  var df: DataFrame = sqlContext.read
-    .schema(schema)
-    .parquet(DataLoader.HDFS_BASE + "history.parquet")
+class RequestHistory() {
 
   var history: HashMap[String, List[String]] = new util.HashMap[String, List[String]]()
 

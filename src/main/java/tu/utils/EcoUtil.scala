@@ -1,4 +1,4 @@
-package tu
+package tu.utils
 
 import scala.collection.mutable.HashMap
 
@@ -38,7 +38,7 @@ object EcoUtil {
     ("Oldenburg", Array(103, 76, 74)),
     ("Bottrop", Array(101, 74, 73)),
     ("Koblenz", Array(105, 76, 73)),
-    ("Mülheim/Ruhr", Array(91, 66, 73)),
+    ("Mülheim an der Ruhr", Array(91, 66, 73)),
     ("Bonn", Array(141, 102, 72)),
     ("Darmstadt", Array(122, 88, 72)),
     ("Heidelberg", Array(109, 79, 72)),
@@ -47,7 +47,7 @@ object EcoUtil {
     ("Hamburg", Array(755, 539, 71)),
     ("Kiel", Array(119, 85, 71)),
     ("Heilbronn", Array(100, 71, 71)),
-    ("Reckinghausen", Array(66, 47, 71)),
+    ("Recklinghausen", Array(66, 47, 71)),
     ("Dortmund", Array(281, 199, 71)),
     ("Osnabrück", Array(120, 85, 71)),
     ("Stuttgart", Array(207, 145, 70)),
@@ -60,7 +60,7 @@ object EcoUtil {
     ("Essen", Array(210, 143, 68)),
     ("Moers", Array(68, 45, 66)),
     ("Hannover", Array(204, 133, 65)),
-    ("Offenbach", Array(45, 29, 65)),
+    ("Offenbach am Main", Array(45, 29, 65)),
     ("Karlsruhe", Array(173, 111, 64)),
     ("Gelsenkirchen", Array(105, 67, 64)),
     ("Mainz", Array(98, 62, 64)),
@@ -72,7 +72,7 @@ object EcoUtil {
     ("Oberhausen", Array(77, 45, 59)),
     ("Cologne", Array(405, 237, 58)),
     ("Herne", Array(51, 30, 58)),
-    ("Frankfurt/Main", Array(248, 144, 58)),
+    ("Frankfurt am Main", Array(248, 144, 58)),
     ("Duisburg", Array(233, 132, 57)),
     ("Düsseldorf", Array(217, 123, 57)),
     ("Magdeburg", Array(201, 109, 54)),
@@ -84,7 +84,7 @@ object EcoUtil {
     ("Nürnberg", Array(186, 89, 48)),
     ("Mannheim", Array(145, 64, 44)),
     ("Leipzig", Array(297, 126, 42)),
-    ("Ludwigshafen", Array(78, 27, 35))
+    ("Ludwigshafen am Rhein", Array(78, 27, 35))
   )
 
   def main(args: Array[String]): Unit = {
@@ -117,4 +117,3 @@ object EcoUtil {
     t(index)
   }
 }
-

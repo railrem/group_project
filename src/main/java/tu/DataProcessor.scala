@@ -1,13 +1,11 @@
 package tu
 
-import java.util.logging.{Level, Logger}
+import java.lang.NullPointerException
 
-import org.apache.spark.ml.feature.VectorAssembler
-import org.apache.spark.mllib.linalg.Matrix
-import org.apache.spark.mllib.stat.Statistics
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{avg, col, udf}
 import org.apache.spark.sql.types._
+import tu.utils.{DataLoader, RequestHistory}
 
 object DataProcessor {
 
@@ -37,18 +35,18 @@ object DataProcessor {
   var schema3 = schema2
     .add(StructField("P0", DoubleType))
 
-  // Two threads local[2]
-  val sparkSession: SparkSession = SparkSession.builder.master("local[2]")
-    .appName("CorrelationCoefficient").getOrCreate()
-  val requestHistory: RequestHistory = new RequestHistory(sparkSession.sqlContext)
+  val requestHistory: RequestHistory = new RequestHistory()
 
-  def getAverageByCity: DataFrame ={
+  def getAverageByCity(hdfsBase: String, sparkSession: SparkSession): DataFrame = {
+
     // Union all data with different scheme
-    var df1 = DataLoader.readParquet(sparkSession.sqlContext, DataLoader.schema1Path, schema1).
+    val dataLoader: DataLoader = new DataLoader(hdfsBase)
+
+    var df1 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema1Path, schema1).
       select("lat", "lon", "P1", "P2")
-    var df2 = DataLoader.readParquet(sparkSession.sqlContext, DataLoader.schema2Path, schema2)
+    var df2 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema2Path, schema2)
       .select("lat", "lon", "P1", "P2")
-    var df3 = DataLoader.readParquet(sparkSession.sqlContext, DataLoader.schema3Path, schema3)
+    var df3 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema3Path, schema3)
       .select("lat", "lon", "P1", "P2")
     val df = df1
       .union(df2)
@@ -59,8 +57,17 @@ object DataProcessor {
 
     //adding city column
     val dfWithCity = df.withColumn("city", cityUdf(col("lat"), col("lon")))
-      .filter(col("city").isNotNull)
-    dfWithCity.show(10)
+      .filter(r => {
+        val t: String = r.getAs("city")
+        try {
+          !t.isEmpty
+        }
+        catch {
+          case _: NullPointerException => {
+            false
+          }
+        }
+      })
 
     // calculate average P1 P2 by city
     val dfWithAverageAndCities = dfWithCity.groupBy(col("city"))
@@ -68,7 +75,6 @@ object DataProcessor {
         avg(col("P1")).as("avg_P1"),
         avg(col("P2")).as("avg_P2")
       )
-    dfWithAverageAndCities.show(10, false)
     dfWithAverageAndCities
   }
 
@@ -81,16 +87,21 @@ object DataProcessor {
     * @return
     */
   def getCity(lat: Double, lon: Double): String = {
-    var city = requestHistory.getCity(lat, lon)
-    if (city == null) {
-      Thread.sleep(1000)
-      var nominatim1 = new nominatim.NominatimAPI(); //create instance with default zoom level (18)
-      val address = nominatim1.getAdress(lat, lon); //returns Address object for the given position
-      city = address.getCity
-      println("REQUEST lat : " + lat + " lon : " + lon + " city : " + city + " state : " + address.getState)
-      requestHistory.add(lat, lon, city, address.getState)
+    try {
+      var city = requestHistory.getCity(lat, lon)
+      if (city == null) {
+        Thread.sleep(1000)
+        var nominatim1 = new nominatim.NominatimAPI(); //create instance with default zoom level (18)
+        val address = nominatim1.getAdress(lat, lon); //returns Address object for the given position
+        city = address.getCity
+        println("REQUEST lat : " + lat + " lon : " + lon + " city : " + city + " state : " + address.getState)
+        requestHistory.add(lat, lon, city, address.getState)
+      }
+      city
+    } catch {
+      case _: NullPointerException =>
+        null
     }
-    city
   }
 
 }

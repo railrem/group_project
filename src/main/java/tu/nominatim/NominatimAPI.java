@@ -120,7 +120,7 @@ public class NominatimAPI {
 
     public Address getAdress(double lat, double lon){
         Address result = null;
-        String urlString = NominatimInstance + "/reverse?format=json&addressdetails=1&lat=" + String.valueOf(lat) + "&lon=" + String.valueOf(lon) + "&zoom=" + zoomLevel ;
+        String urlString = NominatimInstance + "/reverse?format=json&addressdetails=1&lat=" + String.valueOf(lat) + "&lon=" + String.valueOf(lon) + "&zoom=" + zoomLevel + "&accept-language=de" ;
         try {
             result =new Address(getJSON(urlString), zoomLevel);
         } catch (IOException e) {

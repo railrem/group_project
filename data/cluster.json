@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "city": "Düsseldorf",
+      "avg_P1": 31.279505516959542,
+      "avg_P2": 25.358418471597876,
+      "cluster":0
+    },
+    {
+      "city": "Stadt Brüssel",
+      "avg_P1": 11.81257275902212,
+      "avg_P2": 10.779976717112921,
+      "cluster": 0
+    },
+    {
+      "city": "Leverkusen",
+      "avg_P1": 20.06767068493,
+      "avg_P2": 51.6066148707,
+      "cluster": 2
+    },
+    {
+      "city": "Bremerhaven",
+      "avg_P1": 29.06767068493,
+      "avg_P2": 15.6066148707,
+      "cluster": 0
+    },
+    {
+      "city": "Stuttgart",
+      "avg_P1": 20.06767068493,
+      "avg_P2": 75.6066148707,
+      "cluster": 2
+    },
+    {
+      "city": "Oberhausen",
+      "avg_P1": 60.06767068493,
+      "avg_P2": 20.6066148707,
+      "cluster": 1
+    },
+    {
+      "city": "Magdeburg",
+      "avg_P1": 44.06767068493,
+      "avg_P2": 44.6066148707,
+      "cluster": 3
+    },
+    {
+      "city": "Fürth",
+      "avg_P1": 22.06767068493,
+      "avg_P2": 45.6066148707,
+      "cluster": 2
+    },
+    {
+      "city": "Berlin",
+      "avg_P1": 28.06767068493,
+      "avg_P2": 11.6066148707,
+      "cluster": 0
+    }
+  ]
+}

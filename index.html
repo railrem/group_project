@@ -1,0 +1,115 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+    //google.charts.load('current', {packages: ['corechart']});
+    //  google.charts.setOnLoadCallback(drawChart);
+    var cluster_colors = ["red", "green", "blue", "yellow", "orange", "black", "aqua", "gold", "brown", "navi", "olive", "violet"];
+    var xmlhttp = new XMLHttpRequest();
+    var url = "data/cluster.json";
+    var result = [];
+
+    function drawChart() {
+        var graph = new google.visualization.DataTable();
+        graph.addColumn('number', 'ID');
+        graph.addColumn('number', 'Value');
+        graph.addColumn({'type': 'string', 'role': 'style'});
+        graph.addColumn({'type': 'string','role': 'annotation'})
+        graph.addColumn({type: 'string', role: 'tooltip'});
+        graph.addRows(
+            result
+        );
+        var options = {
+            title: 'German cities clusterazation by P1,P2',
+            hAxis: {title: 'Average P1'},
+            vAxis: {title: 'Average P2'},
+            legend: 'none'
+        };
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart'));
+        chart.draw(graph, options);
+    }
+
+    function r(num){
+        return Math.round(num * 100) / 100
+    }
+
+
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            var myArr = JSON.parse(this.responseText);
+            var arr = myArr.items;
+            var i;
+            for (i = 0; i < arr.length; i++) {
+                console.log(arr[i]);
+                result.push([
+                    arr[i].avg_P1,
+                    arr[i].avg_P2,
+                    'point { fill-color: ' + cluster_colors[arr[i].cluster] + '}',
+                     arr[i].city,
+                     r(arr[i].avg_P1) + "  ;  " + r(arr[i].avg_P2)
+                ]);
+            }
+            google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawChart});
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+    console.log(result);
+
+    function fillTable(p1id,p2id,gid,url) {
+        var xmlhttp2 = new XMLHttpRequest();
+        xmlhttp2.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var myArr = JSON.parse(this.responseText);
+                console.log(myArr);
+                document.getElementById(p1id).innerHTML = myArr["avg_P1-avg_P2"];
+                document.getElementById(p2id).innerHTML = myArr["avg_P1-green_space"];
+                document.getElementById(gid).innerHTML = myArr["avg_P2-green_space"];
+
+            }
+        };
+        xmlhttp2.open("GET", url, true);
+        xmlhttp2.send();
+    }
+    fillTable("pear_P1","pear_P2","pear_G","data/pearson.json");
+    fillTable("sp_P1","sp_P2","sp_G","data/spearman.json");
+
+
+</script>
+
+
+<style type="text/css">
+    #chart {
+        width: 700px;
+        height: 300px;
+    }
+
+</style>
+<h1 style="text-align: center;margin-top: 20px">Summary</h1>
+<div id="chart" ></div>
+<div class="container">
+    <h2>Correlation</h2>
+    <table class="table table-bordered">
+        <thead>
+        <tr>
+            <th>P1 average - P2 average</th>
+            <th>P1 average - Green Area Space</th>
+            <th>P2 average - Green Area Space</th>
+            <th>Method</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td id="pear_P1"></td>
+            <td id="pear_P2"></td>
+            <td id ="pear_G"></td>
+            <td>Pearson</td>
+        </tr>
+        <tr>
+            <td id="sp_P1"></td>
+            <td id="sp_P2"></td>
+            <td id ="sp_G"></td>
+            <td>Spearman</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

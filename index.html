@@ -13,7 +13,7 @@
         graph.addColumn('number', 'ID');
         graph.addColumn('number', 'Value');
         graph.addColumn({'type': 'string', 'role': 'style'});
-        graph.addColumn({'type': 'string','role': 'annotation'})
+        graph.addColumn({'type': 'string', 'role': 'annotation'})
         graph.addColumn({type: 'string', role: 'tooltip'});
         graph.addRows(
             result
@@ -28,7 +28,7 @@
         chart.draw(graph, options);
     }
 
-    function r(num){
+    function r(num) {
         return Math.round(num * 100) / 100
     }
 
@@ -44,8 +44,8 @@
                     arr[i].avg_P1,
                     arr[i].avg_P2,
                     'point { fill-color: ' + cluster_colors[arr[i].cluster] + '}',
-                     arr[i].city,
-                     r(arr[i].avg_P1) + "  ;  " + r(arr[i].avg_P2)
+                    arr[i].city,
+                    r(arr[i].avg_P1) + "  ;  " + r(arr[i].avg_P2)
                 ]);
             }
             google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawChart});
@@ -55,9 +55,9 @@
     xmlhttp.send();
     console.log(result);
 
-    function fillTable(p1id,p2id,gid,url) {
+    function fillTable(p1id, p2id, gid, url) {
         var xmlhttp2 = new XMLHttpRequest();
-        xmlhttp2.onreadystatechange = function() {
+        xmlhttp2.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
                 var myArr = JSON.parse(this.responseText);
                 console.log(myArr);
@@ -70,8 +70,9 @@
         xmlhttp2.open("GET", url, true);
         xmlhttp2.send();
     }
-    fillTable("pear_P1","pear_P2","pear_G","data/pearson.json");
-    fillTable("sp_P1","sp_P2","sp_G","data/spearman.json");
+
+    fillTable("pear_P1", "pear_P2", "pear_G", "data/pearson.json");
+    fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
 
 
 </script>
@@ -85,7 +86,7 @@
 
 </style>
 <h1 style="text-align: center;margin-top: 20px">Summary</h1>
-<div id="chart" ></div>
+<div id="chart"></div>
 <div class="container">
     <h2>Correlation</h2>
     <table class="table table-bordered">
@@ -101,13 +102,13 @@
         <tr>
             <td id="pear_P1"></td>
             <td id="pear_P2"></td>
-            <td id ="pear_G"></td>
+            <td id="pear_G"></td>
             <td>Pearson</td>
         </tr>
         <tr>
             <td id="sp_P1"></td>
             <td id="sp_P2"></td>
-            <td id ="sp_G"></td>
+            <td id="sp_G"></td>
             <td>Spearman</td>
         </tr>
         </tbody>

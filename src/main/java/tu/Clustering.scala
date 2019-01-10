@@ -23,9 +23,9 @@ object Clustering {
     val output = assembler.transform(dfWithAverageAndCities)
       .rdd.map(r => {
       val denseVector = r.getAs[org.apache.spark.ml.linalg.SparseVector]("features").toDense
-      Vectors.fromML(denseVector)
+      val res = Vectors.fromML(denseVector)
+      res
     })
-
 
     val numClusters = numCluster
     val numIterations = numIter
@@ -33,10 +33,12 @@ object Clustering {
 
     // Evaluate clustering by computing Within Set Sum of Squared Errors
     val WSSSE = clusters.computeCost(output)
-    println("Within Set Sum of Squared Errors = " + WSSSE)
+    helpers.print("Within Set Sum of Squared Errors = " + WSSSE)
 
-    clusters.save(sparkSession.sparkContext, hdfsBase + "KMeansModel")
+  // clusters.save(sparkSession.sparkContext, hdfsBase + "KMeansModel")
 
+    helpers.print("Kmeans centroids")
+    helpers.print(clusters.clusterCenters.mkString(","))
     val labelUdf = udf((p1: Double, p2: Double) => clusters.predict(Vectors.dense(p1, p2)))
 
     //adding city column
@@ -45,6 +47,7 @@ object Clustering {
     var result = dfWithCluster.toJSON.collect().mkString(",")
     val dataLoader: DataLoader = new DataLoader(hdfsBase)
     result = "{\n  \"items\": [" + result + "]}"
+    helpers.print(result)
     dataLoader.write(result, "/cluster.json")
 
     //   val sameModel = KMeansModel.load(sparkSession.sparkContext, hdfsBase + "KMeansModel")

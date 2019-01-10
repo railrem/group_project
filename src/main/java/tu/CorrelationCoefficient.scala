@@ -14,7 +14,7 @@ import tu.utils.{DataLoader, EcoUtil}
 
 object CorrelationCoefficient {
 
-  def calculate(hdfsBase: String, sparkSession: SparkSession,df :DataFrame) = {
+  def calculate(hdfsBase: String, sparkSession: SparkSession, df: DataFrame) = {
     var dfWithAverageAndCities = df
     val ecoUdf = udf((city: String) => EcoUtil.getGreenArea(city))
     val dfWithGreenSpace = dfWithAverageAndCities
@@ -35,14 +35,16 @@ object CorrelationCoefficient {
     // calculate the correlation matrix using Pearson's method. Use "spearman" for Spearman's method
     // If a method is not specified, Pearson's method will be used by default.
     val correlMatrix: Matrix = Statistics.corr(output, "pearson")
-    println("Pearson correlation matrix:\n" + correlMatrix.toString)
+    helpers.print("Pearson correlation matrix:\n" + correlMatrix.toString)
     var t = correlMatrix.toArray
     var pearsonstr = "{\"avg_P1-avg_P2\": " + t(1) + " ,\"avg_P1-green_space\": " + t(2) + " ,\"avg_P2-green_space\": " + t(5) + "}"
+    helpers.print(pearsonstr)
     dataLoader.write(pearsonstr, "/pearson.json")
     val correlMatrix2: Matrix = Statistics.corr(output, "spearman")
     t = correlMatrix2.toArray
-    println("Spearman correlation matrix:\n" + correlMatrix2.toString)
+    helpers.print("Spearman correlation matrix:\n" + correlMatrix2.toString)
     var spearmanstr = "{\"avg_P1-avg_P2\": " + t(1) + " ,\"avg_P1-green_space\": " + t(2) + " ,\"avg_P2-green_space\": " + t(5) + "}"
+    helpers.print(spearmanstr)
     dataLoader.write(spearmanstr, "/spearman.json")
 
 

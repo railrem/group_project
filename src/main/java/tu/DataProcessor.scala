@@ -6,6 +6,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{avg, col, udf}
 import org.apache.spark.sql.types._
 import tu.utils.{DataLoader, RequestHistory}
+import org.apache.spark.sql.functions._
 
 object DataProcessor {
 
@@ -53,29 +54,65 @@ object DataProcessor {
       .union(df3)
     df.printSchema()
 
-    val cityUdf = udf((lat: Double, lon: Double) => getCity(lat, lon))
+    var citiesDF = sparkSession.read.json(hdfsBase + "geo.json")
+    /*
+        val cityUdf = udf((lat: Double, lon: Double) => getCity(lat, lon))
 
-    //adding city column
-    val dfWithCity = df.withColumn("city", cityUdf(col("lat"), col("lon")))
-      .filter(r => {
-        val t: String = r.getAs("city")
-        try {
-          !t.isEmpty
-        }
-        catch {
-          case _: NullPointerException => {
-            false
-          }
-        }
-      })
+        //adding city column
+        val dfWithCity = df.withColumn("city", cityUdf(col("lat"), col("lon")))
+       */
 
-    // calculate average P1 P2 by city
-    val dfWithAverageAndCities = dfWithCity.groupBy(col("city"))
-      .agg(
-        avg(col("P1")).as("avg_P1"),
-        avg(col("P2")).as("avg_P2")
-      )
-    dfWithAverageAndCities
+    val df_asCity = citiesDF.as("dfcities")
+    val df_asData = df.as("dfdata")
+
+    var dfWithCity = df_asData.join(df_asCity, Seq("lat", "lon"))
+
+    val dfFileteredWithCity = dfWithCity.filter(r => {
+      val t: String = r.getAs("city")
+      try {
+        !t.isEmpty
+      }
+      catch {
+        case _: NullPointerException => false
+      }
+    })
+
+    //  calculate average P1 P2 by city
+    dfFileteredWithCity.createOrReplaceTempView("data")
+    var dfWithAverageAndCities = sparkSession.sqlContext
+      .sql("select city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by city")
+
+    /* val dfWithAverageAndCities = dfFileteredWithCity.groupBy(col("city"))
+       .agg(
+         mean(col("P1")),
+         mean(col("P2"))
+       )
+       */
+
+
+    val dfFileteredAverage = dfWithAverageAndCities.filter(r => {
+      val avgP1: Double = r.getAs("avg_P1")
+      val avgP2: Double = r.getAs("avg_P2")
+      try {
+        !(avgP1.isNaN || avgP2.isNaN)
+      }
+      catch {
+        case _: NullPointerException => false
+      }
+    })
+
+    val pUdf = udf((p: Double) => normalizeP(p))
+
+
+    dfFileteredAverage.withColumn("avg_P1", pUdf(col("avg_P1")))
+      .withColumn("avg_P2", pUdf(col("avg_P2")))
+  }
+
+  def normalizeP(p: Double): Double = {
+    if (p > 100.0) {
+      return 100.0
+    }
+    p
   }
 
   /**

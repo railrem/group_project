@@ -3,7 +3,7 @@
 <script type="text/javascript">
     //google.charts.load('current', {packages: ['corechart']});
     //  google.charts.setOnLoadCallback(drawChart);
-    var cluster_colors = ["red", "green", "blue", "yellow", "orange", "black", "aqua", "gold", "brown", "navi", "olive", "violet"];
+    var cluster_colors = ["red", "green", "blue", "yellow", "orange", "black", "aqua", "gold", "brown", "olive", "violet"];
     var xmlhttp = new XMLHttpRequest();
     var url = "data/cluster.json";
     var result = [];
@@ -13,7 +13,7 @@
         graph.addColumn('number', 'ID');
         graph.addColumn('number', 'Value');
         graph.addColumn({'type': 'string', 'role': 'style'});
-        graph.addColumn({'type': 'string', 'role': 'annotation'})
+       // graph.addColumn({'type': 'string', 'role': 'annotation'});
         graph.addColumn({type: 'string', role: 'tooltip'});
         graph.addRows(
             result
@@ -44,8 +44,8 @@
                     arr[i].avg_P1,
                     arr[i].avg_P2,
                     'point { fill-color: ' + cluster_colors[arr[i].cluster] + '}',
-                    arr[i].city,
-                    r(arr[i].avg_P1) + "  ;  " + r(arr[i].avg_P2)
+                    //arr[i].city,
+                    arr[i].city+"  "+r(arr[i].avg_P1) + "  ;  " + r(arr[i].avg_P2)
                 ]);
             }
             google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawChart});

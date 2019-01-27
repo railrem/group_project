@@ -105,8 +105,8 @@ object DataProcessor {
     val pUdf = udf((p: Double) => normalizeP(p))
 
     var dfFinish = dfFileteredAverage
-      .filter(col("avg_P1") < 100)
-      .filter(col("avg_P2") < 100)
+//      .filter(col("avg_P1") < 100)
+//      .filter(col("avg_P2") < 100)
 
     dfFinish
   }

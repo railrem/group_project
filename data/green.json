@@ -1,0 +1,430 @@
+{
+  "items": [
+    {
+      "city": "Magdeburg",
+      "avg_P1": 11.612565174640578,
+      "avg_P2": 9.362970882902662,
+      "green_space": 54
+    },
+    {
+      "city": "Mainz",
+      "avg_P1": 36.345486767161304,
+      "avg_P2": 28.73233559883898,
+      "green_space": 64
+    },
+    {
+      "city": "Ludwigshafen am Rhein",
+      "avg_P1": 13.44031205329996,
+      "avg_P2": 8.34892937114794,
+      "green_space": 35
+    },
+    {
+      "city": "Ulm",
+      "avg_P1": 18.32617575028073,
+      "avg_P2": 10.481210020615519,
+      "green_space": 77
+    },
+    {
+      "city": "Potsdam",
+      "avg_P1": 18.08967920715882,
+      "avg_P2": 10.488734982188092,
+      "green_space": 69
+    },
+    {
+      "city": "Heilbronn",
+      "avg_P1": 18.415178461502418,
+      "avg_P2": 10.32836571568862,
+      "green_space": 71
+    },
+    {
+      "city": "L?beck",
+      "avg_P1": 22.09943364086125,
+      "avg_P2": 10.705410513348639,
+      "green_space": 78
+    },
+    {
+      "city": "Siegen",
+      "avg_P1": 22.492170111871026,
+      "avg_P2": 10.377939974044601,
+      "green_space": 86
+    },
+    {
+      "city": "Offenbach am Main",
+      "avg_P1": 9.809351511133967,
+      "avg_P2": 6.273463973592355,
+      "green_space": 65
+    },
+    {
+      "city": "Pforzheim",
+      "avg_P1": 10.761751977924314,
+      "avg_P2": 6.263753394944724,
+      "green_space": 83
+    },
+    {
+      "city": "Hagen",
+      "avg_P1": 17.144063279531707,
+      "avg_P2": 11.564982661457487,
+      "green_space": 81
+    },
+    {
+      "city": "Wuppertal",
+      "avg_P1": 28.5526804443783,
+      "avg_P2": 21.63343097608172,
+      "green_space": 78
+    },
+    {
+      "city": "Erfurt",
+      "avg_P1": 14.776208987749719,
+      "avg_P2": 8.595710725785231,
+      "green_space": 53
+    },
+    {
+      "city": "Chemnitz",
+      "avg_P1": 25.592018361558125,
+      "avg_P2": 13.9110740178281,
+      "green_space": 79
+    },
+    {
+      "city": "Bochum",
+      "avg_P1": 21.490923840948124,
+      "avg_P2": 12.85264811158712,
+      "green_space": 69
+    },
+    {
+      "city": "Recklinghausen",
+      "avg_P1": 21.49272600593069,
+      "avg_P2": 13.842989994937199,
+      "green_space": 71
+    },
+    {
+      "city": "Darmstadt",
+      "avg_P1": 15.076995739177285,
+      "avg_P2": 9.52523744887998,
+      "green_space": 72
+    },
+    {
+      "city": "Remscheid",
+      "avg_P1": 34.267595025289864,
+      "avg_P2": 10.218093470692967,
+      "green_space": 80
+    },
+    {
+      "city": "M?lheim an der Ruhr",
+      "avg_P1": 19.837810893912593,
+      "avg_P2": 11.990241659073126,
+      "green_space": 73
+    },
+    {
+      "city": "W?rzburg",
+      "avg_P1": 15.08402066701061,
+      "avg_P2": 9.267925789551803,
+      "green_space": 69
+    },
+    {
+      "city": "Saarbr?cken",
+      "avg_P1": 11.342035864018316,
+      "avg_P2": 6.316938566871975,
+      "green_space": 81
+    },
+    {
+      "city": "Neuss",
+      "avg_P1": 19.48230962527104,
+      "avg_P2": 11.449193194011245,
+      "green_space": 61
+    },
+    {
+      "city": "Dresden",
+      "avg_P1": 22.289772499172223,
+      "avg_P2": 24.86127696932893,
+      "green_space": 69
+    },
+    {
+      "city": "D?sseldorf",
+      "avg_P1": 18.560742618847073,
+      "avg_P2": 11.19920838076314,
+      "green_space": 57
+    },
+    {
+      "city": "Leverkusen",
+      "avg_P1": 19.58776985099969,
+      "avg_P2": 10.563588308134165,
+      "green_space": 64
+    },
+    {
+      "city": "Bielefeld",
+      "avg_P1": 20.533996474137645,
+      "avg_P2": 13.18176319043841,
+      "green_space": 81
+    },
+    {
+      "city": "Erlangen",
+      "avg_P1": 11.796672193494,
+      "avg_P2": 7.489238889939198,
+      "green_space": 60
+    },
+    {
+      "city": "Freiburg",
+      "avg_P1": 9.39861140769879,
+      "avg_P2": 6.590041022759207,
+      "green_space": 82
+    },
+    {
+      "city": "Oldenburg",
+      "avg_P1": 18.631314679190375,
+      "avg_P2": 11.454802500547359,
+      "green_space": 74
+    },
+    {
+      "city": "Hamburg",
+      "avg_P1": 22.845796132840647,
+      "avg_P2": 12.671206976203768,
+      "green_space": 71
+    },
+    {
+      "city": "Hannover",
+      "avg_P1": 16.94109627857481,
+      "avg_P2": 10.141978665833683,
+      "green_space": 65
+    },
+    {
+      "city": "Rostock",
+      "avg_P1": 20.353599988485048,
+      "avg_P2": 11.822522923014768,
+      "green_space": 79
+    },
+    {
+      "city": "M?nster",
+      "avg_P1": 25.81187561115604,
+      "avg_P2": 15.731673109182504,
+      "green_space": 81
+    },
+    {
+      "city": "Bremen",
+      "avg_P1": 20.69245068179382,
+      "avg_P2": 11.573943987120316,
+      "green_space": 68
+    },
+    {
+      "city": "Duisburg",
+      "avg_P1": 23.261776885778062,
+      "avg_P2": 13.47973068059191,
+      "green_space": 57
+    },
+    {
+      "city": "Wiesbaden",
+      "avg_P1": 31.36059934458313,
+      "avg_P2": 9.886030905971882,
+      "green_space": 78
+    },
+    {
+      "city": "Kassel",
+      "avg_P1": 18.031491208584647,
+      "avg_P2": 9.0714921483861,
+      "green_space": 75
+    },
+    {
+      "city": "Paderborn",
+      "avg_P1": 22.787854669584746,
+      "avg_P2": 11.570749134718108,
+      "green_space": 80
+    },
+    {
+      "city": "Solingen",
+      "avg_P1": 15.905762287480545,
+      "avg_P2": 11.390678646108672,
+      "green_space": 79
+    },
+    {
+      "city": "Krefeld",
+      "avg_P1": 19.70468051000001,
+      "avg_P2": 11.068136510536933,
+      "green_space": 69
+    },
+    {
+      "city": "Moers",
+      "avg_P1": 30.290748201917726,
+      "avg_P2": 19.788847987072234,
+      "green_space": 66
+    },
+    {
+      "city": "Bottrop",
+      "avg_P1": 20.62980165314434,
+      "avg_P2": 12.840662501856645,
+      "green_space": 73
+    },
+    {
+      "city": "N?rnberg",
+      "avg_P1": 17.134274025594866,
+      "avg_P2": 11.175387077065903,
+      "green_space": 48
+    },
+    {
+      "city": "Wolfsburg",
+      "avg_P1": 12.18421381510858,
+      "avg_P2": 7.72775769079058,
+      "green_space": 79
+    },
+    {
+      "city": "Braunschweig",
+      "avg_P1": 17.40296797979605,
+      "avg_P2": 11.573073015864423,
+      "green_space": 75
+    },
+    {
+      "city": "Mannheim",
+      "avg_P1": 14.102134787047753,
+      "avg_P2": 9.249639186423918,
+      "green_space": 44
+    },
+    {
+      "city": "Aachen",
+      "avg_P1": 15.509757945951142,
+      "avg_P2": 8.788736250615134,
+      "green_space": 82
+    },
+    {
+      "city": "Karlsruhe",
+      "avg_P1": 14.626237837684032,
+      "avg_P2": 9.29260460139005,
+      "green_space": 64
+    },
+    {
+      "city": "Osnabr?ck",
+      "avg_P1": 16.640587833933804,
+      "avg_P2": 9.409857119201686,
+      "green_space": 71
+    },
+    {
+      "city": "Koblenz",
+      "avg_P1": 13.44861174008593,
+      "avg_P2": 8.666997510755063,
+      "green_space": 73
+    },
+    {
+      "city": "Trier",
+      "avg_P1": 14.836063272944251,
+      "avg_P2": 7.842845858646128,
+      "green_space": 79
+    },
+    {
+      "city": "Heidelberg",
+      "avg_P1": 12.144093168763392,
+      "avg_P2": 8.157026317647187,
+      "green_space": 72
+    },
+    {
+      "city": "Oberhausen",
+      "avg_P1": 24.44393979392176,
+      "avg_P2": 14.551623822780783,
+      "green_space": 59
+    },
+    {
+      "city": "Herne",
+      "avg_P1": 12.12165243836962,
+      "avg_P2": 7.580670148820269,
+      "green_space": 58
+    },
+    {
+      "city": "M?nchengladbach",
+      "avg_P1": 15.804427403930642,
+      "avg_P2": 9.777489857611833,
+      "green_space": 74
+    },
+    {
+      "city": "Essen",
+      "avg_P1": 46.463619576590574,
+      "avg_P2": 24.644641175083077,
+      "green_space": 68
+    },
+    {
+      "city": "Kiel",
+      "avg_P1": 19.281421211301396,
+      "avg_P2": 9.954666523190896,
+      "green_space": 71
+    },
+    {
+      "city": "Jena",
+      "avg_P1": 20.699035405551893,
+      "avg_P2": 13.506604477919428,
+      "green_space": 80
+    },
+    {
+      "city": "Bergisch Gladbach",
+      "avg_P1": 16.442354999755974,
+      "avg_P2": 9.348300794480005,
+      "green_space": 84
+    },
+    {
+      "city": "Hamm",
+      "avg_P1": 19.88412282686151,
+      "avg_P2": 11.891293335520135,
+      "green_space": 80
+    },
+    {
+      "city": "Frankfurt am Main",
+      "avg_P1": 17.555789582251982,
+      "avg_P2": 10.911477353964637,
+      "green_space": 58
+    },
+    {
+      "city": "Augsburg",
+      "avg_P1": 21.64906180428872,
+      "avg_P2": 13.05616459849634,
+      "green_space": 72
+    },
+    {
+      "city": "Bonn",
+      "avg_P1": 19.431255508977213,
+      "avg_P2": 9.697032911180159,
+      "green_space": 72
+    },
+    {
+      "city": "F?rth",
+      "avg_P1": 13.686610449635404,
+      "avg_P2": 8.456413551800813,
+      "green_space": 52
+    },
+    {
+      "city": "Regensburg",
+      "avg_P1": 21.280349252091643,
+      "avg_P2": 12.258604325847593,
+      "green_space": 53
+    },
+    {
+      "city": "Salzgitter",
+      "avg_P1": 14.520777850589756,
+      "avg_P2": 9.173179882044561,
+      "green_space": 84
+    },
+    {
+      "city": "Hildesheim",
+      "avg_P1": 15.184375022900195,
+      "avg_P2": 9.670677608127912,
+      "green_space": 82
+    },
+    {
+      "city": "Bremerhaven",
+      "avg_P1": 11.891189490609278,
+      "avg_P2": 7.939283523200258,
+      "green_space": 62
+    },
+    {
+      "city": "Leipzig",
+      "avg_P1": 17.65969724712699,
+      "avg_P2": 10.320362695152038,
+      "green_space": 42
+    },
+    {
+      "city": "Dortmund",
+      "avg_P1": 25.296820237677398,
+      "avg_P2": 14.456419906162427,
+      "green_space": 71
+    },
+    {
+      "city": "G?ttingen",
+      "avg_P1": 13.906935470559837,
+      "avg_P2": 9.476754563788395,
+      "green_space": 85
+    }
+  ]
+}

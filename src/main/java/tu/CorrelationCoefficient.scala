@@ -21,6 +21,10 @@ object CorrelationCoefficient {
       .withColumn("green_space", ecoUdf(col("city")))
       .filter(col("green_space").isNotNull)
 
+    var result = dfWithGreenSpace.toJSON.collect().mkString(",")
+    result = "{\n  \"items\": [" + result + "]}"
+    helpers.print(result)
+
     val assembler = new VectorAssembler()
       .setInputCols(Array("avg_P1", "avg_P2", "green_space"))
       .setOutputCol("features")

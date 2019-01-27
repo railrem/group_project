@@ -16,7 +16,7 @@ object CorrelationCoefficient {
 
   def calculate(hdfsBase: String, sparkSession: SparkSession, df: DataFrame) = {
     var dfWithAverageAndCities = df
-    val ecoUdf = udf((city: String) => EcoUtil.getGreenArea(city))
+    val ecoUdf = udf((city: String) => EcoUtil.getGreenAreaPercentage(city))
     val dfWithGreenSpace = dfWithAverageAndCities
       .withColumn("green_space", ecoUdf(col("city")))
       .filter(col("green_space").isNotNull)
@@ -40,13 +40,13 @@ object CorrelationCoefficient {
     var pearsonstr = "{\"avg_P1-avg_P2\": " + t(1) + " ,\"avg_P1-green_space\": " + t(2) + " ,\"avg_P2-green_space\": " + t(5) + "}"
     helpers.print(pearsonstr)
     dataLoader.write(pearsonstr, "/pearson.json")
+
     val correlMatrix2: Matrix = Statistics.corr(output, "spearman")
     t = correlMatrix2.toArray
     helpers.print("Spearman correlation matrix:\n" + correlMatrix2.toString)
     var spearmanstr = "{\"avg_P1-avg_P2\": " + t(1) + " ,\"avg_P1-green_space\": " + t(2) + " ,\"avg_P2-green_space\": " + t(5) + "}"
     helpers.print(spearmanstr)
     dataLoader.write(spearmanstr, "/spearman.json")
-
 
   }
 }

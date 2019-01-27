@@ -11,7 +11,6 @@ import org.json4s._
 import org.json4s.native.Serialization._
 
 
-
 class DataLoader(val hdfsDdir: String) {
 
   var hdfsBase: String = hdfsDdir

@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
@@ -72,7 +73,7 @@
     }
 
     fillTable("pear_P1", "pear_P2", "pear_G", "data/pearson.json");
-    fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
+    // fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
 
 
 </script>
@@ -93,8 +94,8 @@
         <thead>
         <tr>
             <th>P1 average - P2 average</th>
-            <th>P1 average - Green Area Space</th>
-            <th>P2 average - Green Area Space</th>
+            <th>P1 average - Green Area Percantage</th>
+            <th>P2 average - Green Area Percantage</th>
             <th>Method</th>
         </tr>
         </thead>
@@ -105,12 +106,12 @@
             <td id="pear_G"></td>
             <td>Pearson</td>
         </tr>
-        <tr>
-            <td id="sp_P1"></td>
-            <td id="sp_P2"></td>
-            <td id="sp_G"></td>
-            <td>Spearman</td>
-        </tr>
+        <!--<tr>-->
+            <!--<td id="sp_P1"></td>-->
+            <!--<td id="sp_P2"></td>-->
+            <!--<td id="sp_G"></td>-->
+            <!--<td>Spearman</td>-->
+        <!--</tr>-->
         </tbody>
     </table>
 </div>

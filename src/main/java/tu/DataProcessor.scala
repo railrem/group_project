@@ -53,6 +53,7 @@ object DataProcessor {
       .union(df2)
       .union(df3)
     df.printSchema()
+    //    df.show(100)
 
     var citiesDF = sparkSession.read.json(hdfsBase + "geo.json")
     /*
@@ -103,9 +104,11 @@ object DataProcessor {
 
     val pUdf = udf((p: Double) => normalizeP(p))
 
+    var dfFinish = dfFileteredAverage
+      .filter(col("avg_P1") < 100)
+      .filter(col("avg_P2") < 100)
 
-    dfFileteredAverage.withColumn("avg_P1", pUdf(col("avg_P1")))
-      .withColumn("avg_P2", pUdf(col("avg_P2")))
+    dfFinish
   }
 
   def normalizeP(p: Double): Double = {

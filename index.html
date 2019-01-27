@@ -20,10 +20,11 @@
             result
         );
         var options = {
-            title: 'German cities clusterazation by P1,P2',
+            title: 'Cities clusterazation by P1,P2',
             hAxis: {title: 'Average P1'},
             vAxis: {title: 'Average P2'},
-            legend: 'none'
+            legend: 'none',
+            pointSize: 4
         };
         var chart = new google.visualization.ScatterChart(document.getElementById('chart'));
         chart.draw(graph, options);

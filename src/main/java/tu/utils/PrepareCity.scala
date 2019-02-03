@@ -82,32 +82,33 @@ object PrepareCity {
   }
 
 
-  /**
-    * return city by geo data if data was asked get from history
-    * otherwise return from Nominatm API
-    *
-    * @param lat latitude
-    * @param lon longtude
-    * @return
-    */
-  def getCity(lat: Double, lon: Double): String = {
-    try {
-      var city = requestHistory.getCity(lat, lon)
-      if (city == null) {
-        Thread.sleep(1000)
-        var nominatim1 = new nominatim.NominatimAPI(); //create instance with default zoom level (18)
-        val address = nominatim1.getAdress(lat, lon); //returns Address object for the given position
-        city = address.getCity
-        println("REQUEST lat : " + lat + " lon : " + lon + " city : " + city + " state : " + address.getState)
-        if (address.getState == "Hamburg") {
-          city = address.getState
-        }
-        requestHistory.add(lat, lon, city, address.getState)
-      }
-      city
-    } catch {
-      case _: NullPointerException =>
-        null
-    }
-  }
+//  /**
+//    * return city by geo data if data was asked get from history
+//    * otherwise return from Nominatm API
+//    *
+//    * @param lat latitude
+//    * @param lon longtude
+//    * @return
+//    */
+//  def getCity(lat: Double, lon: Double): String = {
+//    try {
+//      var city = requestHistory.getCity(lat, lon)
+//      if (city == null) {
+//        Thread.sleep(1000)
+//        var nominatim1 = new nominatim.NominatimAPI(); //create instance with default zoom level (18)
+//        val address = nominatim1.getAdress(lat, lon); //returns Address object for the given position
+//        city = address.getCity
+//        println("REQUEST lat : " + lat + " lon : " + lon + " city : " + city + " state : " + address.getState)
+//        if (address.getState == "Hamburg") {
+//          city = address.getState
+//        }
+//        requestHistory.add(lat, lon, city, address.getState)
+//      }
+//      city
+//    } catch {
+//      case _: NullPointerException =>
+//        null
+//    }
+//  }
+//
 }

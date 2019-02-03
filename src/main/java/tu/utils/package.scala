@@ -9,9 +9,9 @@ package object helpers {
 
   def print(s: String): Unit = {
     log.setLevel(Level.WARN)
-    log.warn("==============================================")
-    log.warn(s)
-    log.warn("==============================================")
+    log.warn("==============================================\n")
+    log.warn(s+"\n")
+    log.warn("==============================================\n")
 
   }
 

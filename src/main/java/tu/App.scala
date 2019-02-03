@@ -4,8 +4,7 @@ import java.util
 
 import org.apache.log4j.Logger
 import org.apache.log4j.Level
-import org.apache.spark.sql.SparkSession
-import tu.loader.ArchiveLinksExtracter
+import org.apache.spark.sql.{Row, SparkSession}
 
 import scala.collection.mutable.ListBuffer
 
@@ -27,8 +26,9 @@ object App {
     val sparkSession: SparkSession = SparkSession.builder
       .appName("luftdaten").master(sparkMaster).getOrCreate()
     var df = DataProcessor.getAverageByCity(hdfsBase, sparkSession)
-    CorrelationCoefficient.calculate(hdfsBase, sparkSession,df)
-    Clustering.execute(hdfsBase, sparkSession, numCluster, numIter,df)
+
+        CorrelationCoefficient.calculate(hdfsBase, sparkSession,df)
+        Clustering.execute(numIter,df)
 
   }
 }

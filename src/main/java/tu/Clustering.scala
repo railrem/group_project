@@ -1,56 +1,88 @@
 package tu
 
+import java.util
+
 import org.apache.spark.ml.feature.VectorAssembler
 import org.apache.spark.mllib.clustering.KMeans
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{col, udf}
-import tu.DataProcessor.getCity
-import tu.utils.DataLoader
-
-import scala.collection.mutable.ListBuffer
+import tu.utils.{DataLoader, CiteDetails}
 
 object Clustering {
 
-  def execute(hdfsBase: String, sparkSession: SparkSession, numCluster: Integer, numIter: Integer, df: DataFrame): Unit = {
+  def execute(numIter: Integer, df: DataFrame): Unit = {
 
     var dfWithAverageAndCities = df
+    var dfWithPopulation = df.filter(col("population").isNotNull)
+    trainKmeans(numIter,dfWithPopulation,"avg_P1","population")
 
+    trainKmeans(numIter,dfWithPopulation,"avg_P2","population")
+
+//    var dfWithSea = DataProcessor.addInfoByCity(dfWithAverageAndCities, "elevation_meters", CiteDetails.getElevationMeters)
+//
+//    trainKmeans(numIter,dfWithPopulation,"avg_P1","elevation_meters")
+//
+//    trainKmeans(numIter,dfWithPopulation,"avg_P2","elevation_meters")
+
+
+  }
+
+  def trainKmeans(numIter: Integer, dataFrame: DataFrame, firstMeasure: String, secondMeasure: String): Unit = {
+    helpers.print("first : " + firstMeasure + " second :" + secondMeasure)
     val assembler = new VectorAssembler()
-      .setInputCols(Array("avg_P1", "avg_P2"))
+      .setInputCols(Array(firstMeasure, secondMeasure))
       .setOutputCol("features")
 
-    val output = assembler.transform(dfWithAverageAndCities)
+    val output = assembler.transform(dataFrame)
       .rdd.map(r => {
       val denseVector = r.getAs[org.apache.spark.ml.linalg.SparseVector]("features").toDense
       val res = Vectors.fromML(denseVector)
       res
     })
 
-    val numClusters = numCluster
-    val numIterations = numIter
-    val clusters = KMeans.train(output, numClusters, numIterations)
+    var optimalNumClusters = 20
+//    var minWSSE = Double.MaxValue
+//    var numClusters = 1
+//    var errors = new util.ArrayList[Array[Double]]
+    /*  var clusterCountStr = "{\n  \"items\": ["
+     // for loop execution with a range
 
-    // Evaluate clustering by computing Within Set Sum of Squared Errors
-    val WSSSE = clusters.computeCost(output)
-    helpers.print("Within Set Sum of Squared Errors = " + WSSSE)
 
-  // clusters.save(sparkSession.sparkContext, hdfsBase + "KMeansModel")
+     for (numClusters <- 1 to 50) {
+       val clusters = KMeans.train(output, numClusters, numIter)
+       // Evaluate clustering by computing Within Set Sum of Squared Errors
+       val WSSSE = clusters.computeCost(output)
+       errors.add(Array(numClusters, WSSSE))
+       clusterCountStr += "[" + numClusters + "," + WSSSE + "],"
+       if (WSSSE < minWSSE) {
+         minWSSE = WSSSE
+         optimalNumClusters = numClusters
+       }
+       //      helpers.print("Within Set Sum of Squared Errors = " + WSSSE)
+     }
 
+    helpers.print("cluster Count Measure")
+
+    clusterCountStr = clusterCountStr.dropRight(1) + "]}"
+    helpers.print(clusterCountStr)*/
+
+    helpers.print("cluster count calculation")
+    val clusters = KMeans.train(output, optimalNumClusters, numIter)
     helpers.print("Kmeans centroids")
+    helpers.print(optimalNumClusters.toString)
     helpers.print(clusters.clusterCenters.mkString(","))
+
+
     val labelUdf = udf((p1: Double, p2: Double) => clusters.predict(Vectors.dense(p1, p2)))
 
     //adding city column
-    val dfWithCluster = dfWithAverageAndCities.withColumn("cluster", labelUdf(col("avg_P1"), col("avg_P2")))
-
+    val dfWithCluster = dataFrame.withColumn("cluster", labelUdf(col(firstMeasure), col(secondMeasure)))
     var result = dfWithCluster.toJSON.collect().mkString(",")
-    val dataLoader: DataLoader = new DataLoader(hdfsBase)
     result = "{\n  \"items\": [" + result + "]}"
     helpers.print(result)
-    dataLoader.write(result, "/cluster.json")
-
-    //   val sameModel = KMeansModel.load(sparkSession.sparkContext, hdfsBase + "KMeansModel")
+    helpers.print("endline first : " + firstMeasure + " second :" + secondMeasure)
   }
+  
 
 }

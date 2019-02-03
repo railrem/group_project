@@ -5,7 +5,7 @@ import java.lang.NullPointerException
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{avg, col, udf}
 import org.apache.spark.sql.types._
-import tu.utils.{DataLoader, RequestHistory}
+import tu.utils.{DataLoader, EcoUtil, RequestHistory}
 import org.apache.spark.sql.functions._
 
 object DataProcessor {
@@ -53,7 +53,6 @@ object DataProcessor {
       .union(df2)
       .union(df3)
     df.printSchema()
-    //    df.show(100)
 
     var citiesDF = sparkSession.read.json(hdfsBase + "geo.json")
     /*
@@ -68,20 +67,14 @@ object DataProcessor {
 
     var dfWithCity = df_asData.join(df_asCity, Seq("lat", "lon"))
 
-    val dfFileteredWithCity = dfWithCity.filter(r => {
-      val t: String = r.getAs("city")
-      try {
-        !t.isEmpty
-      }
-      catch {
-        case _: NullPointerException => false
-      }
-    })
+    val dfFileteredWithCity = this.filterEmptys(dfWithCity, "city")
 
+    val umlautUdf = udf((p: String) => procUmlauts(p))
+    val dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
     //  calculate average P1 P2 by city
-    dfFileteredWithCity.createOrReplaceTempView("data")
+    dfWithCityWithoutUmlauts.createOrReplaceTempView("data")
     var dfWithAverageAndCities = sparkSession.sqlContext
-      .sql("select city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by city")
+      .sql("select new_city as city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by new_city")
 
     /* val dfWithAverageAndCities = dfFileteredWithCity.groupBy(col("city"))
        .agg(
@@ -104,10 +97,17 @@ object DataProcessor {
 
     val pUdf = udf((p: Double) => normalizeP(p))
 
-    var dfFinish = dfFileteredAverage
-//      .filter(col("avg_P1") < 100)
-//      .filter(col("avg_P2") < 100)
+    var dfAvgfFiltered = dfFileteredAverage
+      .filter(col("avg_P1") < 100)
+      .filter(col("avg_P2") < 100)
 
+
+    var cityInfoDf = sparkSession.read.json(hdfsBase + "city_info.json")
+
+    val df_asInfo = cityInfoDf.as("dfinfocities")
+    val df_asMainData = dfAvgfFiltered.as("dfmaindata")
+
+    var dfFinish = df_asMainData.join(df_asInfo, col("city") === col("src_name"),"leftouter")
     dfFinish
   }
 
@@ -118,30 +118,31 @@ object DataProcessor {
     p
   }
 
-  /**
-    * return city by geo data if data was asked get from history
-    * otherwise return from Nominatm API
-    *
-    * @param lat latitude
-    * @param lon longtude
-    * @return
-    */
-  def getCity(lat: Double, lon: Double): String = {
-    try {
-      var city = requestHistory.getCity(lat, lon)
-      if (city == null) {
-        Thread.sleep(1000)
-        var nominatim1 = new nominatim.NominatimAPI(); //create instance with default zoom level (18)
-        val address = nominatim1.getAdress(lat, lon); //returns Address object for the given position
-        city = address.getCity
-        println("REQUEST lat : " + lat + " lon : " + lon + " city : " + city + " state : " + address.getState)
-        requestHistory.add(lat, lon, city, address.getState)
-      }
-      city
-    } catch {
-      case _: NullPointerException =>
-        null
-    }
+  def procUmlauts(s: String): String = {
+    val deUm: Map[Char, String] =
+      Map('ö' -> "o", 'ü' -> "u", 'ä' -> "a").withDefault(_.toString)
+
+    s.flatMap(deUm(_))
   }
 
+
+  def filterEmptys(dataFrame: DataFrame, column: String): DataFrame = {
+    dataFrame.filter(r => {
+      val t: String = r.getAs(column)
+      try {
+        !t.isEmpty
+      }
+      catch {
+        case _: NullPointerException => false
+      }
+    })
+  }
+
+
+  def addInfoByCity(dataFrame: DataFrame, colName: String, callback: String => Integer): DataFrame = {
+    val udfCity = udf((city: String) => callback(city))
+    dataFrame
+      .withColumn(colName, udfCity(col("city")))
+      .filter(col(colName).isNotNull)
+  }
 }

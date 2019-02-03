@@ -2,14 +2,36 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-    google.charts.load('current', {packages: ['corechart']});
+    google.charts.load('current', {packages: ['corechart', 'line']});
     google.charts.setOnLoadCallback(run);
 
-    var cluster_colors = ["red", "green", "blue", "yellow", "orange", "black", "aqua", "gold", "brown", "olive", "violet"];
+    var cluster_colors = [
+        "rgb(0, 0, 0)",
+        "rgb(0, 0, 255)",
+        "rgb(0, 125, 0)",
+        "rgb(0, 125, 125)",
+        "rgb(0, 125, 255)",
+        "rgb(73, 5, 210)",
+        "rgb(0, 255, 255)",
+        "rgb(125, 0, 0)",
+        "rgb(125, 0, 255)",
+        "rgb(125, 125, 0)",
+        "rgb(125, 125, 125)",
+        "rgb(125, 125, 255)",
+        "rgb(125, 255, 0)",
+        "rgb(125, 255, 255)",
+        "rgb(200, 5, 170)",
+        "rgb(255, 0, 125)",
+        "rgb(255, 125, 255)",
+        "rgb(250, 125, 0)",
+        "rgb(255, 255, 125)",
+        "rgb(255, 255, 255)"
+    ];
     var xmlhttp = new XMLHttpRequest();
 
     function draw(url, isMultiColor, xTitle, yTitle, title, extract, elemId) {
         var result = [];
+        var count = 0;
 
         function drawChart() {
             var graph = new google.visualization.DataTable();
@@ -24,7 +46,7 @@
                 result
             );
             var options = {
-                title: title,
+                title: title + " (Cities : " + count + ")",
                 hAxis: {title: xTitle},
                 vAxis: {title: yTitle},
                 legend: 'none',
@@ -46,12 +68,21 @@
                 var i;
                 for (i = 0; i < arr.length; i++) {
                     var item = extract(arr[i]);
-                    if (isMultiColor) {
-                        item.push('point { fill-color: ' + cluster_colors[arr[i].cluster] + '}')
-                    }
-                    item.push(arr[i].city + "  " + r(item[0]) + "  ;  " + r(item[1]));
+                    if (item[0] > 0 && item[1] > 0
+                        && item[2]
+                    ) {
+                        var row = [item[0], item[1]];
+                        count += 1;
+                        if (isMultiColor) {
+                            var index = arr[i].cluster;
+                            row.push('point { fill-color: ' + cluster_colors[index] + '}')
+                        }
+                        row.push(arr[i].city + "  " + r(item[0]) + "  ;  " + r(item[1]));
 
-                    result.push(item);
+                        result.push(row);
+                    }
+
+
                 }
                 google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawChart});
             }
@@ -60,24 +91,6 @@
         xmlhttp.send();
     }
 
-
-    function fillTable(p1id, url) {
-        var xmlhttp2 = new XMLHttpRequest();
-        xmlhttp2.onreadystatechange = function () {
-            if (this.readyState == 4 && this.status == 200) {
-                var myArr = JSON.parse(this.responseText);
-                draw("data/green.json", false, 'Average PM10', 'Average PM2.5', 'coff : ' + myArr["avg_P1-avg_P2"],
-                    function (data) {
-                        return [
-                            data.avg_P1,
-                            data.avg_P2
-                        ]
-                    }, p1id);
-            }
-        };
-        xmlhttp2.open("GET", url, true);
-        xmlhttp2.send();
-    }
     function fillTable2(p2id, url) {
         var xmlhttp2 = new XMLHttpRequest();
         xmlhttp2.onreadystatechange = function () {
@@ -87,7 +100,8 @@
                     function (data) {
                         return [
                             data.avg_P1,
-                            data.green_space
+                            data.green_space,
+                            true
                         ]
                     }, p2id);
             }
@@ -95,6 +109,7 @@
         xmlhttp2.open("GET", url, true);
         xmlhttp2.send();
     }
+
     function fillTable3(gid, url) {
         var xmlhttp2 = new XMLHttpRequest();
         xmlhttp2.onreadystatechange = function () {
@@ -104,7 +119,8 @@
                     function (data) {
                         return [
                             data.avg_P2,
-                            data.green_space
+                            data.green_space,
+                            true
                         ]
                     }, gid);
             }
@@ -114,20 +130,92 @@
     }
 
     function run() {
-        draw("data/cluster.json", true, 'Average PM10', 'Average PM2.5', 'Cities clusterazation by PM10,PM2.5',
+        draw("data/cluster.json", true, 'Average PM10', 'Population', 'Cities clusterazation by PM10,population',
             function (data) {
-                return [
+                var t = [
                     data.avg_P1,
-                    data.avg_P2
-                ]
+                    data.population
+                ];
+                if (data.population > 750000 || data.avg_P1 > 40) {
+                    t.push(false)
+                } else {
+                    t.push(true)
+                }
+                return t;
+
             }, 'chart');
-        // fillTable("pear_P1", "pear_P2", "pear_G", "data/pearson.json");
-        // fillTable2("pear_P1", "pear_P2", "pear_G", "data/pearson.json");
-        // fillTable3("pear_P1", "pear_P2", "pear_G", "data/pearson.json");
+    }
+
+    function run2() {
+        draw("data/cluster2.json", true, 'Average PM2.5', 'Population', 'Cities clusterazation by PM2.5,population',
+            function (data) {
+                var t = [
+                    data.avg_P2,
+                    data.population
+                ];
+                if (data.population > 750000 || data.avg_P1 > 40) {
+                    t.push(false)
+                } else {
+                    t.push(true)
+                }
+                return t;
+
+            }, 'chart');
     }
 
     // fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
 
+
+    function drawClustersCount() {
+        var result = [];
+        var url = "data/tl.json";
+
+        function drawBasic() {
+
+
+            var data = new google.visualization.DataTable();
+            data.addColumn('number', 'X');
+            data.addColumn('number', 'Sum of Squared Errors');
+
+            data.addRows(result);
+
+            var options = {
+                hAxis: {
+                    title: 'Clusters Count'
+                },
+                vAxis: {
+                    title: 'Error'
+                }
+            };
+
+            var chart = new google.visualization.LineChart(document.getElementById('chart'));
+
+            chart.draw(data, options);
+        }
+
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200) {
+                var myArr = JSON.parse(this.responseText);
+                var arr = myArr.items;
+
+                for (i = 0; i < arr.length; i++) {
+                    var item = [];
+                    item.push(arr[i][0]);
+                    item.push(rer(arr[i][1])/1E12);
+                    result.push(item);
+                }
+
+                function rer(num) {
+                    return num
+                }
+
+                google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawBasic});
+            }
+        };
+        xmlhttp.open("GET", url, true);
+        xmlhttp.send();
+
+    }
 
 </script>
 
@@ -142,36 +230,17 @@
 <h1 style="text-align: center;margin-top: 20px">Summary</h1>
 <div class="container">
 
-    <input class="btn btn-success" value="Clustering" onclick="run()" type="button">
-    <input class="btn btn-success" value="Average PM10 - Average PM2.5" onclick="fillTable('chart', 'data/pearson.json')" type="button">
-    <input  class="btn btn-success" value="Average PM10 - Green Area Percantage" onclick="fillTable2('chart', 'data/pearson.json')" type="button">
-    <input class="btn btn-success" value="Average PM2.5 - Green Area Percantage" onclick="fillTable3('chart', 'data/pearson.json')" type="button">
+
+    <input class="btn btn-success" value="Clustering (Average PM10,Population)" onclick="run()" type="button">
+
+
+    <input class="btn btn-success" value="Clustering (Average PM2.5,Population)" onclick="run2()" type="button">
+
+    <input class="btn btn-success" value="Cluster count" onclick="drawClustersCount()" type="button">
+    <input class="btn btn-success" value="Average PM10 - Green Area Percantage"
+           onclick="fillTable2('chart', 'data/pearson.json')" type="button">
+    <input class="btn btn-success" value="Average PM2.5 - Green Area Percantage"
+           onclick="fillTable3('chart', 'data/pearson.json')" type="button">
+
     <div id="chart"></div>
-
-
-
-    <!--<table class="table table-bordered">-->
-    <!--<thead>-->
-    <!--<tr>-->
-    <!--<th>PM10 average - PM2.5 average</th>-->
-    <!--<th>PM10 average - Green Area Percantage</th>-->
-    <!--<th>PM2.5 average - Green Area Percantage</th>-->
-    <!--<th>Method</th>-->
-    <!--</tr>-->
-    <!--</thead>-->
-    <!--<tbody>-->
-    <!--<tr>-->
-    <!--<td id="pear_P1"></td>-->
-    <!--<td id="pear_P2"></td>-->
-    <!--<td id="pear_G"></td>-->
-    <!--<td>Pearson</td>-->
-    <!--</tr>-->
-    <!--&lt;!&ndash;<tr>&ndash;&gt;-->
-    <!--&lt;!&ndash;<td id="sp_P1"></td>&ndash;&gt;-->
-    <!--&lt;!&ndash;<td id="sp_P2"></td>&ndash;&gt;-->
-    <!--&lt;!&ndash;<td id="sp_G"></td>&ndash;&gt;-->
-    <!--&lt;!&ndash;<td>Spearman</td>&ndash;&gt;-->
-    <!--&lt;!&ndash;</tr>&ndash;&gt;-->
-    <!--</tbody>-->
-    <!--</table>-->
 </div>

@@ -31,7 +31,7 @@
     ];
     var xmlhttp = new XMLHttpRequest();
 
-    function draw(url, isMultiColor, xTitle, yTitle, title, extract, elemId) {
+    function draw(url, isMultiColor, xTitle, yTitle, title, extract, elemId,xLim,yLim) {
         var result = [];
         var count = 0;
 
@@ -53,7 +53,7 @@
                     title: xTitle
                     ,
                     viewWindow: {
-                        max: 100,
+                        max: xLim,
                         min: 0
                     }
                 },
@@ -61,7 +61,7 @@
                     title: yTitle
                     ,
                     viewWindow: {
-                        max: 300,
+                        max: yLim,
                         min: 0
                     }
                 },
@@ -125,7 +125,7 @@
                             data.green_space,
                             true
                         ]
-                    }, p2id);
+                    }, p2id,100,100);
             }
         };
         xmlhttp2.open("GET", url, true);
@@ -144,7 +144,7 @@
                             data.green_space,
                             true
                         ]
-                    }, gid);
+                    }, gid,100,100);
             }
         };
         xmlhttp2.open("GET", url, true);
@@ -165,7 +165,7 @@
                 }
                 return t;
 
-            }, 'chart');
+            }, 'chart',100,300);
     }
 
     function run2() {
@@ -182,7 +182,7 @@
                 }
                 return t;
 
-            }, 'chart');
+            }, 'chart',100,300);
     }
 
     // fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
@@ -244,8 +244,8 @@
 
 <style type="text/css">
     #chart {
-        width: 900px;
-        height: 900px;
+        width: 700px;
+        height: 700px;
     }
 
 </style>

@@ -6,7 +6,28 @@
     google.charts.setOnLoadCallback(run);
 
     var cluster_colors = [
-        "#e6194B", "#3cb44b", "#ffe119", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#bfef45", "#fabebe", "#469990", "#e6beff", "#9A6324", "#fffac8", "#800000", "#aaffc3", "#808000", "#ffd8b1", "#000075", "#a9a9a9", "#ffffff", "#000000"
+        "#e6194B",
+        "#3cb44b",
+        "#ffe119",
+        "#4363d8",
+        "#f58231",
+        "#911eb4",
+        "#42d4f4",
+        "#f032e6",
+        "#bfef45",
+        "#fa0dc6",
+        "#469990",
+        "#2f81ff",
+        "#9A6324",
+        "#FA0DC6",
+        "#800000",
+        "#aaffc3",
+        "#808000",
+        "#ff006c",
+        "#000075",
+        "#a9a9a9",
+        "#ff0a00",
+        "#00fabe"
     ];
     var xmlhttp = new XMLHttpRequest();
 
@@ -28,8 +49,22 @@
             );
             var options = {
                 title: title + " (Cities : " + count + ")",
-                hAxis: {title: xTitle},
-                vAxis: {title: yTitle},
+                hAxis: {
+                    title: xTitle
+                    ,
+                    viewWindow: {
+                        max: 100,
+                        min: 0
+                    }
+                },
+                vAxis: {
+                    title: yTitle
+                    ,
+                    viewWindow: {
+                        max: 300,
+                        min: 0
+                    }
+                },
                 legend: 'none',
                 pointSize: 4
             };
@@ -56,14 +91,20 @@
                         count += 1;
                         if (isMultiColor) {
                             var index = arr[i].cluster;
-                            row.push('point { fill-color: ' + cluster_colors[index] + '}')
+                            row.push('point {fill-color: ' + cluster_colors[index] + '}')
                         }
                         row.push(arr[i].city + "  " + r(item[0]) + "  ;  " + r(item[1]));
 
                         result.push(row);
                     }
-
-
+                }
+                if (myArr.centers != undefined) {
+                    for (i = 0; i < myArr.centers.length; i++) {
+                        var item = myArr.centers[i];
+                        var row = [item[0], item[1], 'point {size: 5;dent: 0.05; shape-type: diamond; fill-color: black}'];
+                        row.push(r(item[0]) + "  ;  " + r(item[1]));
+                        result.push(row);
+                    }
                 }
                 google.charts.load('visualization', '1', {packages: ['corechart'], callback: drawChart});
             }
@@ -111,14 +152,14 @@
     }
 
     function run() {
-        draw("data/cluster.json", true, 'Average PM10', 'Population', 'Cities clusterazation by PM10,population',
+        draw("data/cluster.json", true, 'Average PM10', 'Population(10 to degree 4)', 'Cities clusterazation by PM10,population',
             function (data) {
                 var t = [
                     data.avg_P1,
-                    data.population
+                    data.normpop
                 ];
-                if (data.population > 750000 || data.avg_P1 > 40) {
-                    t.push(false)
+                if (data.population > 750000 || data.avg_P1 > 100) {
+                    t.push(true)
                 } else {
                     t.push(true)
                 }
@@ -128,14 +169,14 @@
     }
 
     function run2() {
-        draw("data/cluster2.json", true, 'Average PM2.5', 'Population', 'Cities clusterazation by PM2.5,population',
+        draw("data/cluster2.json", true, 'Average PM2.5', 'Population(10 to degree 4)', 'Cities clusterazation by PM2.5,population',
             function (data) {
                 var t = [
                     data.avg_P2,
-                    data.population
+                    data.normpop
                 ];
-                if (data.population > 750000 || data.avg_P1 > 40) {
-                    t.push(false)
+                if (data.population > 750000 || data.avg_P2 < 100) {
+                    t.push(true)
                 } else {
                     t.push(true)
                 }
@@ -202,9 +243,9 @@
 
 
 <style type="text/css">
-    #chart, #pear_P1, #pear_G, #pear_P2 {
+    #chart {
         width: 900px;
-        height: 500px;
+        height: 900px;
     }
 
 </style>

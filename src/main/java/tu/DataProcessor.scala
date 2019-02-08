@@ -69,12 +69,12 @@ object DataProcessor {
 
     val dfFileteredWithCity = this.filterEmptys(dfWithCity, "city")
 
-    val umlautUdf = udf((p: String) => procUmlauts(p))
-    val dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
+//    val umlautUdf = udf((p: String) => procUmlauts(p))
+//    val dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
     //  calculate average P1 P2 by city
-    dfWithCityWithoutUmlauts.createOrReplaceTempView("data")
+    dfFileteredWithCity.createOrReplaceTempView("data")
     var dfWithAverageAndCities = sparkSession.sqlContext
-      .sql("select new_city as city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by new_city")
+      .sql("select city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by city")
 
     /* val dfWithAverageAndCities = dfFileteredWithCity.groupBy(col("city"))
        .agg(

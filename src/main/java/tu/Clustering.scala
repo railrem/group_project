@@ -7,25 +7,34 @@ import org.apache.spark.mllib.clustering.KMeans
 import org.apache.spark.mllib.linalg.Vectors
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{col, udf}
-import tu.utils.{DataLoader, CiteDetails}
+import tu.DataProcessor.normalizeP
+import tu.utils.{CiteDetails, DataLoader}
 
 object Clustering {
 
   def execute(numIter: Integer, df: DataFrame): Unit = {
 
     var dfWithAverageAndCities = df
+    val pUdf = udf((p: Double) => normalizeP(p))
+
     var dfWithPopulation = df.filter(col("population").isNotNull)
-    trainKmeans(numIter,dfWithPopulation,"avg_P1","population")
+      .withColumn("normpop", pUdf(col("population")))
 
-    trainKmeans(numIter,dfWithPopulation,"avg_P2","population")
+    trainKmeans(numIter, dfWithPopulation, "avg_P1", "normpop")
 
-//    var dfWithSea = DataProcessor.addInfoByCity(dfWithAverageAndCities, "elevation_meters", CiteDetails.getElevationMeters)
-//
-//    trainKmeans(numIter,dfWithPopulation,"avg_P1","elevation_meters")
-//
-//    trainKmeans(numIter,dfWithPopulation,"avg_P2","elevation_meters")
+    trainKmeans(numIter, dfWithPopulation, "avg_P2", "normpop")
+
+    //    var dfWithSea = DataProcessor.addInfoByCity(dfWithAverageAndCities, "elevation_meters", CiteDetails.getElevationMeters)
+    //
+    //    trainKmeans(numIter,dfWithPopulation,"avg_P1","elevation_meters")
+    //
+    //    trainKmeans(numIter,dfWithPopulation,"avg_P2","elevation_meters")
 
 
+  }
+
+  def normalizeP(p: Double): Double = {
+    p / 10000
   }
 
   def trainKmeans(numIter: Integer, dataFrame: DataFrame, firstMeasure: String, secondMeasure: String): Unit = {
@@ -42,9 +51,9 @@ object Clustering {
     })
 
     var optimalNumClusters = 20
-//    var minWSSE = Double.MaxValue
-//    var numClusters = 1
-//    var errors = new util.ArrayList[Array[Double]]
+    //    var minWSSE = Double.MaxValue
+    //    var numClusters = 1
+    //    var errors = new util.ArrayList[Array[Double]]
     /*  var clusterCountStr = "{\n  \"items\": ["
      // for loop execution with a range
 
@@ -70,19 +79,17 @@ object Clustering {
     helpers.print("cluster count calculation")
     val clusters = KMeans.train(output, optimalNumClusters, numIter)
     helpers.print("Kmeans centroids")
-    helpers.print(optimalNumClusters.toString)
-    helpers.print(clusters.clusterCenters.mkString(","))
-
+    var centers = clusters.clusterCenters.mkString(",")
 
     val labelUdf = udf((p1: Double, p2: Double) => clusters.predict(Vectors.dense(p1, p2)))
 
     //adding city column
     val dfWithCluster = dataFrame.withColumn("cluster", labelUdf(col(firstMeasure), col(secondMeasure)))
     var result = dfWithCluster.toJSON.collect().mkString(",")
-    result = "{\n  \"items\": [" + result + "]}"
+    result = "{\n  \"items\": [" + result + "],\"centers\":[" + centers + "]}"
     helpers.print(result)
     helpers.print("endline first : " + firstMeasure + " second :" + secondMeasure)
   }
-  
+
 
 }

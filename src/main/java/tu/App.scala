@@ -1,5 +1,7 @@
 package tu
 
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
 import java.util
 
 import org.apache.log4j.Logger
@@ -17,18 +19,20 @@ object App {
     //    val numCluster = 3
     //    val numIter = 20
 
+
+    Logger.getLogger("org").setLevel(Level.OFF)
+    Logger.getLogger("akka").setLevel(Level.OFF)
     var hdfsBase = args(0)
     var sparkMaster = args(1)
-    val numCluster = args(2).toInt
-    val numIter = args(3).toInt
+    val numIter = args(2).toInt
 
     // Two threads local[2]
     val sparkSession: SparkSession = SparkSession.builder
       .appName("luftdaten").master(sparkMaster).getOrCreate()
     var df = DataProcessor.getAverageByCity(hdfsBase, sparkSession)
 
-        CorrelationCoefficient.calculate(hdfsBase, sparkSession,df)
-        Clustering.execute(numIter,df)
+    CorrelationCoefficient.calculate(hdfsBase, sparkSession, df)
+    Clustering.execute(numIter, df)
 
   }
 }

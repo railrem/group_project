@@ -11,19 +11,19 @@
         "#ffe119",
         "#4363d8",
         "#f58231",
-        "#911eb4",
+        "#ca5200",
         "#42d4f4",
-        "#f032e6",
+        "#8300f0",
         "#bfef45",
         "#fa0dc6",
         "#469990",
         "#2f81ff",
         "#9A6324",
-        "#FA0DC6",
+        "#790098",
         "#800000",
-        "#aaffc3",
+        "#00773f",
         "#808000",
-        "#ff006c",
+        "#716b0a",
         "#000075",
         "#a9a9a9",
         "#ff0a00",
@@ -31,7 +31,7 @@
     ];
     var xmlhttp = new XMLHttpRequest();
 
-    function draw(url, isMultiColor, xTitle, yTitle, title, extract, elemId,xLim,yLim) {
+    function draw(url, isMultiColor, xTitle, yTitle, title, extract, elemId, xLim, yLim) {
         var result = [];
         var count = 0;
 
@@ -113,7 +113,16 @@
         xmlhttp.send();
     }
 
-    function fillTable2(p2id, url) {
+    function fillTable2(xlim, ylim) {
+        var url = 'data/pearson.json';
+        var p2id = 'chart';
+        status = "fillTable2";
+        if (xlim == undefined) {
+            xlim = 100;
+        }
+        if (ylim == undefined) {
+            ylim = 100
+        }
         var xmlhttp2 = new XMLHttpRequest();
         xmlhttp2.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
@@ -125,14 +134,23 @@
                             data.green_space,
                             true
                         ]
-                    }, p2id,100,100);
+                    }, p2id, xlim, ylim);
             }
         };
         xmlhttp2.open("GET", url, true);
         xmlhttp2.send();
     }
 
-    function fillTable3(gid, url) {
+    function fillTable3(xlim, ylim) {
+        var url = 'data/pearson.json';
+        var gid = 'chart';
+        status = "fillTable3";
+        if (xlim == undefined) {
+            xlim = 100;
+        }
+        if (ylim == undefined) {
+            ylim = 100
+        }
         var xmlhttp2 = new XMLHttpRequest();
         xmlhttp2.onreadystatechange = function () {
             if (this.readyState == 4 && this.status == 200) {
@@ -144,31 +162,45 @@
                             data.green_space,
                             true
                         ]
-                    }, gid,100,100);
+                    }, gid, xlim, ylim);
             }
         };
         xmlhttp2.open("GET", url, true);
         xmlhttp2.send();
     }
 
-    function run() {
+    function run(xlim, ylim) {
+        status = "run";
+        if (xlim == undefined) {
+            xlim = 100;
+        }
+        if (ylim == undefined) {
+            ylim = 300
+        }
         draw("data/cluster.json", true, 'Average PM10', 'Population(10 to degree 4)', 'Cities clusterazation by PM10,population',
             function (data) {
                 var t = [
                     data.avg_P1,
                     data.normpop
                 ];
-                if (data.population > 750000 || data.avg_P1 > 100) {
+                if (data.normpop > 75 || data.avg_P1 > 100) {
                     t.push(true)
                 } else {
                     t.push(true)
                 }
                 return t;
 
-            }, 'chart',100,300);
+            }, 'chart', xlim, ylim);
     }
 
-    function run2() {
+    function run2(xlim, ylim) {
+        status = "run2";
+        if (xlim == undefined) {
+            xlim = 100;
+        }
+        if (ylim == undefined) {
+            ylim = 300
+        }
         draw("data/cluster2.json", true, 'Average PM2.5', 'Population(10 to degree 4)', 'Cities clusterazation by PM2.5,population',
             function (data) {
                 var t = [
@@ -182,7 +214,7 @@
                 }
                 return t;
 
-            }, 'chart',100,300);
+            }, 'chart', xlim, ylim);
     }
 
     // fillTable("sp_P1", "sp_P2", "sp_G", "data/spearman.json");
@@ -239,6 +271,31 @@
 
     }
 
+
+    function process() {
+        var x = document.getElementById('x').value;
+        var y = document.getElementById('y').value;
+        x = (x != "") ? x : undefined;
+        y = (y != "") ? y : undefined;
+        console.log(x);
+        console.log(y);
+        switch (status) {
+            case 'run':
+                run(x, y);
+                break;
+            case 'run2':
+                run2(x, y);
+                break;
+            case 'fillTable3':
+                fillTable3(x, y);
+                break;
+            case 'fillTable2':
+                fillTable2(x, y);
+                break;
+
+        }
+    }
+
 </script>
 
 
@@ -260,9 +317,13 @@
 
     <input class="btn btn-success" value="Cluster count" onclick="drawClustersCount()" type="button">
     <input class="btn btn-success" value="Average PM10 - Green Area Percantage"
-           onclick="fillTable2('chart', 'data/pearson.json')" type="button">
+           onclick="fillTable2()" type="button">
     <input class="btn btn-success" value="Average PM2.5 - Green Area Percantage"
-           onclick="fillTable3('chart', 'data/pearson.json')" type="button">
-
+           onclick="fillTable3()" type="button">
     <div id="chart"></div>
+    <form>
+        <input type="text" id="x" placeholder="axis x limit"/>
+        <input type="text" id="y" placeholder="axis y limit"/>
+        <input type="button" onclick="process()" value="change"/>
+    </form>
 </div>

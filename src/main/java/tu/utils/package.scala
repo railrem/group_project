@@ -8,10 +8,9 @@ package object helpers {
 
 
   def print(s: String): Unit = {
-    log.setLevel(Level.WARN)
-    log.warn("==============================================\n")
-    log.warn(s+"\n")
-    log.warn("==============================================\n")
+    println("==============================================")
+    println(s)
+    println("==============================================")
 
   }
 

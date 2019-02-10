@@ -1,105 +1,105 @@
 {
   "items": [
     {
-      "city": "Antwerp",
-      "avg_P1": 20.496902944322073,
-      "avg_P2": 11.215615568153991,
-      "above_sea_level": 7,
-      "id": 6728,
-      "name": "Antwerpen",
-      "population": 459805,
-      "src_name": "Antwerp",
-      "normpop": 45.9805,
-      "cluster": 17
-    },
-    {
-      "city": "Hanover",
-      "avg_P1": 17.815613301179354,
-      "avg_P2": 10.41747215546462,
-      "above_sea_level": 32,
-      "id": 104043,
-      "name": "Hanover",
-      "population": 38088,
-      "src_name": "Hanover",
-      "normpop": 3.8088,
-      "cluster": 13
-    },
-    {
       "city": "Mainz",
-      "avg_P1": 11.836444026382809,
-      "avg_P2": 8.161684646497612,
+      "avg_P1": 11.917057146699198,
+      "avg_P2": 7.9817291498841625,
       "above_sea_level": 89,
       "id": 19056,
       "name": "Mainz",
       "population": 184997,
       "src_name": "Mainz",
       "normpop": 18.4997,
-      "cluster": 12
+      "cluster": 10
     },
     {
-      "city": "Triadica",
-      "avg_P1": 29.01633136509195,
-      "avg_P2": 16.440155263518985,
-      "name": "null",
-      "population": 1352617,
-      "src_name": "Triadica",
-      "normpop": 135.2617,
-      "cluster": 7
+      "city": "Hanover",
+      "avg_P1": 17.452648554731365,
+      "avg_P2": 9.775935895292253,
+      "above_sea_level": 32,
+      "id": 104043,
+      "name": "Hanover",
+      "population": 38088,
+      "src_name": "Hanover",
+      "normpop": 3.8088,
+      "cluster": 14
     },
     {
       "city": "Palermo",
-      "avg_P1": 15.61058813026356,
-      "avg_P2": 7.934452986281265,
+      "avg_P1": 15.442538065356961,
+      "avg_P2": 7.864505919440049,
       "id": 130475,
       "name": "Palermo",
       "population": 1243585,
       "src_name": "Palermo",
       "normpop": 124.3585,
-      "cluster": 7
+      "cluster": 4
+    },
+    {
+      "city": "Triadica",
+      "avg_P1": 21.995824109910828,
+      "avg_P2": 13.316373860288145,
+      "name": "null",
+      "population": 1352617,
+      "src_name": "Triadica",
+      "normpop": 135.2617,
+      "cluster": 4
+    },
+    {
+      "city": "Antwerp",
+      "avg_P1": 20.92518460348601,
+      "avg_P2": 11.31379428075148,
+      "above_sea_level": 7,
+      "id": 6728,
+      "name": "Antwerpen",
+      "population": 459805,
+      "src_name": "Antwerp",
+      "normpop": 45.9805,
+      "cluster": 18
     },
     {
       "city": "Linz",
-      "avg_P1": 17.1965763928381,
-      "avg_P2": 11.5588811380997,
+      "avg_P1": 14.310830517921607,
+      "avg_P2": 9.469148939713097,
       "above_sea_level": 266,
       "id": 2617,
       "name": "Linz",
       "population": 204846,
       "src_name": "Linz",
       "normpop": 20.4846,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Frankenberg",
-      "avg_P1": 11.521579508076647,
-      "avg_P2": 5.95861855743323,
+      "avg_P1": 11.389095531840239,
+      "avg_P2": 5.9292634042572105,
       "name": "null",
       "population": 18930,
       "src_name": "Frankenberg",
       "normpop": 1.893,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Ludwigshafen am Rhein",
-      "avg_P1": 14.371979990647255,
-      "avg_P2": 8.803356391579348,
+      "avg_P1": 14.531176584234228,
+      "avg_P2": 8.905671489090594,
       "id": 18310,
       "name": "Ludwigshafen am Rhein",
       "population": 163196,
       "src_name": "Ludwigshafen am Rhein",
       "normpop": 16.3196,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Puerto Plata",
-      "avg_P1": 23.43060867495217,
-      "avg_P2": 5.925044803062925,
+      "avg_P1": 23.265887946742275,
+      "avg_P2": 5.897443342185817,
       "id": 23804,
       "name": "Puerto Plata",
       "population": 146000,
       "src_name": "Puerto Plata",
       "normpop": 14.6,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Abuja",
@@ -115,889 +115,946 @@
     },
     {
       "city": "Silistra",
-      "avg_P1": 40.99574973865015,
-      "avg_P2": 20.46873600201756,
+      "avg_P1": 35.66045181447767,
+      "avg_P2": 18.193646133291264,
       "above_sea_level": 6,
       "id": 6422,
       "name": "Silistra",
       "population": 39715,
       "src_name": "Silistra",
       "normpop": 3.9715,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Brunswick",
-      "avg_P1": 17.465304106181826,
-      "avg_P2": 11.829728337388044,
+      "avg_P1": 17.44748664257465,
+      "avg_P2": 11.689029546817133,
       "above_sea_level": 357,
       "id": 112444,
       "name": "Brunswick",
       "population": 34689,
       "src_name": "Brunswick",
       "normpop": 3.4689,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Salzburg",
-      "avg_P1": 8.728882664520977,
-      "avg_P2": 5.493561440104341,
+      "avg_P1": 7.889535675917467,
+      "avg_P2": 5.013834640220519,
       "above_sea_level": 424,
       "id": 1991,
       "name": "Salzburg",
       "population": 153377,
       "src_name": "Salzburg",
       "normpop": 15.3377,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Hatten",
-      "avg_P1": 31.4594990886743,
-      "avg_P2": 12.616877751799882,
+      "avg_P1": 26.790006322380222,
+      "avg_P2": 11.33498848703331,
       "name": "null",
       "population": 13974,
       "src_name": "Hatten",
       "normpop": 1.3974,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "M?lheim",
-      "avg_P1": 16.97878004458382,
-      "avg_P2": 11.947754520659942,
+      "avg_P1": 16.966367901479014,
+      "avg_P2": 11.937766798355854,
       "id": 19118,
       "name": "M?lheim",
       "population": 171000,
       "src_name": "M?lheim",
       "normpop": 17.1,
-      "cluster": 6
+      "cluster": 10
+    },
+    {
+      "city": "Klagenfurt",
+      "avg_P1": 16.572743036975417,
+      "avg_P2": 11.44401881884215,
+      "above_sea_level": 446,
+      "id": 119300,
+      "name": "Klagenfurt am W?rthersee",
+      "population": 99790,
+      "src_name": "Klagenfurt",
+      "normpop": 9.979,
+      "cluster": 12
+    },
+    {
+      "city": "Reutlingen",
+      "avg_P1": 18.670892636730787,
+      "avg_P2": 9.148697709388944,
+      "above_sea_level": 382,
+      "id": 17992,
+      "name": "Reutlingen",
+      "population": 112627,
+      "src_name": "Reutlingen",
+      "normpop": 11.2627,
+      "cluster": 12
     },
     {
       "city": "Ulm",
-      "avg_P1": 18.340715580220373,
-      "avg_P2": 10.45481985113181,
+      "avg_P1": 15.464390559234074,
+      "avg_P2": 9.55086822444514,
       "above_sea_level": 478,
       "id": 17159,
       "name": "Ulm",
       "population": 120451,
       "src_name": "Ulm",
       "normpop": 12.0451,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Lohne",
-      "avg_P1": 17.614953977213244,
-      "avg_P2": 12.74387679066641,
+      "avg_P1": 16.694077906968886,
+      "avg_P2": 12.164710199333074,
       "id": 18694,
       "name": "Lohne",
       "population": 25111,
       "src_name": "Lohne",
       "normpop": 2.5111,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Verden",
-      "avg_P1": 33.04217872629048,
-      "avg_P2": 16.271323126862168,
+      "avg_P1": 29.44002359128095,
+      "avg_P2": 15.45249821836673,
       "above_sea_level": 20,
       "id": 16402,
       "name": "Verden",
       "population": 26924,
       "src_name": "Verden",
       "normpop": 2.6924,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Potsdam",
-      "avg_P1": 18.065038901766417,
-      "avg_P2": 10.54056853105696,
+      "avg_P1": 17.147015477149814,
+      "avg_P2": 10.304704124671511,
       "id": 17881,
       "name": "Potsdam",
       "population": 145292,
       "src_name": "Potsdam",
       "normpop": 14.5292,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Legden",
-      "avg_P1": 9.955161348258946,
-      "avg_P2": 6.079660798612733,
+      "avg_P1": 9.926276389177076,
+      "avg_P2": 6.067206378307074,
       "name": "null",
       "population": 6846,
       "src_name": "Legden",
       "normpop": 0.6846,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Uhldingen-M?hlhofen",
-      "avg_P1": 17.163713110223224,
-      "avg_P2": 9.568041090249407,
+      "avg_P1": 17.06314062099908,
+      "avg_P2": 9.514435018499338,
       "name": "null",
       "population": 8032,
       "src_name": "Uhldingen-M?hlhofen",
       "normpop": 0.8032,
-      "cluster": 13
-    },
-    {
-      "city": "Nordharz",
-      "avg_P1": 12.15894710091567,
-      "avg_P2": 8.476426170199137,
-      "name": "null",
-      "population": 7894,
-      "src_name": "Nordharz",
-      "normpop": 0.7894,
-      "cluster": 13
-    },
-    {
-      "city": "Andorra la Vella",
-      "avg_P1": 54.09125881630582,
-      "avg_P2": 24.97566528738089,
-      "above_sea_level": 1022,
-      "id": 53,
-      "name": "Andorra la Vella",
-      "population": 20430,
-      "src_name": "Andorra la Vella",
-      "normpop": 2.043,
-      "cluster": 16
+      "cluster": 14
     },
     {
       "city": "Manchester",
-      "avg_P1": 12.58491284987793,
-      "avg_P2": 6.36984484115076,
+      "avg_P1": 12.386979553413104,
+      "avg_P2": 6.239404334400507,
       "above_sea_level": 38,
       "id": 41142,
       "name": "Manchester",
       "population": 395515,
       "src_name": "Manchester",
       "normpop": 39.5515,
-      "cluster": 18
+      "cluster": 3
+    },
+    {
+      "city": "Nordharz",
+      "avg_P1": 12.10131183501589,
+      "avg_P2": 8.45481826769888,
+      "name": "null",
+      "population": 7894,
+      "src_name": "Nordharz",
+      "normpop": 0.7894,
+      "cluster": 14
+    },
+    {
+      "city": "?????????",
+      "avg_P1": 39.54789468909125,
+      "avg_P2": 19.221296710026436,
+      "above_sea_level": 1022,
+      "id": 53,
+      "name": "Andorra la Vella",
+      "population": 20430,
+      "src_name": "?????????",
+      "normpop": 2.043,
+      "cluster": 8
     },
     {
       "city": "Frankfurt",
-      "avg_P1": 18.831538608999246,
-      "avg_P2": 11.390886556356735,
+      "avg_P1": 16.80051709864353,
+      "avg_P2": 10.066444174272677,
       "id": 20196,
       "name": "Frankfurt (Oder)",
       "population": 51691,
       "src_name": "Frankfurt",
       "normpop": 5.1691,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Heringsdorf",
-      "avg_P1": 37.56225813167556,
-      "avg_P2": 10.255524794468794,
+      "avg_P1": 28.407233236719048,
+      "avg_P2": 9.804835365623223,
       "name": "null",
       "population": 9443,
       "src_name": "Heringsdorf",
       "normpop": 0.9443,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Ruse",
-      "avg_P1": 43.57998585682708,
-      "avg_P2": 23.5725140865355,
+      "avg_P1": 40.75323676149288,
+      "avg_P2": 21.928050036381283,
       "above_sea_level": 45,
       "id": 6732,
       "name": "Ruse",
       "population": 156238,
       "src_name": "Ruse",
       "normpop": 15.6238,
-      "cluster": 11
+      "cluster": 8
     },
     {
       "city": "Wei?enburg i. Bay.",
-      "avg_P1": 82.61172840119522,
-      "avg_P2": 45.64179059086498,
+      "avg_P1": 16.542735634860527,
+      "avg_P2": 10.100432975619842,
       "name": "null",
       "population": 17732,
       "src_name": "Wei?enburg i. Bay.",
       "normpop": 1.7732,
-      "cluster": 0
+      "cluster": 14
     },
     {
       "city": "Heilbronn",
-      "avg_P1": 18.223930914353843,
-      "avg_P2": 10.514649963622045,
+      "avg_P1": 18.849649347395967,
+      "avg_P2": 10.190375747227588,
       "above_sea_level": 157,
       "id": 20919,
       "name": "Heilbronn",
       "population": 120733,
       "src_name": "Heilbronn",
       "normpop": 12.0733,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "L?beck",
-      "avg_P1": 23.097886149935558,
-      "avg_P2": 11.108001049038903,
+      "avg_P1": 22.426177351831793,
+      "avg_P2": 10.899012076477229,
       "above_sea_level": 13,
       "id": 18506,
       "name": "L?beck",
       "population": 212207,
       "src_name": "L?beck",
       "normpop": 21.2207,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Siegen",
-      "avg_P1": 14.654987749374476,
-      "avg_P2": 8.760333736737769,
+      "avg_P1": 14.578656286900397,
+      "avg_P2": 8.731567362034266,
       "above_sea_level": 267,
       "id": 17094,
       "name": "Siegen",
       "population": 107242,
       "src_name": "Siegen",
       "normpop": 10.7242,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Offenbach am Main",
-      "avg_P1": 5.40002441008949,
-      "avg_P2": 3.018840520748567,
+      "avg_P1": 4.545878158109203,
+      "avg_P2": 2.629981662591686,
       "name": "null",
       "population": 123734,
       "src_name": "Offenbach am Main",
       "normpop": 12.3734,
-      "cluster": 10
+      "cluster": 12
+    },
+    {
+      "city": "??????",
+      "avg_P1": 33.84139886791768,
+      "avg_P2": 20.60517758978836,
+      "above_sea_level": 1022,
+      "id": 53,
+      "name": "Andorra la Vella",
+      "population": 20430,
+      "src_name": "??????",
+      "normpop": 2.043,
+      "cluster": 8
     },
     {
       "city": "Eastbourne",
-      "avg_P1": 16.604055189447926,
-      "avg_P2": 7.65502370369544,
+      "avg_P1": 15.438076219826375,
+      "avg_P2": 7.2598053052218265,
       "above_sea_level": 22,
       "id": 42537,
       "name": "Eastbourne",
       "population": 118219,
       "src_name": "Eastbourne",
       "normpop": 11.8219,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Pforzheim",
-      "avg_P1": 10.761751977924309,
-      "avg_P2": 6.263753394944723,
+      "avg_P1": 10.723098159509199,
+      "avg_P2": 6.249660929506906,
       "above_sea_level": 273,
       "id": 17790,
       "name": "Pforzheim",
       "population": 119313,
       "src_name": "Pforzheim",
       "normpop": 11.9313,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Stockholm",
-      "avg_P1": 9.08493121242076,
-      "avg_P2": 4.853615950374995,
+      "avg_P1": 8.951830353498245,
+      "avg_P2": 4.832884952059576,
       "above_sea_level": 0,
       "id": 96263,
       "name": "Stockholm",
       "population": 1515017,
       "src_name": "Stockholm",
       "normpop": 151.5017,
-      "cluster": 14
-    },
-    {
-      "city": "Andorra la Vella",
-      "avg_P1": 42.37768771361668,
-      "avg_P2": 22.2443845707032,
-      "above_sea_level": 1022,
-      "id": 53,
-      "name": "Andorra la Vella",
-      "population": 20430,
-      "src_name": "Andorra la Vella",
-      "normpop": 2.043,
-      "cluster": 16
+      "cluster": 13
     },
     {
       "city": "Vidin",
-      "avg_P1": 41.19961914190258,
-      "avg_P2": 19.412133617362382,
+      "avg_P1": 33.660345207468005,
+      "avg_P2": 16.393300029844337,
       "above_sea_level": 34,
       "id": 6415,
       "name": "Vidin",
       "population": 54409,
       "src_name": "Vidin",
       "normpop": 5.4409,
-      "cluster": 16
+      "cluster": 8
     },
     {
-      "city": "Oostkamp",
-      "avg_P1": 66.99061493008372,
-      "avg_P2": 31.709386216830783,
+      "city": "????????",
+      "avg_P1": 30.339305488171718,
+      "avg_P2": 14.920901870791198,
       "above_sea_level": 16,
       "id": 5657,
       "name": "Oostkamp",
       "population": 21489,
-      "src_name": "Oostkamp",
+      "src_name": "????????",
       "normpop": 2.1489,
-      "cluster": 0
+      "cluster": 8
     },
     {
       "city": "Valsamoggia",
-      "avg_P1": 9.453382725850998,
-      "avg_P2": 7.284068791343424,
+      "avg_P1": 9.328513485296087,
+      "avg_P2": 7.260912358412096,
       "name": "null",
       "population": 30716,
       "src_name": "Valsamoggia",
       "normpop": 3.0716,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Savski venac Municipality",
-      "avg_P1": 30.59466323967315,
-      "avg_P2": 16.118663437248617,
+      "avg_P1": 28.35892081052298,
+      "avg_P2": 15.271249051671006,
       "name": "null",
       "population": 40819,
       "src_name": "Savski venac Municipality",
       "normpop": 4.0819,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Staufenberg",
-      "avg_P1": 28.90218387890938,
-      "avg_P2": 10.706533854136651,
+      "avg_P1": 22.158219740451774,
+      "avg_P2": 10.336097593244737,
       "name": "null",
       "population": 8086,
       "src_name": "Staufenberg",
       "normpop": 0.8086,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Horst aan de Maas",
-      "avg_P1": 40.11784751117147,
-      "avg_P2": 16.98670017907478,
+      "avg_P1": 19.26503613346306,
+      "avg_P2": 12.096792500745488,
       "name": "null",
       "population": 42215,
       "src_name": "Horst aan de Maas",
       "normpop": 4.2215,
-      "cluster": 16
+      "cluster": 14
     },
     {
       "city": "Weil am Rhein",
-      "avg_P1": 2.080601407549582,
-      "avg_P2": 1.7652655150351848,
+      "avg_P1": 1.6623751600512136,
+      "avg_P2": 1.3468373879641475,
       "above_sea_level": 281,
       "id": 16496,
       "name": "Weil am Rhein",
       "population": 29548,
       "src_name": "Weil am Rhein",
       "normpop": 2.9548,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Wuppertal",
-      "avg_P1": 22.522146837438793,
-      "avg_P2": 15.613367457777567,
+      "avg_P1": 21.192547145367637,
+      "avg_P2": 14.560512258328849,
       "above_sea_level": 157,
       "id": 15224,
       "name": "Wuppertal",
       "population": 360797,
       "src_name": "Wuppertal",
       "normpop": 36.0797,
-      "cluster": 18
+      "cluster": 3
     },
     {
       "city": "Modena",
-      "avg_P1": 37.84509199242639,
-      "avg_P2": 23.769110828483925,
+      "avg_P1": 35.24436426060454,
+      "avg_P2": 22.450737227947634,
       "above_sea_level": 34,
       "id": 56134,
       "name": "Modena",
       "population": 158886,
       "src_name": "Modena",
       "normpop": 15.8886,
-      "cluster": 11
+      "cluster": 8
     },
     {
       "city": "Erfurt",
-      "avg_P1": 13.505487290488617,
-      "avg_P2": 7.310834967091433,
+      "avg_P1": 13.492868292465776,
+      "avg_P2": 7.548130631322543,
       "above_sea_level": 194,
       "id": 20802,
       "name": "Erfurt",
       "population": 203254,
       "src_name": "Erfurt",
       "normpop": 20.3254,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Bologna",
-      "avg_P1": 27.635815522219527,
-      "avg_P2": 17.59522536834249,
+      "avg_P1": 23.12066417063385,
+      "avg_P2": 15.038495921593393,
       "above_sea_level": 54,
       "id": 57934,
       "name": "Bologna",
       "population": 366133,
       "src_name": "Bologna",
       "normpop": 36.6133,
-      "cluster": 18
+      "cluster": 3
     },
     {
       "city": "Bickenbach",
-      "avg_P1": 17.22377753071149,
-      "avg_P2": 8.130530922870939,
+      "avg_P1": 16.921521676085394,
+      "avg_P2": 8.014581801650682,
       "name": "null",
       "population": 5402,
       "src_name": "Bickenbach",
       "normpop": 0.5402,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Poduyane",
-      "avg_P1": 44.506350586560735,
-      "avg_P2": 23.79945173825316,
+      "avg_P1": 26.952853881202984,
+      "avg_P2": 15.238355576200227,
       "name": "null",
       "population": 85996,
       "src_name": "Poduyane",
       "normpop": 8.5996,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Chemnitz",
-      "avg_P1": 30.39352998686008,
-      "avg_P2": 16.103528357422988,
+      "avg_P1": 16.105805569685376,
+      "avg_P2": 9.126698489231233,
       "above_sea_level": 302,
       "id": 21861,
       "name": "Chemnitz",
       "population": 247220,
       "src_name": "Chemnitz",
       "normpop": 24.722,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Bochum",
-      "avg_P1": 19.147798615710627,
-      "avg_P2": 11.234177230394208,
+      "avg_P1": 17.503015648691097,
+      "avg_P2": 10.429863277964406,
       "above_sea_level": 94,
       "id": 21573,
       "name": "Bochum",
       "population": 385729,
       "src_name": "Bochum",
       "normpop": 38.5729,
-      "cluster": 18
+      "cluster": 3
     },
     {
       "city": "Recklinghausen",
-      "avg_P1": 21.890439366136707,
-      "avg_P2": 14.043071142567843,
+      "avg_P1": 21.77526503638559,
+      "avg_P2": 14.005590218313664,
       "above_sea_level": 85,
       "id": 17359,
       "name": "Recklinghausen",
       "population": 122438,
       "src_name": "Recklinghausen",
       "normpop": 12.2438,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Szczecin",
-      "avg_P1": 22.441067642724693,
-      "avg_P2": 12.145964015781722,
+      "avg_P1": 21.452395753816784,
+      "avg_P2": 12.033281965648854,
       "above_sea_level": 149,
       "id": 83862,
       "name": "Szczecin",
       "population": 407811,
       "src_name": "Szczecin",
       "normpop": 40.7811,
-      "cluster": 18
+      "cluster": 3
     },
     {
       "city": "Bad Teinach-Zavelstein",
-      "avg_P1": 15.730965282611647,
-      "avg_P2": 6.994541451801582,
+      "avg_P1": 13.247652009170086,
+      "avg_P2": 6.880865686367996,
       "name": "null",
       "population": 3044,
       "src_name": "Bad Teinach-Zavelstein",
       "normpop": 0.3044,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Darmstadt",
-      "avg_P1": 16.23606163410915,
-      "avg_P2": 10.301189642486666,
+      "avg_P1": 15.476100949538033,
+      "avg_P2": 9.632568010432703,
       "above_sea_level": 144,
       "id": 21669,
       "name": "Darmstadt",
       "population": 140385,
       "src_name": "Darmstadt",
       "normpop": 14.0385,
-      "cluster": 6
+      "cluster": 12
+    },
+    {
+      "city": "Berlin",
+      "avg_P1": 19.14922518472614,
+      "avg_P2": 11.204972655039171,
+      "above_sea_level": 74,
+      "id": 21422,
+      "name": "Berlin",
+      "population": 3426354,
+      "src_name": "Berlin",
+      "normpop": 342.6354,
+      "cluster": 11
     },
     {
       "city": "W?rzburg",
-      "avg_P1": 16.210327930010884,
-      "avg_P2": 9.967202462238534,
+      "avg_P1": 16.093398365862054,
+      "avg_P2": 9.930484774685315,
       "above_sea_level": 177,
       "id": 15337,
       "name": "W?rzburg",
       "population": 133731,
       "src_name": "W?rzburg",
       "normpop": 13.3731,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "San Diego",
       "avg_P1": 6.96906950757417,
-      "avg_P2": 4.887228182788198,
+      "avg_P2": 4.887228182788197,
       "above_sea_level": 20,
       "id": 114923,
       "name": "San Diego",
       "population": 1394928,
       "src_name": "San Diego",
       "normpop": 139.4928,
+      "cluster": 13
+    },
+    {
+      "city": "Gemeinde Strasshof an der Nordbahn",
+      "avg_P1": 16.881280227061797,
+      "avg_P2": 11.155413373680789,
+      "name": "null",
+      "population": 9109,
+      "src_name": "Gemeinde Strasshof an der Nordbahn",
+      "normpop": 0.9109,
       "cluster": 14
     },
     {
       "city": "K?tz",
-      "avg_P1": 15.849452598121442,
-      "avg_P2": 10.027729674479255,
+      "avg_P1": 15.648428367541108,
+      "avg_P2": 9.949304369987773,
       "name": "null",
       "population": 3198,
       "src_name": "K?tz",
       "normpop": 0.3198,
-      "cluster": 13
+      "cluster": 14
     },
     {
-      "city": "Andorra la Vella",
-      "avg_P1": 44.2854446323258,
-      "avg_P2": 21.337854233447057,
+      "city": "???????",
+      "avg_P1": 34.97071056591051,
+      "avg_P2": 17.770544470436086,
       "above_sea_level": 1022,
       "id": 53,
       "name": "Andorra la Vella",
       "population": 20430,
-      "src_name": "Andorra la Vella",
+      "src_name": "???????",
       "normpop": 2.043,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Nuremberg",
-      "avg_P1": 20.42435073344162,
-      "avg_P2": 13.298427208621062,
+      "avg_P1": 19.2227634962661,
+      "avg_P2": 12.364499624036299,
       "name": "null",
       "population": 509975,
       "src_name": "Nuremberg",
       "normpop": 50.9975,
-      "cluster": 17
+      "cluster": 18
     },
     {
       "city": "Portland",
-      "avg_P1": 12.96505555180195,
-      "avg_P2": 8.62095550180397,
+      "avg_P1": 12.248144252563844,
+      "avg_P2": 8.43558037636519,
       "above_sea_level": 19,
       "id": 110017,
       "name": "Portland",
       "population": 66881,
       "src_name": "Portland",
       "normpop": 6.6881,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Neuss",
-      "avg_P1": 21.346481594231534,
-      "avg_P2": 12.344358511120697,
+      "avg_P1": 17.268677223117187,
+      "avg_P2": 10.148362853314755,
       "above_sea_level": 40,
       "id": 18857,
       "name": "Neuss",
       "population": 152457,
       "src_name": "Neuss",
       "normpop": 15.2457,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Florence",
-      "avg_P1": 17.124468821943683,
-      "avg_P2": 12.617056662928047,
+      "avg_P1": 13.9211853755124,
+      "avg_P2": 11.138059493930736,
       "above_sea_level": 50,
       "id": 57761,
       "name": "Florence",
       "population": 349296,
       "src_name": "Florence",
       "normpop": 34.9296,
-      "cluster": 18
+      "cluster": 3
     },
     {
       "city": "Dresden",
-      "avg_P1": 23.571137770710614,
-      "avg_P2": 28.678236748278486,
+      "avg_P1": 17.981454824490715,
+      "avg_P2": 14.19176869905931,
       "id": 21220,
       "name": "Dresden",
       "population": 486854,
       "src_name": "Dresden",
       "normpop": 48.6854,
-      "cluster": 9
+      "cluster": 18
     },
     {
       "city": "Graz",
-      "avg_P1": 48.076713241405635,
-      "avg_P2": 26.617432457098257,
+      "avg_P1": 20.336974346158687,
+      "avg_P2": 11.442912462897903,
       "id": 2322,
       "name": "Graz",
       "population": 222326,
       "src_name": "Graz",
       "normpop": 22.2326,
-      "cluster": 11
+      "cluster": 10
     },
     {
       "city": "Perth",
-      "avg_P1": 9.822629793908026,
-      "avg_P2": 4.657074117411321,
+      "avg_P1": 8.033320025951456,
+      "avg_P2": 3.834664836546936,
       "above_sea_level": 2,
       "id": 3364,
       "name": "Perth",
       "population": 1896548,
       "src_name": "Perth",
       "normpop": 189.6548,
-      "cluster": 2
+      "cluster": 5
     },
     {
       "city": "Kyustendil",
-      "avg_P1": 66.95191103204439,
-      "avg_P2": 38.15004555317455,
+      "avg_P1": 34.10527023457706,
+      "avg_P2": 20.311896202014324,
       "above_sea_level": 560,
       "id": 6371,
       "name": "Kyustendil",
       "population": 48286,
       "src_name": "Kyustendil",
       "normpop": 4.8286,
-      "cluster": 0
+      "cluster": 8
     },
     {
       "city": "Leverkusen",
-      "avg_P1": 19.87690016640753,
-      "avg_P2": 10.778258766697435,
+      "avg_P1": 17.60060818212182,
+      "avg_P2": 9.827631042858506,
       "above_sea_level": 61,
       "id": 19077,
       "name": "Leverkusen",
       "population": 162738,
       "src_name": "Leverkusen",
       "normpop": 16.2738,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Rotenburg",
-      "avg_P1": 22.372920657726674,
-      "avg_P2": 14.839350521498512,
+      "avg_P1": 22.248901823132552,
+      "avg_P2": 14.764941168417288,
       "id": 17174,
       "name": "Rotenburg",
       "population": 22139,
       "src_name": "Rotenburg",
       "normpop": 2.2139,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Fl?rsheim",
-      "avg_P1": 15.393057185166267,
-      "avg_P2": 8.147924005167187,
+      "avg_P1": 15.095129351946813,
+      "avg_P2": 8.048464809078965,
       "above_sea_level": 90,
       "id": 20469,
       "name": "Fl?rsheim",
       "population": 20023,
       "src_name": "Fl?rsheim",
       "normpop": 2.0023,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Vaasa",
-      "avg_P1": 5.021123699447551,
-      "avg_P2": 3.126641100959364,
+      "avg_P1": 4.99534016689521,
+      "avg_P2": 3.107864124906015,
       "above_sea_level": 6,
       "id": 31251,
       "name": "Vaasa",
       "population": 57014,
       "src_name": "Vaasa",
       "normpop": 5.7014,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Almeria",
-      "avg_P1": 15.96105429370073,
-      "avg_P2": 7.592659810899982,
+      "avg_P1": 15.789963705826153,
+      "avg_P2": 7.508581738299904,
       "above_sea_level": 27,
       "id": 25684,
       "name": "Almer?a",
       "population": 188810,
       "src_name": "Almeria",
       "normpop": 18.881,
-      "cluster": 12
-    },
-    {
-      "city": "Andorra la Vella",
-      "avg_P1": 41.56765617796692,
-      "avg_P2": 22.736572155145275,
-      "above_sea_level": 1022,
-      "id": 53,
-      "name": "Andorra la Vella",
-      "population": 20430,
-      "src_name": "Andorra la Vella",
-      "normpop": 2.043,
-      "cluster": 16
+      "cluster": 10
     },
     {
       "city": "Bielefeld",
-      "avg_P1": 20.764438705657874,
-      "avg_P2": 13.696566329407803,
+      "avg_P1": 19.921262678063943,
+      "avg_P2": 12.628146322199829,
       "above_sea_level": 118,
       "id": 22075,
       "name": "Bielefeld",
       "population": 331906,
       "src_name": "Bielefeld",
       "normpop": 33.1906,
-      "cluster": 18
+      "cluster": 3
+    },
+    {
+      "city": "?????????",
+      "avg_P1": 36.295247708149155,
+      "avg_P2": 20.445566279935203,
+      "above_sea_level": 1022,
+      "id": 53,
+      "name": "Andorra la Vella",
+      "population": 20430,
+      "src_name": "?????????",
+      "normpop": 2.043,
+      "cluster": 8
     },
     {
       "city": "Washington",
-      "avg_P1": 11.71321575224761,
-      "avg_P2": 6.614241240209106,
+      "avg_P1": 11.482419143198435,
+      "avg_P2": 6.586636185115464,
       "id": 40041,
       "name": "Washington",
       "population": 53526,
       "src_name": "Washington",
       "normpop": 5.3526,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Asenovgrad",
-      "avg_P1": 31.31174048263766,
-      "avg_P2": 17.731702137565506,
+      "avg_P1": 29.44978636107164,
+      "avg_P2": 16.89221560787885,
       "above_sea_level": 269,
       "id": 6583,
       "name": "Asenovgrad",
       "population": 52170,
       "src_name": "Asenovgrad",
       "normpop": 5.217,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Erlangen",
-      "avg_P1": 9.021929191155461,
-      "avg_P2": 5.624379587182507,
+      "avg_P1": 8.856674374395812,
+      "avg_P2": 5.017901168879859,
       "above_sea_level": 279,
       "id": 20500,
       "name": "Erlangen",
       "population": 102675,
       "src_name": "Erlangen",
       "normpop": 10.2675,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Wachtberg",
-      "avg_P1": 16.676567668625843,
-      "avg_P2": 11.64383662947309,
+      "avg_P1": 16.61016774745497,
+      "avg_P2": 11.606552755638852,
       "above_sea_level": 222,
       "id": 16972,
       "name": "Wachtberg",
       "population": 20032,
       "src_name": "Wachtberg",
       "normpop": 2.0032,
-      "cluster": 13
+      "cluster": 14
+    },
+    {
+      "city": "Bishkek",
+      "avg_P1": 82.47649764626757,
+      "avg_P2": 40.07926832548759,
+      "id": 62896,
+      "name": "Bishkek",
+      "population": 900000,
+      "src_name": "Bishkek",
+      "normpop": 90.0,
+      "cluster": 17
     },
     {
       "city": "Paris",
-      "avg_P1": 15.09298738708991,
-      "avg_P2": 12.442439640078005,
+      "avg_P1": 15.038597240630093,
+      "avg_P2": 12.401128473655595,
       "above_sea_level": 28,
       "id": 127610,
       "name": "Paris",
       "population": 2257981,
       "src_name": "Paris",
       "normpop": 225.7981,
-      "cluster": 4
+      "cluster": 1
     },
     {
       "city": "Mendip",
-      "avg_P1": 16.135673589406764,
-      "avg_P2": 7.567694282133744,
+      "avg_P1": 15.880938274590399,
+      "avg_P2": 7.47817128650021,
       "id": 44034,
       "name": "Mendip",
       "population": 110000,
       "src_name": "Mendip",
       "normpop": 11.0,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Ostfildern",
-      "avg_P1": 16.315025078670004,
-      "avg_P2": 11.058826894997626,
+      "avg_P1": 16.043659957176637,
+      "avg_P2": 10.463707874041166,
       "id": 23114,
       "name": "Ostfildern",
       "population": 33598,
       "src_name": "Ostfildern",
       "normpop": 3.3598,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Blagoevgrad",
-      "avg_P1": 50.77729420343665,
-      "avg_P2": 23.120785969795595,
+      "avg_P1": 25.91870423955339,
+      "avg_P2": 14.182051595956759,
       "above_sea_level": 410,
       "id": 6867,
       "name": "Blagoevgrad",
       "population": 71306,
       "src_name": "Blagoevgrad",
       "normpop": 7.1306,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Oldenburg",
-      "avg_P1": 18.22856320585234,
-      "avg_P2": 11.444790194186037,
+      "avg_P1": 15.802862136452006,
+      "avg_P2": 9.947897455532784,
       "above_sea_level": 4,
       "id": 17362,
       "name": "Oldenburg",
       "population": 159218,
       "src_name": "Oldenburg",
       "normpop": 15.9218,
-      "cluster": 6
-    },
-    {
-      "city": "????",
-      "avg_P1": 33.92615223842302,
-      "avg_P2": 19.923929766088666,
-      "above_sea_level": 1022,
-      "id": 53,
-      "name": "Andorra la Vella",
-      "population": 20430,
-      "src_name": "????",
-      "normpop": 2.043,
-      "cluster": 16
+      "cluster": 12
     },
     {
       "city": "Bodegraven-Reeuwijk",
-      "avg_P1": 21.33721406631928,
-      "avg_P2": 11.736665850913523,
+      "avg_P1": 21.93711298204683,
+      "avg_P2": 11.690838887355085,
       "above_sea_level": 0,
       "id": 133820,
       "name": "Bodegraven-Reeuwijk",
       "population": 33948,
       "src_name": "Bodegraven-Reeuwijk",
       "normpop": 3.3948,
-      "cluster": 13
+      "cluster": 14
+    },
+    {
+      "city": "????",
+      "avg_P1": 30.33862054828808,
+      "avg_P2": 18.220953634415068,
+      "above_sea_level": 1022,
+      "id": 53,
+      "name": "Andorra la Vella",
+      "population": 20430,
+      "src_name": "????",
+      "normpop": 2.043,
+      "cluster": 8
     },
     {
       "city": "Rostock",
-      "avg_P1": 20.85110287911757,
-      "avg_P2": 12.590574810713584,
+      "avg_P1": 21.358761984544092,
+      "avg_P2": 12.001321217109822,
       "id": 17913,
       "name": "Rostock",
       "population": 198293,
       "src_name": "Rostock",
       "normpop": 19.8293,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Burgas",
-      "avg_P1": 23.186810063352333,
-      "avg_P2": 11.879210315599938,
+      "avg_P1": 22.0356306887736,
+      "avg_P2": 11.601647402213471,
       "above_sea_level": 30,
       "id": 6991,
       "name": "Burgas",
       "population": 195966,
       "src_name": "Burgas",
       "normpop": 19.5966,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Dusseldorf",
-      "avg_P1": 17.93391761865591,
-      "avg_P2": 10.173728216497626,
+      "avg_P1": 17.184576757294856,
+      "avg_P2": 9.452616998300968,
       "above_sea_level": 38,
       "id": 22058,
       "name": "D?sseldorf",
@@ -1008,359 +1065,373 @@
     },
     {
       "city": "M?nster",
-      "avg_P1": 27.20888789395101,
-      "avg_P2": 17.082787257382005,
+      "avg_P1": 20.506466456341958,
+      "avg_P2": 11.665643949471589,
       "above_sea_level": 60,
       "id": 19029,
       "name": "M?nster",
       "population": 270184,
       "src_name": "M?nster",
       "normpop": 27.0184,
+      "cluster": 10
+    },
+    {
+      "city": "Zurich",
+      "avg_P1": 14.42547179979776,
+      "avg_P2": 8.913809937471077,
+      "id": 10970,
+      "name": "Z?rich",
+      "population": 341730,
+      "src_name": "Zurich",
+      "normpop": 34.173,
       "cluster": 3
     },
     {
       "city": "Bremen",
-      "avg_P1": 22.744708285645526,
-      "avg_P2": 12.4821934719844,
+      "avg_P1": 23.37943251811301,
+      "avg_P2": 12.629240322240575,
       "above_sea_level": 11,
       "id": 21648,
       "name": "Bremen",
       "population": 546501,
       "src_name": "Bremen",
       "normpop": 54.6501,
-      "cluster": 17
-    },
-    {
-      "city": "Zurich",
-      "avg_P1": 15.33658361606284,
-      "avg_P2": 9.210510321461921,
-      "id": 10970,
-      "name": "Z?rich",
-      "population": 341730,
-      "src_name": "Zurich",
-      "normpop": 34.173,
       "cluster": 18
     },
     {
       "city": "Riga",
-      "avg_P1": 21.36712340209987,
-      "avg_P2": 10.142605338108343,
+      "avg_P1": 21.24931597032373,
+      "avg_P2": 10.11590702388415,
       "id": 130382,
       "name": "R?g?n",
       "population": 88410,
       "src_name": "Riga",
       "normpop": 8.841,
-      "cluster": 10
-    },
-    {
-      "city": "Duisburg",
-      "avg_P1": 24.63010203535931,
-      "avg_P2": 13.619946952205025,
-      "above_sea_level": 33,
-      "id": 22086,
-      "name": "Duisburg",
-      "population": 504358,
-      "src_name": "Duisburg",
-      "normpop": 50.4358,
-      "cluster": 17
+      "cluster": 12
     },
     {
       "city": "Bad Homburg vor der H?he",
-      "avg_P1": 10.839934856203236,
-      "avg_P2": 7.0750796581684625,
+      "avg_P1": 10.739841737223998,
+      "avg_P2": 6.963309662349384,
       "above_sea_level": 194,
       "id": 22381,
       "name": "Bad Homburg vor der H?he",
       "population": 51859,
       "src_name": "Bad Homburg vor der H?he",
       "normpop": 5.1859,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Langenfeld",
-      "avg_P1": 50.833535936055604,
-      "avg_P2": 24.148826239229404,
+      "avg_P1": 23.921365125814823,
+      "avg_P2": 12.158177787902144,
       "above_sea_level": 51,
       "id": 19921,
       "name": "Langenfeld",
       "population": 59378,
       "src_name": "Langenfeld",
       "normpop": 5.9378,
-      "cluster": 16
+      "cluster": 14
+    },
+    {
+      "city": "Duisburg",
+      "avg_P1": 23.352138604775867,
+      "avg_P2": 12.881990656711931,
+      "above_sea_level": 33,
+      "id": 22086,
+      "name": "Duisburg",
+      "population": 504358,
+      "src_name": "Duisburg",
+      "normpop": 50.4358,
+      "cluster": 18
     },
     {
       "city": "Leuven",
-      "avg_P1": 24.257863442009658,
-      "avg_P2": 13.169188936397624,
+      "avg_P1": 23.649635031612775,
+      "avg_P2": 12.778790017729893,
       "id": 5525,
       "name": "Leuven",
       "population": 92892,
       "src_name": "Leuven",
       "normpop": 9.2892,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Arnhem",
-      "avg_P1": 26.25615863951512,
-      "avg_P2": 14.261053651125623,
+      "avg_P1": 24.171394316872945,
+      "avg_P2": 14.439851153890164,
       "id": 76716,
       "name": "Arnhem",
       "population": 141674,
       "src_name": "Arnhem",
       "normpop": 14.1674,
-      "cluster": 6
+      "cluster": 12
+    },
+    {
+      "city": "Toronto",
+      "avg_P1": 10.405683263547841,
+      "avg_P2": 9.396030210470617,
+      "above_sea_level": 76,
+      "id": 9130,
+      "name": "Toronto",
+      "population": 2600000,
+      "src_name": "Toronto",
+      "normpop": 260.0,
+      "cluster": 1
     },
     {
       "city": "Wiesbaden",
-      "avg_P1": 41.39027934728974,
-      "avg_P2": 10.901281080080588,
+      "avg_P1": 15.42003439442379,
+      "avg_P2": 6.934831553786575,
       "above_sea_level": 117,
       "id": 15879,
       "name": "Wiesbaden",
       "population": 272432,
       "src_name": "Wiesbaden",
       "normpop": 27.2432,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Kassel",
-      "avg_P1": 22.283584079115585,
-      "avg_P2": 8.997873204482218,
+      "avg_P1": 19.57406886885369,
+      "avg_P2": 8.68268902947193,
       "above_sea_level": 175,
       "id": 20034,
       "name": "Kassel",
       "population": 194501,
       "src_name": "Kassel",
       "normpop": 19.4501,
-      "cluster": 12
-    },
-    {
-      "city": "Barcelona",
-      "avg_P1": 12.85861416861156,
-      "avg_P2": 6.802669664307391,
-      "above_sea_level": 15,
-      "id": 29913,
-      "name": "Barcelona",
-      "population": 1621537,
-      "src_name": "Barcelona",
-      "normpop": 162.1537,
-      "cluster": 2
+      "cluster": 10
     },
     {
       "city": "Paderborn",
-      "avg_P1": 28.04129007049381,
-      "avg_P2": 12.804780920569817,
+      "avg_P1": 24.226788361172783,
+      "avg_P2": 11.565845075114321,
       "above_sea_level": 94,
       "id": 17374,
       "name": "Paderborn",
       "population": 142161,
       "src_name": "Paderborn",
       "normpop": 14.2161,
-      "cluster": 6
+      "cluster": 12
     },
     {
-      "city": "Filderstadt",
-      "avg_P1": 26.304246298438787,
-      "avg_P2": 19.233937271699148,
-      "above_sea_level": 371,
-      "id": 23124,
-      "name": "Filderstadt",
-      "population": 43550,
-      "src_name": "Filderstadt",
-      "normpop": 4.355,
-      "cluster": 16
+      "city": "Barcelona",
+      "avg_P1": 12.77273415870426,
+      "avg_P2": 6.76978026497683,
+      "above_sea_level": 15,
+      "id": 29913,
+      "name": "Barcelona",
+      "population": 1621537,
+      "src_name": "Barcelona",
+      "normpop": 162.1537,
+      "cluster": 0
     },
     {
       "city": "Solingen",
-      "avg_P1": 15.933077918699176,
-      "avg_P2": 11.409081209525128,
+      "avg_P1": 16.032927919791867,
+      "avg_P2": 10.55981418171396,
       "above_sea_level": 53,
       "id": 17027,
       "name": "Solingen",
       "population": 164359,
       "src_name": "Solingen",
       "normpop": 16.4359,
-      "cluster": 6
+      "cluster": 12
+    },
+    {
+      "city": "Filderstadt",
+      "avg_P1": 16.00696637560892,
+      "avg_P2": 11.656865741425781,
+      "above_sea_level": 371,
+      "id": 23124,
+      "name": "Filderstadt",
+      "population": 43550,
+      "src_name": "Filderstadt",
+      "normpop": 4.355,
+      "cluster": 14
     },
     {
       "city": "Ternopil",
-      "avg_P1": 34.01585003460999,
-      "avg_P2": 16.44376708359489,
+      "avg_P1": 31.907543391079997,
+      "avg_P2": 15.598386939650215,
       "above_sea_level": 320,
       "id": 99811,
       "name": "Ternopil",
       "population": 235676,
       "src_name": "Ternopil",
       "normpop": 23.5676,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Warsaw",
-      "avg_P1": 27.337924817811913,
-      "avg_P2": 13.00822447141417,
+      "avg_P1": 26.82178966131909,
+      "avg_P2": 12.871441782531184,
       "above_sea_level": 103,
       "id": 82490,
       "name": "Warsaw",
       "population": 1702139,
       "src_name": "Warsaw",
       "normpop": 170.2139,
-      "cluster": 2
+      "cluster": 0
     },
     {
       "city": "Halle (Saale)",
-      "avg_P1": 16.39769898466551,
-      "avg_P2": 10.577829449604618,
+      "avg_P1": 17.58113788645849,
+      "avg_P2": 11.2276707443835,
       "above_sea_level": 87,
       "id": 20287,
       "name": "Halle (Saale)",
       "population": 234107,
       "src_name": "Halle (Saale)",
       "normpop": 23.4107,
-      "cluster": 12
-    },
-    {
-      "city": "Krefeld",
-      "avg_P1": 21.27855896993917,
-      "avg_P2": 11.89583659679416,
-      "above_sea_level": 38,
-      "id": 19606,
-      "name": "Krefeld",
-      "population": 237984,
-      "src_name": "Krefeld",
-      "normpop": 23.7984,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Mendoza",
-      "avg_P1": 9.535865313694385,
-      "avg_P2": 8.346201023669586,
+      "avg_P1": 9.466268359750522,
+      "avg_P2": 8.28992488430844,
       "above_sea_level": 769,
       "id": 1032,
       "name": "Mendoza",
       "population": 876884,
       "src_name": "Mendoza",
       "normpop": 87.6884,
-      "cluster": 5
+      "cluster": 7
+    },
+    {
+      "city": "Krefeld",
+      "avg_P1": 20.825697960350478,
+      "avg_P2": 11.728864644675046,
+      "above_sea_level": 38,
+      "id": 19606,
+      "name": "Krefeld",
+      "population": 237984,
+      "src_name": "Krefeld",
+      "normpop": 23.7984,
+      "cluster": 10
     },
     {
       "city": "Dar es Salaam",
-      "avg_P1": 28.584850030959736,
-      "avg_P2": 10.689207058823529,
+      "avg_P1": 25.863769021603527,
+      "avg_P2": 9.455697625106021,
       "above_sea_level": 12,
       "id": 99533,
       "name": "Dar es Salaam",
       "population": 2698652,
       "src_name": "Dar es Salaam",
       "normpop": 269.8652,
-      "cluster": 4
+      "cluster": 1
+    },
+    {
+      "city": "Chelyabinsk",
+      "avg_P1": 91.4642971229111,
+      "avg_P2": 70.35895731966173,
+      "above_sea_level": 220,
+      "id": 94962,
+      "name": "Chelyabinsk",
+      "population": 1062919,
+      "src_name": "Chelyabinsk",
+      "normpop": 106.2919,
+      "cluster": 6
     },
     {
       "city": "Moers",
-      "avg_P1": 32.55935074700356,
-      "avg_P2": 21.623054856602643,
+      "avg_P1": 18.65865857259794,
+      "avg_P2": 12.931853909318564,
       "above_sea_level": 30,
       "id": 18351,
       "name": "Moers",
       "population": 107816,
       "src_name": "Moers",
       "normpop": 10.7816,
-      "cluster": 11
+      "cluster": 12
     },
     {
       "city": "Amsterdam",
-      "avg_P1": 8.762102240556501,
-      "avg_P2": 5.082056944107415,
+      "avg_P1": 8.762102240556503,
+      "avg_P2": 5.082056944107416,
       "above_sea_level": -2,
       "id": 76690,
       "name": "Amsterdam",
       "population": 741636,
       "src_name": "Amsterdam",
       "normpop": 74.1636,
-      "cluster": 5
+      "cluster": 7
     },
     {
       "city": "Bottrop",
-      "avg_P1": 21.406172020028258,
-      "avg_P2": 13.638815334570907,
+      "avg_P1": 20.264960660191186,
+      "avg_P2": 13.270934373852048,
       "above_sea_level": 55,
       "id": 22065,
       "name": "Bottrop",
       "population": 119909,
       "src_name": "Bottrop",
       "normpop": 11.9909,
-      "cluster": 6
-    },
-    {
-      "city": "Aberdeen",
-      "avg_P1": 17.066926195179757,
-      "avg_P2": 5.694413512445676,
-      "id": 43410,
-      "name": "Aberdeen",
-      "population": 196670,
-      "src_name": "Aberdeen",
-      "normpop": 19.667,
       "cluster": 12
     },
     {
       "city": "The Hague",
-      "avg_P1": 34.119768243491,
-      "avg_P2": 26.703499572179435,
+      "avg_P1": 33.44805684801006,
+      "avg_P2": 26.337855197847738,
       "id": 75384,
       "name": "The Hague",
       "population": 474292,
       "src_name": "The Hague",
       "normpop": 47.4292,
-      "cluster": 9
+      "cluster": 18
+    },
+    {
+      "city": "Aberdeen",
+      "avg_P1": 16.736471612127335,
+      "avg_P2": 5.630595290841189,
+      "id": 43410,
+      "name": "Aberdeen",
+      "population": 196670,
+      "src_name": "Aberdeen",
+      "normpop": 19.667,
+      "cluster": 10
     },
     {
       "city": "Slatina",
-      "avg_P1": 41.51814594969079,
-      "avg_P2": 22.22579175325217,
+      "avg_P1": 29.98606832171928,
+      "avg_P2": 16.61306649355881,
       "id": 86879,
       "name": "Slatina",
       "population": 78988,
       "src_name": "Slatina",
       "normpop": 7.8988,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Svishtov",
-      "avg_P1": 48.16077695879742,
-      "avg_P2": 20.579515671785128,
+      "avg_P1": 33.7511485903196,
+      "avg_P2": 15.668323735996406,
       "above_sea_level": 88,
       "id": 6144,
       "name": "Svishtov",
       "population": 32256,
       "src_name": "Svishtov",
       "normpop": 3.2256,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Wolfsburg",
-      "avg_P1": 12.162926643921194,
-      "avg_P2": 7.729795486683719,
+      "avg_P1": 12.054082489735782,
+      "avg_P2": 7.661947887610872,
       "above_sea_level": 63,
       "id": 15934,
       "name": "Wolfsburg",
       "population": 123064,
       "src_name": "Wolfsburg",
       "normpop": 12.3064,
-      "cluster": 10
-    },
-    {
-      "city": "Amtsberg",
-      "avg_P1": 16.83397050087544,
-      "avg_P2": 10.262837082603802,
-      "name": "null",
-      "population": 4123,
-      "src_name": "Amtsberg",
-      "normpop": 0.4123,
-      "cluster": 13
+      "cluster": 12
     },
     {
       "city": "Mannheim",
-      "avg_P1": 15.708273758444601,
-      "avg_P2": 9.87207055601827,
+      "avg_P1": 15.46807071659286,
+      "avg_P2": 9.667054943507123,
       "above_sea_level": 97,
       "id": 18647,
       "name": "Mannheim",
@@ -1370,66 +1441,88 @@
       "cluster": 3
     },
     {
+      "city": "Amtsberg",
+      "avg_P1": 16.785214791072203,
+      "avg_P2": 10.248854395497009,
+      "name": "null",
+      "population": 4123,
+      "src_name": "Amtsberg",
+      "normpop": 0.4123,
+      "cluster": 14
+    },
+    {
       "city": "Langen",
-      "avg_P1": 15.022895205261909,
-      "avg_P2": 9.721918033925895,
+      "avg_P1": 14.938425267993363,
+      "avg_P2": 9.690321823711832,
       "above_sea_level": 143,
       "id": 19810,
       "name": "Langen",
       "population": 35416,
       "src_name": "Langen",
       "normpop": 3.5416,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Kyiv",
-      "avg_P1": 49.62081451916393,
-      "avg_P2": 40.26176866634429,
+      "avg_P1": 43.0556312761226,
+      "avg_P2": 35.40481965477946,
       "id": 99840,
       "name": "Kyiv",
       "population": 2797553,
       "src_name": "Kyiv",
       "normpop": 279.7553,
-      "cluster": 19
+      "cluster": 16
     },
     {
       "city": "Bobritzsch-Hilbersdorf",
-      "avg_P1": 18.620023483378127,
-      "avg_P2": 10.367686405145816,
+      "avg_P1": 17.894089729675787,
+      "avg_P2": 10.185769058044238,
       "name": "null",
       "population": 1419,
       "src_name": "Bobritzsch-Hilbersdorf",
       "normpop": 0.1419,
-      "cluster": 13
+      "cluster": 14
+    },
+    {
+      "city": "Agra",
+      "avg_P1": 87.98682837994852,
+      "avg_P2": 76.6492375894121,
+      "above_sea_level": 171,
+      "id": 51722,
+      "name": "Agra",
+      "population": 1430055,
+      "src_name": "Agra",
+      "normpop": 143.0055,
+      "cluster": 9
     },
     {
       "city": "Aachen",
-      "avg_P1": 17.792470765423673,
-      "avg_P2": 9.47409973393587,
+      "avg_P1": 18.56720399668951,
+      "avg_P2": 10.626602440435597,
       "above_sea_level": 266,
       "id": 22349,
       "name": "Aachen",
       "population": 265208,
       "src_name": "Aachen",
       "normpop": 26.5208,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Erftstadt",
-      "avg_P1": 10.182820855073048,
-      "avg_P2": 7.729792891184625,
+      "avg_P1": 10.17105857042755,
+      "avg_P2": 7.720126794493891,
       "above_sea_level": 98,
       "id": 21091,
       "name": "Erftstadt",
       "population": 51207,
       "src_name": "Erftstadt",
       "normpop": 5.1207,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Bristol",
-      "avg_P1": 13.342745500200058,
-      "avg_P2": 7.7092851629326935,
+      "avg_P1": 13.218447951992532,
+      "avg_P2": 7.646298899408732,
       "above_sea_level": 11,
       "id": 42648,
       "name": "Bristol",
@@ -1439,269 +1532,305 @@
       "cluster": 15
     },
     {
+      "city": "Ingolstadt",
+      "avg_P1": 14.502002589542347,
+      "avg_P2": 10.89443136196587,
+      "above_sea_level": 376,
+      "id": 19711,
+      "name": "Ingolstadt",
+      "population": 120658,
+      "src_name": "Ingolstadt",
+      "normpop": 12.0658,
+      "cluster": 12
+    },
+    {
       "city": "Smolyan",
-      "avg_P1": 45.81331269814215,
-      "avg_P2": 21.897595772967424,
+      "avg_P1": 40.55859151939546,
+      "avg_P2": 19.835734465753195,
       "above_sea_level": 921,
       "id": 6532,
       "name": "Smolyan",
       "population": 32069,
       "src_name": "Smolyan",
       "normpop": 3.2069,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Karlsruhe",
-      "avg_P1": 14.527148124578021,
-      "avg_P2": 9.360877735901022,
+      "avg_P1": 21.850407685862994,
+      "avg_P2": 16.274005678771406,
       "above_sea_level": 118,
       "id": 19334,
       "name": "Karlsruhe",
       "population": 283799,
       "src_name": "Karlsruhe",
       "normpop": 28.3799,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Pazardzhik",
-      "avg_P1": 41.63349134664396,
-      "avg_P2": 20.26016899048899,
+      "avg_P1": 32.67650463153844,
+      "avg_P2": 16.921132321816312,
       "above_sea_level": 205,
       "id": 6198,
       "name": "Pazardzhik",
       "population": 75977,
       "src_name": "Pazardzhik",
       "normpop": 7.5977,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Osnabr?ck",
-      "avg_P1": 18.360142619229038,
-      "avg_P2": 8.74765933211309,
+      "avg_P1": 18.358519984917038,
+      "avg_P2": 8.747543952677225,
       "above_sea_level": 63,
       "id": 18020,
       "name": "Osnabr?ck",
       "population": 166462,
       "src_name": "Osnabr?ck",
       "normpop": 16.6462,
-      "cluster": 6
+      "cluster": 12
+    },
+    {
+      "city": "Leer",
+      "avg_P1": 46.434078510108016,
+      "avg_P2": 34.42305808640265,
+      "above_sea_level": 7,
+      "id": 20112,
+      "name": "Leer",
+      "population": 33886,
+      "src_name": "Leer",
+      "normpop": 3.3886,
+      "cluster": 8
     },
     {
       "city": "Koblenz",
-      "avg_P1": 13.468555595965755,
-      "avg_P2": 9.11288569082163,
+      "avg_P1": 12.526838591566959,
+      "avg_P2": 8.917978611638153,
       "above_sea_level": 73,
       "id": 19931,
       "name": "Koblenz",
       "population": 107319,
       "src_name": "Koblenz",
       "normpop": 10.7319,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Hofheim",
-      "avg_P1": 17.9214084970504,
-      "avg_P2": 8.816652597444385,
+      "avg_P1": 16.785940889050778,
+      "avg_P2": 8.680777549087594,
       "above_sea_level": 145,
       "id": 20082,
       "name": "Hofheim am Taunus",
       "population": 37750,
       "src_name": "Hofheim",
       "normpop": 3.775,
-      "cluster": 13
+      "cluster": 14
+    },
+    {
+      "city": "Stuttgart",
+      "avg_P1": 17.75453858351369,
+      "avg_P2": 9.114096353100434,
+      "above_sea_level": 247,
+      "id": 16744,
+      "name": "Stuttgart",
+      "population": 589793,
+      "src_name": "Stuttgart",
+      "normpop": 58.9793,
+      "cluster": 15
     },
     {
       "city": "Trier",
-      "avg_P1": 11.524908752408392,
-      "avg_P2": 5.279054835148193,
+      "avg_P1": 11.442274666031585,
+      "avg_P2": 5.248607616861897,
       "above_sea_level": 135,
       "id": 17028,
       "name": "Trier",
       "population": 100129,
       "src_name": "Trier",
       "normpop": 10.0129,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Utrecht",
-      "avg_P1": 24.29321848064785,
-      "avg_P2": 12.778544880282018,
+      "avg_P1": 22.57118463825146,
+      "avg_P2": 12.284970754293283,
       "id": 75603,
       "name": "Utrecht",
       "population": 290529,
       "src_name": "Utrecht",
       "normpop": 29.0529,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Heidelberg",
-      "avg_P1": 11.380378712529422,
-      "avg_P2": 7.8361246723880855,
+      "avg_P1": 17.266147746173342,
+      "avg_P2": 10.585934506397264,
       "above_sea_level": 114,
       "id": 20840,
       "name": "Heidelberg",
       "population": 143345,
       "src_name": "Heidelberg",
       "normpop": 14.3345,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Oberhausen",
-      "avg_P1": 26.509812445256866,
-      "avg_P2": 14.925664407123927,
+      "avg_P1": 23.544167380290332,
+      "avg_P2": 13.462877471256846,
       "above_sea_level": 25,
       "id": 18658,
       "name": "Oberhausen",
       "population": 219176,
       "src_name": "Oberhausen",
       "normpop": 21.9176,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Herne",
-      "avg_P1": 11.551185279119016,
-      "avg_P2": 6.952866778303416,
+      "avg_P1": 13.885357346601504,
+      "avg_P2": 8.184290124347017,
       "id": 19948,
       "name": "Herne",
       "population": 172108,
       "src_name": "Herne",
       "normpop": 17.2108,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Hanoi",
-      "avg_P1": 72.74753822871904,
-      "avg_P2": 55.80025548022738,
+      "avg_P1": 59.389495489058355,
+      "avg_P2": 47.24550829875515,
       "above_sea_level": 16,
       "id": 118303,
       "name": "Hanoi",
       "population": 1431270,
       "src_name": "Hanoi",
       "normpop": 143.127,
-      "cluster": 8
+      "cluster": 9
     },
     {
       "city": "???????",
-      "avg_P1": 42.03568500786991,
-      "avg_P2": 21.634443101330703,
+      "avg_P1": 35.388600133189286,
+      "avg_P2": 18.918591137417767,
       "above_sea_level": 1022,
       "id": 53,
       "name": "Andorra la Vella",
       "population": 20430,
       "src_name": "???????",
       "normpop": 2.043,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Stara Zagora",
-      "avg_P1": 19.775822087579197,
-      "avg_P2": 12.176241015982447,
+      "avg_P1": 19.064183207126952,
+      "avg_P2": 11.790383652561246,
       "above_sea_level": 196,
       "id": 6674,
       "name": "Stara Zagora",
       "population": 143431,
       "src_name": "Stara Zagora",
       "normpop": 14.3431,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "M?nchengladbach",
-      "avg_P1": 16.040252176670798,
-      "avg_P2": 9.648733035372747,
+      "avg_P1": 20.877865113854124,
+      "avg_P2": 11.955277107481342,
       "above_sea_level": 70,
       "id": 18656,
       "name": "M?nchengladbach",
       "population": 261742,
       "src_name": "M?nchengladbach",
       "normpop": 26.1742,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Haskovo",
-      "avg_P1": 36.15695895920378,
-      "avg_P2": 20.755593206599393,
+      "avg_P1": 29.089738242118177,
+      "avg_P2": 17.406894906132127,
       "above_sea_level": 203,
       "id": 6812,
       "name": "Haskovo",
       "population": 79699,
       "src_name": "Haskovo",
       "normpop": 7.9699,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Neunkirchen",
-      "avg_P1": 22.31801475938053,
-      "avg_P2": 9.455471902340065,
+      "avg_P1": 19.650600537957065,
+      "avg_P2": 9.151143267221496,
       "above_sea_level": 252,
       "id": 18350,
       "name": "Neunkirchen",
       "population": 49843,
       "src_name": "Neunkirchen",
       "normpop": 4.9843,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Eindhoven",
-      "avg_P1": 20.888731628205548,
-      "avg_P2": 12.304450957867354,
+      "avg_P1": 20.590126567300416,
+      "avg_P2": 12.165741253333222,
       "id": 76238,
       "name": "Eindhoven",
       "population": 209620,
       "src_name": "Eindhoven",
       "normpop": 20.962,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Dupnitsa",
-      "avg_P1": 41.22016918295154,
-      "avg_P2": 17.30679431534207,
+      "avg_P1": 33.36487733092644,
+      "avg_P2": 14.473532733752643,
       "above_sea_level": 535,
       "id": 6956,
       "name": "Dupnitsa",
       "population": 34764,
       "src_name": "Dupnitsa",
       "normpop": 3.4764,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "Essen",
-      "avg_P1": 47.99660413606888,
-      "avg_P2": 25.24496462803154,
+      "avg_P1": 18.988304133257213,
+      "avg_P2": 11.166831463672912,
       "above_sea_level": 116,
       "id": 21014,
       "name": "Essen",
       "population": 593085,
       "src_name": "Essen",
       "normpop": 59.3085,
-      "cluster": 9
+      "cluster": 15
     },
     {
       "city": "Pozna?",
-      "avg_P1": 47.584323261117376,
-      "avg_P2": 28.726386194193477,
+      "avg_P1": 36.4950302538237,
+      "avg_P2": 22.348044024529624,
       "id": 83771,
       "name": "Pozna?",
       "population": 570352,
       "src_name": "Pozna?",
       "normpop": 57.0352,
-      "cluster": 9
+      "cluster": 18
     },
     {
       "city": "Kiel",
-      "avg_P1": 21.444821603320467,
-      "avg_P2": 10.677809607884907,
+      "avg_P1": 20.71904862464392,
+      "avg_P2": 10.386086511781707,
       "above_sea_level": 5,
       "id": 19635,
       "name": "Kiel",
       "population": 232758,
       "src_name": "Kiel",
       "normpop": 23.2758,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Varna",
-      "avg_P1": 28.554560667293707,
-      "avg_P2": 15.844910446396858,
+      "avg_P1": 25.936863714585996,
+      "avg_P2": 14.698338092019469,
       "above_sea_level": 80,
       "id": 6613,
       "name": "Varna",
@@ -1712,118 +1841,118 @@
     },
     {
       "city": "Schwerin",
-      "avg_P1": 18.737452196821568,
-      "avg_P2": 11.368546382066588,
+      "avg_P1": 16.753109003381805,
+      "avg_P2": 10.084597258530087,
       "id": 16544,
       "name": "Schwerin",
       "population": 96641,
       "src_name": "Schwerin",
       "normpop": 9.6641,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Jena",
-      "avg_P1": 21.811313227526096,
-      "avg_P2": 14.632462230558986,
+      "avg_P1": 10.86751830603072,
+      "avg_P2": 6.462960196602059,
       "id": 19808,
       "name": "Jena",
       "population": 104712,
       "src_name": "Jena",
       "normpop": 10.4712,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Haarlem",
-      "avg_P1": 18.995426129277178,
-      "avg_P2": 7.613423002943412,
+      "avg_P1": 18.676303414060197,
+      "avg_P2": 7.539490887700062,
       "above_sea_level": 2,
       "id": 75332,
       "name": "Haarlem",
       "population": 147590,
       "src_name": "Haarlem",
       "normpop": 14.759,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Bergisch Gladbach",
-      "avg_P1": 17.606927131629497,
-      "avg_P2": 9.676737783088177,
+      "avg_P1": 17.249805062892694,
+      "avg_P2": 9.53181098134525,
       "id": 21827,
       "name": "Bergisch Gladbach",
       "population": 106184,
       "src_name": "Bergisch Gladbach",
       "normpop": 10.6184,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Zwolle",
-      "avg_P1": 19.45021247091228,
-      "avg_P2": 13.525753937724595,
+      "avg_P1": 18.61266564398706,
+      "avg_P2": 13.015306692952075,
       "id": 75091,
       "name": "Zwolle",
       "population": 111805,
       "src_name": "Zwolle",
       "normpop": 11.1805,
-      "cluster": 6
+      "cluster": 12
     },
     {
       "city": "Nairobi",
-      "avg_P1": 25.44996094022194,
-      "avg_P2": 9.700952183708749,
+      "avg_P1": 23.96705646364769,
+      "avg_P2": 9.038096159138624,
       "above_sea_level": 1661,
       "id": 62892,
       "name": "Nairobi",
       "population": 2750547,
       "src_name": "Nairobi",
       "normpop": 275.0547,
-      "cluster": 4
+      "cluster": 1
     },
     {
       "city": "Seoul",
-      "avg_P1": 48.30296159155353,
-      "avg_P2": 22.443580342486147,
+      "avg_P1": 44.73623424759085,
+      "avg_P2": 21.017670544182746,
       "id": 63402,
       "name": "Seoul",
       "population": 10349312,
       "src_name": "Seoul",
       "normpop": 1034.9312,
-      "cluster": 1
+      "cluster": 2
     },
     {
       "city": "Groningen",
-      "avg_P1": 17.00086483254939,
-      "avg_P2": 10.599968641783132,
+      "avg_P1": 16.790180756898355,
+      "avg_P2": 10.536040283611072,
       "above_sea_level": 7,
       "id": 76305,
       "name": "Groningen",
       "population": 181194,
       "src_name": "Groningen",
       "normpop": 18.1194,
-      "cluster": 12
+      "cluster": 10
     },
     {
       "city": "Leinfelden-Echterdingen",
-      "avg_P1": 13.34552543800662,
-      "avg_P2": 9.001460051151668,
+      "avg_P1": 12.591861848709067,
+      "avg_P2": 8.239700426076892,
       "above_sea_level": 432,
       "id": 19786,
       "name": "Leinfelden-Echterdingen",
       "population": 36672,
       "src_name": "Leinfelden-Echterdingen",
       "normpop": 3.6672,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Augsburg",
-      "avg_P1": 13.349520213858217,
-      "avg_P2": 7.912814629579833,
+      "avg_P1": 13.338828041677418,
+      "avg_P2": 7.630576353297445,
       "above_sea_level": 498,
       "id": 22533,
       "name": "Augsburg",
       "population": 259196,
       "src_name": "Augsburg",
       "normpop": 25.9196,
-      "cluster": 3
+      "cluster": 10
     },
     {
       "city": "Uppsala",
@@ -1835,12 +1964,12 @@
       "population": 149245,
       "src_name": "Uppsala",
       "normpop": 14.9245,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Basel",
-      "avg_P1": 10.821404770699976,
-      "avg_P2": 7.348777845736448,
+      "avg_P1": 24.61046905029102,
+      "avg_P2": 16.90737721478702,
       "id": 11328,
       "name": "Basel",
       "population": 164488,
@@ -1850,8 +1979,8 @@
     },
     {
       "city": "Bonn",
-      "avg_P1": 25.512784934752624,
-      "avg_P2": 10.443119736918678,
+      "avg_P1": 21.687909718350678,
+      "avg_P2": 9.04951434670404,
       "above_sea_level": 60,
       "id": 21751,
       "name": "Bonn",
@@ -1862,104 +1991,116 @@
     },
     {
       "city": "Bad Soden",
-      "avg_P1": 17.551481253021688,
-      "avg_P2": 9.348669623059868,
+      "avg_P1": 17.42011725754126,
+      "avg_P2": 9.293902774650354,
       "above_sea_level": 139,
       "id": 22788,
       "name": "Bad Soden am Taunus",
       "population": 21357,
       "src_name": "Bad Soden",
       "normpop": 2.1357,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Sofia",
-      "avg_P1": 49.964867091600375,
-      "avg_P2": 27.13544434344703,
+      "avg_P1": 25.706658646816035,
+      "avg_P2": 15.355106386688673,
       "above_sea_level": 595,
       "id": 6275,
       "name": "Sofia",
       "population": 1152556,
       "src_name": "Sofia",
       "normpop": 115.2556,
-      "cluster": 7
+      "cluster": 4
     },
     {
       "city": "F?rth",
-      "avg_P1": 15.483067608426744,
-      "avg_P2": 8.364224643158655,
+      "avg_P1": 13.63785229716146,
+      "avg_P2": 7.054818130445458,
       "above_sea_level": 296,
       "id": 20575,
       "name": "F?rth",
       "population": 112025,
       "src_name": "F?rth",
       "normpop": 11.2025,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Innsbruck",
-      "avg_P1": 13.077060276895885,
-      "avg_P2": 7.9202138159333195,
+      "avg_P1": 12.557437286787948,
+      "avg_P2": 7.7863541879115035,
       "above_sea_level": 570,
       "id": 2773,
       "name": "Innsbruck",
       "population": 132493,
       "src_name": "Innsbruck",
       "normpop": 13.2493,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Budapest",
-      "avg_P1": 48.433934944705875,
-      "avg_P2": 16.901287774299117,
+      "avg_P1": 42.634018847086686,
+      "avg_P2": 16.04490388779811,
       "above_sea_level": 102,
       "id": 47225,
       "name": "Budapest",
       "population": 1741041,
       "src_name": "Budapest",
       "normpop": 174.1041,
-      "cluster": 2
+      "cluster": 0
     },
     {
       "city": "Waldshut-Tiengen",
-      "avg_P1": 7.276842084976814,
-      "avg_P2": 4.270861074351516,
+      "avg_P1": 6.66585808410975,
+      "avg_P2": 4.070395197405692,
       "above_sea_level": 341,
       "id": 17016,
       "name": "Waldshut-Tiengen",
       "population": 22404,
       "src_name": "Waldshut-Tiengen",
       "normpop": 2.2404,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "?rebro",
-      "avg_P1": 8.693286382749326,
-      "avg_P2": 4.677278619946088,
+      "avg_P1": 9.063861738989864,
+      "avg_P2": 4.940968975757712,
       "above_sea_level": 34,
       "id": 96554,
       "name": "?rebro",
       "population": 115765,
       "src_name": "?rebro",
       "normpop": 11.5765,
+      "cluster": 12
+    },
+    {
+      "city": "Gelsenkirchen",
+      "avg_P1": 28.459750465268467,
+      "avg_P2": 12.05785677261164,
+      "above_sea_level": 48,
+      "id": 20845,
+      "name": "Gelsenkirchen",
+      "population": 270028,
+      "src_name": "Gelsenkirchen",
+      "normpop": 27.0028,
       "cluster": 10
     },
     {
       "city": "Leipzig",
-      "avg_P1": 18.914898697063382,
-      "avg_P2": 11.192867359988755,
+      "avg_P1": 18.19698414533216,
+      "avg_P2": 11.036030041076142,
       "above_sea_level": 113,
       "id": 19317,
       "name": "Leipzig",
       "population": 504971,
       "src_name": "Leipzig",
       "normpop": 50.4971,
-      "cluster": 17
+      "cluster": 18
     },
     {
       "city": "Dortmund",
-      "avg_P1": 18.35780931860838,
-      "avg_P2": 10.903933325821527,
+      "avg_P1": 16.65559843021123,
+      "avg_P2": 9.861762152312862,
       "id": 21334,
       "name": "Dortmund",
       "population": 588462,
@@ -1969,144 +2110,140 @@
     },
     {
       "city": "???????",
-      "avg_P1": 43.781959593332346,
-      "avg_P2": 21.562777824527046,
+      "avg_P1": 35.9268169534917,
+      "avg_P2": 18.368499778757577,
       "above_sea_level": 298,
       "id": 952,
       "name": "Ober?",
       "population": 56528,
       "src_name": "???????",
       "normpop": 5.6528,
-      "cluster": 16
+      "cluster": 8
     },
     {
       "city": "G?ttingen",
-      "avg_P1": 14.026877491987875,
-      "avg_P2": 9.545405168923295,
+      "avg_P1": 13.069461445811015,
+      "avg_P2": 8.695111799990704,
       "above_sea_level": 150,
       "id": 20593,
       "name": "G?ttingen",
       "population": 122149,
       "src_name": "G?ttingen",
       "normpop": 12.2149,
-      "cluster": 10
+      "cluster": 12
     },
     {
       "city": "Munich",
-      "avg_P1": 18.245944274162753,
-      "avg_P2": 10.968997939275289,
+      "avg_P1": 15.315925317237134,
+      "avg_P2": 9.188074249006679,
       "above_sea_level": 519,
       "id": 18204,
       "name": "Munich",
       "population": 1260391,
       "src_name": "Munich",
       "normpop": 126.0391,
-      "cluster": 7
+      "cluster": 4
     },
     {
       "city": "Oregon City",
-      "avg_P1": 8.44347279750889,
-      "avg_P2": 5.295018029861268,
+      "avg_P1": 8.302876184877658,
+      "avg_P2": 5.278049232125796,
       "above_sea_level": 38,
       "id": 116138,
       "name": "Oregon City",
       "population": 35831,
       "src_name": "Oregon City",
       "normpop": 3.5831,
-      "cluster": 13
+      "cluster": 14
     },
     {
       "city": "Szeged",
-      "avg_P1": 27.68919368359489,
-      "avg_P2": 17.956046203333667,
+      "avg_P1": 24.53262666041817,
+      "avg_P2": 16.242008530010597,
       "id": 46593,
       "name": "Szeged",
       "population": 164883,
       "src_name": "Szeged",
       "normpop": 16.4883,
-      "cluster": 11
+      "cluster": 10
     }
   ],
   "centers": [
     [
-      38.500407453623424,
-      2.9169
+      11.89537531176871,
+      168.82389999999998
     ],
     [
-      22.44358034248615,
+      10.072738117092713,
+      257.6795
+    ],
+    [
+      21.017670544182746,
       1034.9312
     ],
     [
-      10.342314006857999,
-      174.031625
+      12.222981383427884,
+      37.11899999999999
     ],
     [
-      11.765706131753715,
-      28.037863636363635
+      11.431015103855886,
+      125.22872500000001
     ],
     [
-      10.944199627536761,
-      256.906
+      3.834664836546936,
+      189.6548
     ],
     [
-      6.7141289838885,
+      70.35895731966173,
+      106.2919
+    ],
+    [
+      6.6859909142079275,
       80.926
     ],
     [
-      11.755885853713432,
-      13.693738095238096
+      18.26508519472883,
+      5.096630769230771
     ],
     [
-      15.619762633130643,
-      125.228725
+      61.94737294408362,
+      143.06625000000003
     ],
     [
-      55.800255480227385,
-      143.127
+      11.210159824148537,
+      22.192492857142852
     ],
     [
-      27.33827178567074,
-      53.114575
+      11.204972655039175,
+      342.6354
     ],
     [
-      7.027150749010448,
-      12.567609090909091
+      9.026890223448433,
+      12.768804444444447
     ],
     [
-      22.707631686410792,
-      16.20298
-    ],
-    [
-      10.769966262470124,
-      20.81286875
-    ],
-    [
-      8.721774170149038,
-      2.728220588235295
-    ],
-    [
-      4.870422066581597,
+      4.860056567423888,
       145.49725
     ],
     [
-      10.385943407082193,
-      59.229975
+      8.851793423264116,
+      2.8194333333333335
     ],
     [
-      20.398862370402696,
-      4.381175000000001
+      9.448321173359181,
+      59.233540000000005
     ],
     [
-      12.361810112190646,
-      50.51220000000001
-    ],
-    [
-      12.310339028405567,
-      36.736462499999995
-    ],
-    [
-      40.26176866634429,
+      35.40481965477946,
       279.7553
+    ],
+    [
+      40.07926832548759,
+      90.0
+    ],
+    [
+      13.823623949772193,
+      51.18308571428572
     ]
   ]
 }

@@ -11,13 +11,13 @@
 {"lat":51.274,"lon":7.119,"city":"Wuppertal","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.568,"lon":6.998,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.448,"lon":9.217,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.481,"lon":10.174,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.481,"lon":10.174,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":54.298,"lon":10.172,"city":"Kiel","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":51.99,"lon":8.598,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.77,"lon":9.146,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.249,"lon":10.406,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":52.394,"lon":13.099,"city":"Potsdam","state":"Brandenburg","country":"Germany"}
-{"lat":53.658,"lon":10.118,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.658,"lon":10.118,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.046,"lon":6.771,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":54.802,"lon":9.424,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":42.672,"lon":23.324,"city":"Lozenec","state":"","country":"Bulgaria"}
@@ -68,7 +68,7 @@
 {"lat":48.78,"lon":9.159,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.693,"lon":8.711,"city":"Bad Teinach-Zavelstein","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.737,"lon":9.167,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.577,"lon":9.955,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.577,"lon":9.955,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":43.846,"lon":25.957,"city":"Ruse","state":"","country":"Bulgaria"}
 {"lat":49.983,"lon":8.241,"city":"Mainz","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":48.677,"lon":9.242,"city":"Filderstadt","state":"Baden-Württemberg","country":"Germany"}
@@ -79,7 +79,7 @@
 {"lat":51.247,"lon":6.792,"city":"Dusseldorf","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.779,"lon":9.16,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.399,"lon":8.068,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.576,"lon":9.978,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.576,"lon":9.978,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.052,"lon":6.955,"city":"Leverkusen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.839,"lon":9.315,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.53,"lon":7.685,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -153,7 +153,7 @@
 {"lat":53.868,"lon":10.683,"city":"Lübeck","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":53.624,"lon":9.786,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":50.966,"lon":7.002,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.584,"lon":9.818,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.584,"lon":9.818,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.382,"lon":7.942,"city":"","state":"Solothurn","country":"Switzerland"}
 {"lat":47.227,"lon":9.598,"city":"","state":"Vorarlberg","country":"Austria"}
 {"lat":48.744,"lon":9.111,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -192,7 +192,7 @@
 {"lat":47.821,"lon":13.217,"city":"","state":"Salzburg","country":"Austria"}
 {"lat":42.669,"lon":23.318,"city":"Triadica","state":"","country":"Bulgaria"}
 {"lat":51.222,"lon":6.624,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.542,"lon":10.003,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.542,"lon":10.003,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.436,"lon":12.12,"city":"","state":"Saxony","country":"Germany"}
 {"lat":52.415,"lon":9.784,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":48.676,"lon":7.986,"city":"Rheinau","state":"Baden-Württemberg","country":"Germany"}
@@ -223,10 +223,10 @@
 {"lat":52.581,"lon":13.424,"city":"Berlin","state":"","country":"Germany"}
 {"lat":48.768,"lon":9.174,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.693,"lon":7.238,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.58,"lon":9.963,"city":"","state":"Hamburg","country":"Germany"}
-{"lat":53.658,"lon":10.068,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.58,"lon":9.963,"city":"Hamburg","state":"Hamburg","country":"Germany"}
+{"lat":53.658,"lon":10.068,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":-6.818,"lon":39.285,"city":"Dar es Salaam","state":"Coastal Zone","country":"Tanzania"}
-{"lat":53.633,"lon":10.07,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.633,"lon":10.07,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.807,"lon":9.279,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":47.056,"lon":15.473,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":49.894,"lon":10.923,"city":"","state":"Bavaria","country":"Germany"}
@@ -262,12 +262,12 @@
 {"lat":50.955,"lon":6.93,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.976,"lon":8.343,"city":"","state":"Hesse","country":"Germany"}
 {"lat":47.599,"lon":7.652,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.55,"lon":9.944,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.55,"lon":9.944,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.672,"lon":9.375,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.695,"lon":23.281,"city":"Krasna poliana","state":"","country":"Bulgaria"}
 {"lat":51.155,"lon":6.938,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":8.953,"lon":7.264,"city":"Abuja","state":"Federal Capital Territory","country":"Nigeria"}
-{"lat":53.575,"lon":9.933,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.575,"lon":9.933,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.731,"lon":9.143,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.116,"lon":9.393,"city":"Rotenburg","state":"Lower Saxony","country":"Germany"}
 {"lat":49.149,"lon":9.23,"city":"Heilbronn","state":"Baden-Württemberg","country":"Germany"}
@@ -290,7 +290,7 @@
 {"lat":51.46,"lon":7.3,"city":"Bochum","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.386,"lon":9.971,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":48.779,"lon":9.161,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.603,"lon":10.113,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.603,"lon":10.113,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":53.26,"lon":10.432,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":51.07,"lon":16.998,"city":"Wroclaw","state":"Lower Silesian Voivodeship","country":"Poland"}
 {"lat":52.494,"lon":13.429,"city":"Berlin","state":"","country":"Germany"}
@@ -347,16 +347,16 @@
 {"lat":48.813,"lon":9.113,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.689,"lon":23.357,"city":"Slatina","state":"","country":"Bulgaria"}
 {"lat":50.994,"lon":7.124,"city":"Bergisch Gladbach","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.495,"lon":9.994,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.495,"lon":9.994,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.905,"lon":7.621,"city":"Münster","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.562,"lon":9.907,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.562,"lon":9.907,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.654,"lon":9.251,"city":"Filderstadt","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.132,"lon":24.786,"city":"Тракия","state":"","country":"Bulgaria"}
 {"lat":52.015,"lon":8.714,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.191,"lon":6.669,"city":"Neuss","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.725,"lon":8.964,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.132,"lon":11.608,"city":"Munich","state":"Bavaria","country":"Germany"}
-{"lat":53.596,"lon":9.982,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.596,"lon":9.982,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.051,"lon":6.983,"city":"Leverkusen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.5,"lon":13.334,"city":"Berlin","state":"","country":"Germany"}
 {"lat":49.96,"lon":8.017,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
@@ -405,7 +405,7 @@
 {"lat":-33.421,"lon":-70.578,"city":"Las Condes","state":"Santiago Metropolitan Region","country":"Chile"}
 {"lat":4.594,"lon":114.262,"city":"","state":"Belait District","country":"Brunei"}
 {"lat":51.286,"lon":7.281,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.568,"lon":10.044,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.568,"lon":10.044,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.333,"lon":6.609,"city":"Krefeld","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":47.06,"lon":15.064,"city":"","state":"Styria","country":"Austria"}
 {"lat":52.333,"lon":9.802,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
@@ -415,7 +415,7 @@
 {"lat":52.512,"lon":13.327,"city":"Berlin","state":"","country":"Germany"}
 {"lat":-32.013,"lon":115.831,"city":"Perth","state":"Western Australia","country":"Australia"}
 {"lat":42.703,"lon":23.373,"city":"Poduyane","state":"","country":"Bulgaria"}
-{"lat":53.577,"lon":9.822,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.577,"lon":9.822,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.229,"lon":9.842,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":51.425,"lon":7.329,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.448,"lon":10.041,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -476,7 +476,7 @@
 {"lat":49.865,"lon":8.657,"city":"Darmstadt","state":"Hesse","country":"Germany"}
 {"lat":52.013,"lon":8.54,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.175,"lon":11.791,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.668,"lon":10.007,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.668,"lon":10.007,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.323,"lon":8.698,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.693,"lon":9.704,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":51.036,"lon":7.068,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -504,7 +504,7 @@
 {"lat":48.795,"lon":9.796,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.083,"lon":11.608,"city":"","state":"Saxony-Anhalt","country":"Germany"}
 {"lat":42.689,"lon":23.26,"city":"Sofia","state":"","country":"Bulgaria"}
-{"lat":53.437,"lon":9.979,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.437,"lon":9.979,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.067,"lon":6.967,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.978,"lon":9.286,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":52.437,"lon":13.502,"city":"Berlin","state":"","country":"Germany"}
@@ -536,7 +536,7 @@
 {"lat":49.865,"lon":8.675,"city":"Darmstadt","state":"Hesse","country":"Germany"}
 {"lat":52.255,"lon":8.875,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.815,"lon":8.195,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.488,"lon":10.006,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.488,"lon":10.006,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":53.486,"lon":9.567,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":-33.46,"lon":-70.595,"city":"Ñuñoa","state":"Santiago Metropolitan Region","country":"Chile"}
 {"lat":42.626,"lon":23.378,"city":"Mladost","state":"","country":"Bulgaria"}
@@ -594,10 +594,10 @@
 {"lat":42.688,"lon":23.343,"city":"Sredec","state":"","country":"Bulgaria"}
 {"lat":48.765,"lon":9.185,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.054,"lon":8.553,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.581,"lon":9.956,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.581,"lon":9.956,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.986,"lon":7.856,"city":"Freiburg im Breisgau","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.568,"lon":6.931,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.442,"lon":10.004,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.442,"lon":10.004,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.0,"lon":10.0,"city":"","state":"Hesse","country":"Germany"}
 {"lat":42.664,"lon":23.347,"city":"Izgrev","state":"","country":"Bulgaria"}
 {"lat":42.704,"lon":23.384,"city":"Poduyane","state":"","country":"Bulgaria"}
@@ -631,8 +631,8 @@
 {"lat":48.415,"lon":9.118,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.118,"lon":11.599,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":49.141,"lon":9.229,"city":"Heilbronn","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.467,"lon":9.959,"city":"","state":"Hamburg","country":"Germany"}
-{"lat":53.623,"lon":10.106,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.467,"lon":9.959,"city":"Hamburg","state":"Hamburg","country":"Germany"}
+{"lat":53.623,"lon":10.106,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.152,"lon":11.584,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":49.802,"lon":9.923,"city":"Würzburg","state":"Bavaria","country":"Germany"}
 {"lat":51.453,"lon":6.698,"city":"Duisburg","state":"North Rhine-Westphalia","country":"Germany"}
@@ -648,7 +648,7 @@
 {"lat":50.769,"lon":6.092,"city":"Aachen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.07,"lon":17.053,"city":"Wroclaw","state":"Lower Silesian Voivodeship","country":"Poland"}
 {"lat":42.738,"lon":23.272,"city":"Sofia","state":"","country":"Bulgaria"}
-{"lat":53.579,"lon":9.963,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.579,"lon":9.963,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.985,"lon":7.898,"city":"Freiburg im Breisgau","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.866,"lon":9.691,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":50.846,"lon":4.357,"city":"Ville de Bruxelles - Stad Brussel","state":"Brussels-Capital","country":"Belgium"}
@@ -686,7 +686,7 @@
 {"lat":51.0,"lon":6.98,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.791,"lon":9.957,"city":"Würzburg","state":"Bavaria","country":"Germany"}
 {"lat":47.478,"lon":7.6,"city":"","state":"Basel-Landschaft","country":"Switzerland"}
-{"lat":53.463,"lon":9.972,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.463,"lon":9.972,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.12,"lon":6.771,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":53.521,"lon":10.248,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":52.501,"lon":13.408,"city":"Berlin","state":"","country":"Germany"}
@@ -724,7 +724,7 @@
 {"lat":50.06,"lon":8.26,"city":"Wiesbaden","state":"Hesse","country":"Germany"}
 {"lat":44.511,"lon":11.341,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
 {"lat":52.34,"lon":9.765,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
-{"lat":53.576,"lon":9.745,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.576,"lon":9.745,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.455,"lon":7.638,"city":"","state":"Solothurn","country":"Switzerland"}
 {"lat":42.706,"lon":23.322,"city":"Serdika","state":"","country":"Bulgaria"}
 {"lat":49.155,"lon":8.253,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
@@ -762,7 +762,7 @@
 {"lat":48.182,"lon":11.538,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":52.526,"lon":13.326,"city":"Berlin","state":"","country":"Germany"}
 {"lat":48.809,"lon":9.119,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.55,"lon":9.933,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.55,"lon":9.933,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":42.693,"lon":23.284,"city":"Krasna poliana","state":"","country":"Bulgaria"}
 {"lat":51.032,"lon":13.742,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":48.81,"lon":9.15,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -803,7 +803,7 @@
 {"lat":50.984,"lon":7.277,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.763,"lon":9.796,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":47.261,"lon":11.399,"city":"Innsbruck","state":"Tyrol","country":"Austria"}
-{"lat":53.571,"lon":10.083,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.571,"lon":10.083,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.231,"lon":16.464,"city":"","state":"Vienna","country":"Austria"}
 {"lat":-33.425,"lon":-70.613,"city":"Providencia","state":"Santiago Metropolitan Region","country":"Chile"}
 {"lat":48.747,"lon":9.326,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -826,7 +826,7 @@
 {"lat":49.44,"lon":8.355,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":48.143,"lon":11.46,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.069,"lon":7.016,"city":"Leverkusen","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.586,"lon":10.014,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.586,"lon":10.014,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":32.766,"lon":-117.108,"city":"San Diego","state":"California","country":"USA"}
 {"lat":51.029,"lon":13.749,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":52.236,"lon":9.234,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -854,7 +854,7 @@
 {"lat":51.194,"lon":6.614,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.707,"lon":23.372,"city":"Poduyane","state":"","country":"Bulgaria"}
 {"lat":47.221,"lon":9.635,"city":"","state":"Vorarlberg","country":"Austria"}
-{"lat":53.49,"lon":10.175,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.49,"lon":10.175,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.797,"lon":4.359,"city":"","state":"Brussels-Capital","country":"Belgium"}
 {"lat":51.278,"lon":12.588,"city":"","state":"Saxony","country":"Germany"}
 {"lat":50.299,"lon":8.265,"city":"","state":"Hesse","country":"Germany"}
@@ -880,7 +880,7 @@
 {"lat":42.907,"lon":23.792,"city":"","state":"","country":"Bulgaria"}
 {"lat":48.729,"lon":9.107,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.375,"lon":5.222,"city":"","state":"North Brabant","country":"Netherlands"}
-{"lat":53.565,"lon":9.965,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.565,"lon":9.965,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.837,"lon":4.331,"city":"","state":"Brussels-Capital","country":"Belgium"}
 {"lat":48.738,"lon":9.126,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.903,"lon":10.869,"city":"","state":"Bavaria","country":"Germany"}
@@ -902,7 +902,7 @@
 {"lat":42.145,"lon":24.721,"city":"Западен","state":"","country":"Bulgaria"}
 {"lat":48.746,"lon":9.231,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.943,"lon":9.101,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.607,"lon":10.004,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.607,"lon":10.004,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":42.734,"lon":23.307,"city":"Nadejda","state":"","country":"Bulgaria"}
 {"lat":49.295,"lon":10.582,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":42.671,"lon":23.364,"city":"Izgrev","state":"","country":"Bulgaria"}
@@ -961,7 +961,7 @@
 {"lat":47.942,"lon":8.012,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.481,"lon":7.008,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.44,"lon":6.646,"city":"Moers","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.591,"lon":10.004,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.591,"lon":10.004,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.781,"lon":9.838,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.983,"lon":12.111,"city":"Rgbg","state":"Bavaria","country":"Germany"}
 {"lat":52.023,"lon":4.692,"city":"","state":"South Holland","country":"Netherlands"}
@@ -990,7 +990,7 @@
 {"lat":48.763,"lon":9.168,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.787,"lon":9.192,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.247,"lon":10.414,"city":"","state":"Lower Saxony","country":"Germany"}
-{"lat":53.561,"lon":10.108,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.561,"lon":10.108,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.803,"lon":9.212,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.783,"lon":9.127,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.836,"lon":9.173,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -1117,7 +1117,7 @@
 {"lat":51.959,"lon":8.542,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.63,"lon":11.018,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":52.092,"lon":11.557,"city":"","state":"Saxony-Anhalt","country":"Germany"}
-{"lat":53.589,"lon":9.967,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.589,"lon":9.967,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.503,"lon":11.762,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":49.394,"lon":11.136,"city":"Nuremberg","state":"Bavaria","country":"Germany"}
 {"lat":51.5,"lon":7.588,"city":"Dortmund","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1135,7 +1135,7 @@
 {"lat":42.005,"lon":24.869,"city":"Asenovgrad","state":"","country":"Bulgaria"}
 {"lat":50.225,"lon":10.126,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":50.068,"lon":8.154,"city":"Wiesbaden","state":"Hesse","country":"Germany"}
-{"lat":53.544,"lon":9.998,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.544,"lon":9.998,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.342,"lon":9.764,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":42.266,"lon":24.945,"city":"Секирово","state":"","country":"Bulgaria"}
 {"lat":50.48,"lon":30.417,"city":"Kyiv","state":"","country":"Ukraine"}
@@ -1143,7 +1143,7 @@
 {"lat":53.685,"lon":9.993,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":48.793,"lon":9.182,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.633,"lon":23.297,"city":"Vitosha","state":"","country":"Bulgaria"}
-{"lat":53.494,"lon":9.928,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.494,"lon":9.928,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.923,"lon":6.703,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.83,"lon":6.122,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.69,"lon":9.022,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -1152,13 +1152,13 @@
 {"lat":48.654,"lon":8.932,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.982,"lon":8.406,"city":"Karlsruhe","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.807,"lon":9.246,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.493,"lon":9.992,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.493,"lon":9.992,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.776,"lon":9.175,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":47.592,"lon":7.687,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.459,"lon":7.934,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.664,"lon":8.339,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.528,"lon":7.653,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.449,"lon":9.984,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.449,"lon":9.984,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.373,"lon":9.723,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":52.955,"lon":8.705,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":50.087,"lon":8.279,"city":"Wiesbaden","state":"Hesse","country":"Germany"}
@@ -1167,7 +1167,7 @@
 {"lat":48.194,"lon":16.37,"city":"","state":"Vienna","country":"Austria"}
 {"lat":42.71,"lon":23.419,"city":"Kremikovci","state":"","country":"Bulgaria"}
 {"lat":48.799,"lon":9.224,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.626,"lon":10.012,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.626,"lon":10.012,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.856,"lon":8.315,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":47.971,"lon":7.829,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.572,"lon":6.992,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1221,12 +1221,12 @@
 {"lat":51.947,"lon":10.559,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":42.631,"lon":23.382,"city":"Sofia","state":"","country":"Bulgaria"}
 {"lat":44.507,"lon":11.347,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
-{"lat":53.552,"lon":10.08,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.552,"lon":10.08,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.523,"lon":7.266,"city":"Bochum","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.174,"lon":6.831,"city":"Dusseldorf","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.503,"lon":9.231,"city":"Reutlingen","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.816,"lon":9.019,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.473,"lon":10.252,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.473,"lon":10.252,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.107,"lon":8.584,"city":"Frankfurt","state":"Hesse","country":"Germany"}
 {"lat":50.972,"lon":7.098,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.802,"lon":9.943,"city":"Würzburg","state":"Bavaria","country":"Germany"}
@@ -1253,7 +1253,7 @@
 {"lat":48.181,"lon":11.478,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.903,"lon":7.635,"city":"Münster","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.908,"lon":6.916,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.553,"lon":10.067,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.553,"lon":10.067,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.81,"lon":8.342,"city":"","state":"Hesse","country":"Germany"}
 {"lat":53.658,"lon":9.797,"city":"","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":51.999,"lon":8.594,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1282,15 +1282,15 @@
 {"lat":48.554,"lon":9.294,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.524,"lon":13.422,"city":"Berlin","state":"","country":"Germany"}
 {"lat":51.026,"lon":13.792,"city":"Dresden","state":"Saxony","country":"Germany"}
-{"lat":53.557,"lon":9.94,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.557,"lon":9.94,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.77,"lon":9.2,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.011,"lon":24.879,"city":"Asenovgrad","state":"","country":"Bulgaria"}
 {"lat":52.012,"lon":8.541,"city":"Bielefeld","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.917,"lon":9.125,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.735,"lon":9.648,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.464,"lon":9.954,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.464,"lon":9.954,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.124,"lon":6.685,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.556,"lon":9.991,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.556,"lon":9.991,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.77,"lon":9.245,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.815,"lon":9.319,"city":"Kernen im Remstal","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.427,"lon":6.972,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1333,8 +1333,8 @@
 {"lat":52.556,"lon":13.394,"city":"Berlin","state":"","country":"Germany"}
 {"lat":42.654,"lon":23.316,"city":"Lozenec","state":"","country":"Bulgaria"}
 {"lat":51.236,"lon":7.142,"city":"Wuppertal","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.584,"lon":9.938,"city":"","state":"Hamburg","country":"Germany"}
-{"lat":53.579,"lon":10.024,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.584,"lon":9.938,"city":"Hamburg","state":"Hamburg","country":"Germany"}
+{"lat":53.579,"lon":10.024,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.554,"lon":6.763,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.267,"lon":23.112,"city":"Dupnitsa","state":"","country":"Bulgaria"}
 {"lat":48.18,"lon":11.538,"city":"Munich","state":"Bavaria","country":"Germany"}
@@ -1344,19 +1344,19 @@
 {"lat":51.093,"lon":17.002,"city":"Wroclaw","state":"Lower Silesian Voivodeship","country":"Poland"}
 {"lat":50.931,"lon":6.956,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.774,"lon":9.146,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.558,"lon":10.012,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.558,"lon":10.012,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.461,"lon":7.148,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":48.53,"lon":9.053,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.869,"lon":8.66,"city":"Darmstadt","state":"Hesse","country":"Germany"}
 {"lat":48.741,"lon":9.322,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.579,"lon":9.962,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.579,"lon":9.962,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.038,"lon":13.692,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":42.665,"lon":23.392,"city":"Iskar","state":"","country":"Bulgaria"}
 {"lat":47.979,"lon":8.01,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.481,"lon":10.237,"city":"","state":"Hamburg","country":"Germany"}
-{"lat":53.488,"lon":10.211,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.481,"lon":10.237,"city":"Hamburg","state":"Hamburg","country":"Germany"}
+{"lat":53.488,"lon":10.211,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.814,"lon":11.37,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.558,"lon":9.904,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.558,"lon":9.904,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.804,"lon":8.358,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.769,"lon":9.189,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.625,"lon":9.264,"city":"Aichtal","state":"Baden-Württemberg","country":"Germany"}
@@ -1379,7 +1379,7 @@
 {"lat":49.958,"lon":8.199,"city":"Mainz","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":49.756,"lon":6.994,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":49.22,"lon":8.653,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.518,"lon":9.986,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.518,"lon":9.986,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":43.194,"lon":27.646,"city":"","state":"","country":"Bulgaria"}
 {"lat":42.131,"lon":24.731,"city":"Южен","state":"","country":"Bulgaria"}
 {"lat":-32.879,"lon":-68.877,"city":"Mendoza","state":"Mza.","country":"Argentina"}
@@ -1387,7 +1387,7 @@
 {"lat":48.83,"lon":9.155,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.347,"lon":9.832,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":51.666,"lon":7.146,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.576,"lon":10.048,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.576,"lon":10.048,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.142,"lon":16.343,"city":"","state":"Vienna","country":"Austria"}
 {"lat":48.794,"lon":9.521,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.69,"lon":9.993,"city":"","state":"Schleswig-Holstein","country":"Germany"}
@@ -1448,12 +1448,12 @@
 {"lat":51.481,"lon":7.12,"city":"Bochum","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.717,"lon":9.293,"city":"Ostfildern","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.253,"lon":6.687,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.545,"lon":9.91,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.545,"lon":9.91,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.729,"lon":9.119,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.168,"lon":12.817,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":48.869,"lon":12.563,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":37.537,"lon":126.99,"city":"Seoul","state":"","country":"South Korea"}
-{"lat":53.522,"lon":9.806,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.522,"lon":9.806,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":42.59,"lon":23.396,"city":"","state":"","country":"Bulgaria"}
 {"lat":52.147,"lon":11.569,"city":"","state":"Saxony-Anhalt","country":"Germany"}
 {"lat":42.036,"lon":24.309,"city":"","state":"","country":"Bulgaria"}
@@ -1472,7 +1472,7 @@
 {"lat":52.643,"lon":4.807,"city":"","state":"North Holland","country":"Netherlands"}
 {"lat":51.928,"lon":7.707,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.999,"lon":9.299,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.476,"lon":10.082,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.476,"lon":10.082,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.468,"lon":7.016,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.392,"lon":7.483,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":42.639,"lon":23.369,"city":"Sofia","state":"","country":"Bulgaria"}
@@ -1488,7 +1488,7 @@
 {"lat":48.901,"lon":9.188,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.139,"lon":8.211,"city":"Oldenburg","state":"Lower Saxony","country":"Germany"}
 {"lat":48.123,"lon":7.854,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.547,"lon":9.967,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.547,"lon":9.967,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":53.017,"lon":8.347,"city":"Hatten","state":"Lower Saxony","country":"Germany"}
 {"lat":51.043,"lon":13.708,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":49.204,"lon":8.648,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -1505,7 +1505,7 @@
 {"lat":47.071,"lon":15.452,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":48.529,"lon":9.047,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.994,"lon":7.042,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.593,"lon":9.967,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.593,"lon":9.967,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.12,"lon":11.488,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.051,"lon":13.773,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":46.968,"lon":9.561,"city":"","state":"Grisons","country":"Switzerland"}
@@ -1572,7 +1572,7 @@
 {"lat":48.777,"lon":9.153,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.526,"lon":9.06,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":25.033,"lon":121.332,"city":"","state":"Taoyuan","country":"ROC"}
-{"lat":53.588,"lon":10.01,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.588,"lon":10.01,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.081,"lon":13.712,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":52.364,"lon":9.773,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":51.48,"lon":11.992,"city":"Halle (Saale)","state":"Saxony-Anhalt","country":"Germany"}
@@ -1661,7 +1661,7 @@
 {"lat":50.876,"lon":8.033,"city":"Siegen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":43.618,"lon":25.342,"city":"Svishtov","state":"","country":"Bulgaria"}
 {"lat":51.195,"lon":7.073,"city":"Solingen","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.494,"lon":10.02,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.494,"lon":10.02,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":43.21,"lon":27.902,"city":"Varna","state":"","country":"Bulgaria"}
 {"lat":47.06,"lon":15.46,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":48.842,"lon":8.925,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -1685,7 +1685,7 @@
 {"lat":53.227,"lon":10.516,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":52.678,"lon":13.252,"city":"","state":"Brandenburg","country":"Germany"}
 {"lat":49.081,"lon":8.199,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
-{"lat":53.558,"lon":10.062,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.558,"lon":10.062,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.653,"lon":11.042,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":49.911,"lon":10.924,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":51.777,"lon":8.82,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1709,10 +1709,10 @@
 {"lat":53.062,"lon":8.805,"city":"Bremen","state":"Free and Hanseatic City of Bremen","country":"Germany"}
 {"lat":47.991,"lon":7.855,"city":"Freiburg im Breisgau","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.806,"lon":8.76,"city":"","state":"Hesse","country":"Germany"}
-{"lat":53.556,"lon":9.914,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.556,"lon":9.914,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.81,"lon":9.148,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.111,"lon":11.581,"city":"Munich","state":"Bavaria","country":"Germany"}
-{"lat":53.545,"lon":9.977,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.545,"lon":9.977,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.377,"lon":8.99,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.713,"lon":9.019,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.976,"lon":9.583,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -1730,7 +1730,7 @@
 {"lat":49.051,"lon":9.25,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.513,"lon":11.279,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":49.901,"lon":10.876,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.547,"lon":10.013,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.547,"lon":10.013,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":42.149,"lon":24.75,"city":"Централен","state":"","country":"Bulgaria"}
 {"lat":51.419,"lon":7.077,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":53.524,"lon":10.166,"city":"","state":"Schleswig-Holstein","country":"Germany"}
@@ -1762,7 +1762,7 @@
 {"lat":52.569,"lon":13.401,"city":"Berlin","state":"","country":"Germany"}
 {"lat":49.381,"lon":8.69,"city":"Heidelberg","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.509,"lon":9.076,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.617,"lon":10.076,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.617,"lon":10.076,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.017,"lon":5.283,"city":"","state":"Flanders","country":"Belgium"}
 {"lat":51.449,"lon":7.097,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.486,"lon":13.386,"city":"Berlin","state":"","country":"Germany"}
@@ -1811,7 +1811,7 @@
 {"lat":52.22,"lon":8.792,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.659,"lon":23.316,"city":"Lozenec","state":"","country":"Bulgaria"}
 {"lat":51.306,"lon":7.292,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.586,"lon":10.056,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.586,"lon":10.056,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.428,"lon":9.743,"city":"","state":"Vorarlberg","country":"Austria"}
 {"lat":14.395,"lon":121.078,"city":"","state":"Laguna","country":"Philippines"}
 {"lat":52.599,"lon":10.928,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -1834,7 +1834,7 @@
 {"lat":51.329,"lon":6.826,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.945,"lon":6.954,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.737,"lon":9.228,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.515,"lon":9.993,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.515,"lon":9.993,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":53.857,"lon":10.697,"city":"Lübeck","state":"Schleswig-Holstein","country":"Germany"}
 {"lat":42.724,"lon":23.297,"city":"Nadejda","state":"","country":"Bulgaria"}
 {"lat":48.748,"lon":9.174,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -1843,7 +1843,7 @@
 {"lat":43.847,"lon":25.958,"city":"Ruse","state":"","country":"Bulgaria"}
 {"lat":49.359,"lon":8.266,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":50.956,"lon":6.963,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.576,"lon":9.981,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.576,"lon":9.981,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.833,"lon":8.839,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.829,"lon":8.748,"city":"","state":"Hesse","country":"Germany"}
 {"lat":52.394,"lon":13.041,"city":"Potsdam","state":"Brandenburg","country":"Germany"}
@@ -1857,7 +1857,7 @@
 {"lat":50.811,"lon":7.738,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":53.185,"lon":8.215,"city":"Oldenburg","state":"Lower Saxony","country":"Germany"}
 {"lat":51.471,"lon":7.22,"city":"Bochum","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.562,"lon":9.948,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.562,"lon":9.948,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.812,"lon":9.118,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.859,"lon":6.572,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.747,"lon":8.955,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -1893,7 +1893,7 @@
 {"lat":51.01,"lon":6.898,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.578,"lon":7.109,"city":"Gelsenkirchen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":53.247,"lon":10.337,"city":"","state":"Lower Saxony","country":"Germany"}
-{"lat":53.599,"lon":10.041,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.599,"lon":10.041,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":44.531,"lon":11.352,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
 {"lat":48.203,"lon":16.311,"city":"","state":"Vienna","country":"Austria"}
 {"lat":52.467,"lon":13.305,"city":"Berlin","state":"","country":"Germany"}
@@ -1906,7 +1906,7 @@
 {"lat":42.679,"lon":23.312,"city":"Triadica","state":"","country":"Bulgaria"}
 {"lat":49.462,"lon":11.109,"city":"Nuremberg","state":"Bavaria","country":"Germany"}
 {"lat":50.927,"lon":6.857,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.575,"lon":9.856,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.575,"lon":9.856,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.558,"lon":6.996,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.548,"lon":7.222,"city":"Herne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.234,"lon":7.059,"city":"Wuppertal","state":"North Rhine-Westphalia","country":"Germany"}
@@ -1914,7 +1914,7 @@
 {"lat":51.2,"lon":6.738,"city":"Dusseldorf","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.443,"lon":7.305,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.798,"lon":7.206,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.48,"lon":10.003,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.48,"lon":10.003,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":47.061,"lon":15.448,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":52.156,"lon":10.52,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":51.5,"lon":7.138,"city":"Gelsenkirchen","state":"North Rhine-Westphalia","country":"Germany"}
@@ -2028,7 +2028,7 @@
 {"lat":43.988,"lon":22.875,"city":"Vidin","state":"","country":"Bulgaria"}
 {"lat":51.445,"lon":7.276,"city":"Bochum","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.713,"lon":8.995,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.612,"lon":9.906,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.612,"lon":9.906,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.682,"lon":9.01,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.568,"lon":13.265,"city":"","state":"Mecklenburg-Vorpommern","country":"Germany"}
 {"lat":50.057,"lon":8.678,"city":"","state":"Hesse","country":"Germany"}
@@ -2045,7 +2045,7 @@
 {"lat":44.898,"lon":20.297,"city":"Zemun Municipality","state":"Central Serbia","country":"Serbia"}
 {"lat":53.611,"lon":7.277,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":51.661,"lon":8.336,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.56,"lon":9.947,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.56,"lon":9.947,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.797,"lon":9.804,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":47.746,"lon":9.0,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.754,"lon":12.99,"city":"Amtsberg","state":"Saxony","country":"Germany"}
@@ -2069,7 +2069,7 @@
 {"lat":50.844,"lon":4.381,"city":"Ville de Bruxelles - Stad Brussel","state":"Brussels-Capital","country":"Belgium"}
 {"lat":48.114,"lon":11.603,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":49.798,"lon":10.022,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.584,"lon":9.969,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.584,"lon":9.969,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.015,"lon":5.432,"city":"Utrechtse Heuvelrug","state":"Utrecht","country":"Netherlands"}
 {"lat":48.738,"lon":9.094,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.205,"lon":11.612,"city":"Munich","state":"Bavaria","country":"Germany"}
@@ -2108,7 +2108,7 @@
 {"lat":42.648,"lon":23.371,"city":"Mladost","state":"","country":"Bulgaria"}
 {"lat":48.758,"lon":9.162,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.139,"lon":9.222,"city":"Heilbronn","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.582,"lon":10.054,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.582,"lon":10.054,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.769,"lon":9.185,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.153,"lon":11.538,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.072,"lon":13.762,"city":"Dresden","state":"Saxony","country":"Germany"}
@@ -2123,12 +2123,12 @@
 {"lat":50.058,"lon":8.295,"city":"Wiesbaden","state":"Hesse","country":"Germany"}
 {"lat":51.18,"lon":14.995,"city":"","state":"Saxony","country":"Germany"}
 {"lat":42.781,"lon":23.114,"city":"","state":"","country":"Bulgaria"}
-{"lat":53.511,"lon":10.17,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.511,"lon":10.17,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.729,"lon":7.666,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.067,"lon":11.14,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":51.512,"lon":7.16,"city":"Herne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.018,"lon":7.817,"city":"Freiburg im Breisgau","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.5,"lon":10.176,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.5,"lon":10.176,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.137,"lon":11.559,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.383,"lon":7.074,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.685,"lon":9.012,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -2171,13 +2171,13 @@
 {"lat":53.303,"lon":10.407,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":48.715,"lon":8.964,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.899,"lon":8.671,"city":"","state":"Hesse","country":"Germany"}
-{"lat":53.556,"lon":9.946,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.556,"lon":9.946,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.154,"lon":11.53,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":52.384,"lon":13.105,"city":"Potsdam","state":"Brandenburg","country":"Germany"}
 {"lat":47.664,"lon":9.162,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":-31.997,"lon":115.906,"city":"Perth","state":"Western Australia","country":"Australia"}
 {"lat":48.855,"lon":9.322,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.52,"lon":10.048,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.52,"lon":10.048,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.332,"lon":9.774,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":42.689,"lon":23.333,"city":"Sredec","state":"","country":"Bulgaria"}
 {"lat":47.61,"lon":7.672,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -2245,7 +2245,7 @@
 {"lat":51.492,"lon":7.059,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.611,"lon":13.502,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":49.019,"lon":10.978,"city":"Weißenburg i. Bay.","state":"Bavaria","country":"Germany"}
-{"lat":53.567,"lon":9.905,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.567,"lon":9.905,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.708,"lon":7.084,"city":"Bonn","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.05,"lon":11.035,"city":"Am Großen Bruch","state":"Saxony-Anhalt","country":"Germany"}
 {"lat":48.612,"lon":9.35,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -2277,7 +2277,7 @@
 {"lat":48.774,"lon":8.944,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.767,"lon":9.271,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":49.342,"lon":8.146,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
-{"lat":53.54,"lon":10.042,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.54,"lon":10.042,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":41.4,"lon":2.156,"city":"Barcelona","state":"Catalonia","country":"Spain"}
 {"lat":47.056,"lon":15.402,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":48.206,"lon":11.551,"city":"Munich","state":"Bavaria","country":"Germany"}
@@ -2344,7 +2344,7 @@
 {"lat":53.283,"lon":9.508,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":50.743,"lon":10.863,"city":"","state":"Thuringia","country":"Germany"}
 {"lat":49.609,"lon":11.354,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.583,"lon":10.085,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.583,"lon":10.085,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.093,"lon":13.717,"city":"Dresden","state":"Saxony","country":"Germany"}
 {"lat":53.239,"lon":10.394,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":49.881,"lon":8.48,"city":"","state":"Hesse","country":"Germany"}
@@ -2366,7 +2366,7 @@
 {"lat":52.463,"lon":13.32,"city":"Berlin","state":"","country":"Germany"}
 {"lat":49.79,"lon":9.883,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":52.484,"lon":13.466,"city":"Berlin","state":"","country":"Germany"}
-{"lat":53.564,"lon":9.927,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.564,"lon":9.927,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.785,"lon":6.496,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.137,"lon":24.736,"city":"Централен","state":"","country":"Bulgaria"}
 {"lat":48.182,"lon":10.972,"city":"","state":"Bavaria","country":"Germany"}
@@ -2382,15 +2382,15 @@
 {"lat":53.888,"lon":11.464,"city":"","state":"Mecklenburg-Vorpommern","country":"Germany"}
 {"lat":51.193,"lon":7.076,"city":"Solingen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":49.555,"lon":25.594,"city":"Ternopil","state":"Ternopil Oblast","country":"Ukraine"}
-{"lat":53.55,"lon":10.048,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.55,"lon":10.048,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.113,"lon":8.705,"city":"Frankfurt","state":"Hesse","country":"Germany"}
 {"lat":51.385,"lon":7.123,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.51,"lon":9.061,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.159,"lon":8.752,"city":"","state":"Hesse","country":"Germany"}
-{"lat":53.519,"lon":9.984,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.519,"lon":9.984,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.316,"lon":5.029,"city":"","state":"North Holland","country":"Netherlands"}
 {"lat":52.568,"lon":13.365,"city":"Berlin","state":"","country":"Germany"}
-{"lat":53.479,"lon":10.003,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.479,"lon":10.003,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.972,"lon":9.277,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.738,"lon":23.293,"city":"Vrabnitsa","state":"","country":"Bulgaria"}
 {"lat":50.946,"lon":6.652,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -2400,7 +2400,7 @@
 {"lat":42.151,"lon":24.755,"city":"Централен","state":"","country":"Bulgaria"}
 {"lat":51.771,"lon":6.832,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.014,"lon":10.718,"city":"","state":"Bavaria","country":"Germany"}
-{"lat":53.557,"lon":10.007,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.557,"lon":10.007,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.739,"lon":7.123,"city":"Bonn","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.9,"lon":10.734,"city":"Nordharz","state":"Saxony-Anhalt","country":"Germany"}
 {"lat":53.326,"lon":10.357,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -2421,7 +2421,7 @@
 {"lat":50.938,"lon":7.064,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.593,"lon":8.851,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.083,"lon":11.533,"city":"Munich","state":"Bavaria","country":"Germany"}
-{"lat":53.556,"lon":9.936,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.556,"lon":9.936,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":43.226,"lon":27.858,"city":"Varna","state":"","country":"Bulgaria"}
 {"lat":48.823,"lon":9.217,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.407,"lon":9.975,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -2441,12 +2441,12 @@
 {"lat":51.331,"lon":7.285,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":53.25,"lon":10.412,"city":"","state":"Lower Saxony","country":"Germany"}
 {"lat":46.316,"lon":15.283,"city":"","state":"","country":"Slovenia"}
-{"lat":53.595,"lon":10.082,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.595,"lon":10.082,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.455,"lon":6.67,"city":"Moers","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":53.133,"lon":8.195,"city":"Oldenburg","state":"Lower Saxony","country":"Germany"}
 {"lat":51.838,"lon":8.17,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
-{"lat":53.596,"lon":10.059,"city":"","state":"Hamburg","country":"Germany"}
-{"lat":53.607,"lon":10.047,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.596,"lon":10.059,"city":"Hamburg","state":"Hamburg","country":"Germany"}
+{"lat":53.607,"lon":10.047,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.138,"lon":16.321,"city":"","state":"Vienna","country":"Austria"}
 {"lat":50.147,"lon":8.673,"city":"Frankfurt","state":"Hesse","country":"Germany"}
 {"lat":47.633,"lon":10.513,"city":"","state":"Bavaria","country":"Germany"}
@@ -2512,7 +2512,7 @@
 {"lat":47.075,"lon":15.425,"city":"Graz","state":"Styria","country":"Austria"}
 {"lat":48.671,"lon":8.995,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.714,"lon":9.472,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.448,"lon":10.227,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.448,"lon":10.227,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.96,"lon":8.455,"city":"","state":"Hesse","country":"Germany"}
 {"lat":48.25,"lon":11.656,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":48.837,"lon":9.172,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -2528,7 +2528,7 @@
 {"lat":48.392,"lon":9.96,"city":"Ulm","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.817,"lon":8.497,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":48.741,"lon":9.128,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.481,"lon":10.006,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.481,"lon":10.006,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.234,"lon":8.554,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.865,"lon":13.976,"city":"Lübbenau/Spreewald","state":"Brandenburg","country":"Germany"}
 {"lat":55.186,"lon":61.296,"city":"Chelyabinsk","state":"Chelyabinsk Oblast","country":"Russia"}
@@ -2546,7 +2546,7 @@
 {"lat":48.688,"lon":9.012,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.906,"lon":9.27,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.893,"lon":9.543,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.582,"lon":9.946,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.582,"lon":9.946,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.693,"lon":9.562,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":42.669,"lon":23.399,"city":"Sofia","state":"","country":"Bulgaria"}
 {"lat":53.496,"lon":7.84,"city":"","state":"Lower Saxony","country":"Germany"}
@@ -2575,15 +2575,15 @@
 {"lat":48.692,"lon":9.144,"city":"Leinfelden-Echterdingen","state":"Baden-Württemberg","country":"Germany"}
 {"lat":53.419,"lon":11.843,"city":"","state":"Mecklenburg-Vorpommern","country":"Germany"}
 {"lat":48.489,"lon":9.211,"city":"Reutlingen","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.673,"lon":10.064,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.673,"lon":10.064,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.331,"lon":9.772,"city":"Hanover","state":"Lower Saxony","country":"Germany"}
 {"lat":52.569,"lon":13.312,"city":"Berlin","state":"","country":"Germany"}
 {"lat":42.685,"lon":23.301,"city":"Krasno selo","state":"","country":"Bulgaria"}
 {"lat":42.692,"lon":23.312,"city":"Krasno selo","state":"","country":"Bulgaria"}
 {"lat":52.533,"lon":13.435,"city":"Berlin","state":"","country":"Germany"}
-{"lat":53.582,"lon":9.962,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.582,"lon":9.962,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.932,"lon":8.494,"city":"","state":"Hesse","country":"Germany"}
-{"lat":53.501,"lon":10.019,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.501,"lon":10.019,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.483,"lon":13.432,"city":"Berlin","state":"","country":"Germany"}
 {"lat":48.689,"lon":8.998,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.52,"lon":13.476,"city":"Berlin","state":"","country":"Germany"}
@@ -2595,7 +2595,7 @@
 {"lat":50.988,"lon":6.315,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":50.661,"lon":7.835,"city":"","state":"Rhineland-Palatinate","country":"Germany"}
 {"lat":49.01,"lon":8.426,"city":"Karlsruhe","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.516,"lon":9.996,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.516,"lon":9.996,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.5,"lon":9.172,"city":"Reutlingen","state":"Baden-Württemberg","country":"Germany"}
 {"lat":52.555,"lon":13.415,"city":"Berlin","state":"","country":"Germany"}
 {"lat":51.048,"lon":13.793,"city":"Dresden","state":"Saxony","country":"Germany"}
@@ -2617,7 +2617,7 @@
 {"lat":49.243,"lon":9.335,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":51.326,"lon":12.344,"city":"Leipzig","state":"Saxony","country":"Germany"}
 {"lat":50.161,"lon":8.664,"city":"Frankfurt","state":"Hesse","country":"Germany"}
-{"lat":53.562,"lon":9.963,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.562,"lon":9.963,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.782,"lon":9.187,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.732,"lon":9.147,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.687,"lon":8.956,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -2628,7 +2628,7 @@
 {"lat":53.113,"lon":8.896,"city":"Bremen","state":"Free and Hanseatic City of Bremen","country":"Germany"}
 {"lat":42.629,"lon":23.301,"city":"Vitosha","state":"","country":"Bulgaria"}
 {"lat":53.227,"lon":10.4,"city":"","state":"Lower Saxony","country":"Germany"}
-{"lat":53.548,"lon":9.942,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.548,"lon":9.942,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":52.526,"lon":13.361,"city":"Berlin","state":"","country":"Germany"}
 {"lat":50.836,"lon":12.931,"city":"Chemnitz","state":"Saxony","country":"Germany"}
 {"lat":48.2,"lon":11.547,"city":"Munich","state":"Bavaria","country":"Germany"}
@@ -2637,7 +2637,7 @@
 {"lat":52.555,"lon":13.34,"city":"Berlin","state":"","country":"Germany"}
 {"lat":44.515,"lon":11.354,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
 {"lat":49.005,"lon":8.325,"city":"Karlsruhe","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.587,"lon":9.955,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.587,"lon":9.955,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.528,"lon":7.465,"city":"Dortmund","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.699,"lon":23.298,"city":"Vazrajdane","state":"","country":"Bulgaria"}
 {"lat":42.151,"lon":24.747,"city":"Централен","state":"","country":"Bulgaria"}
@@ -2657,7 +2657,7 @@
 {"lat":48.745,"lon":9.215,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.127,"lon":11.601,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":51.058,"lon":13.776,"city":"Dresden","state":"Saxony","country":"Germany"}
-{"lat":53.558,"lon":9.97,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.558,"lon":9.97,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.443,"lon":6.997,"city":"Essen","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.795,"lon":12.258,"city":"","state":"Saxony-Anhalt","country":"Germany"}
 {"lat":48.312,"lon":9.245,"city":"","state":"Baden-Württemberg","country":"Germany"}
@@ -2730,7 +2730,7 @@
 {"lat":48.049,"lon":11.626,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":48.317,"lon":15.174,"city":"Gemeinde Pöggstall","state":"Lower Austria","country":"Austria"}
 {"lat":50.017,"lon":8.779,"city":"","state":"Hesse","country":"Germany"}
-{"lat":53.633,"lon":10.101,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.633,"lon":10.101,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.688,"lon":9.001,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.789,"lon":9.005,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":50.771,"lon":0.282,"city":"Eastbourne","state":"England","country":"United Kingdom"}
@@ -2743,7 +2743,7 @@
 {"lat":53.452,"lon":-2.264,"city":"Manchester","state":"England","country":"United Kingdom"}
 {"lat":47.744,"lon":10.579,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":47.197,"lon":11.88,"city":"","state":"Tyrol","country":"Austria"}
-{"lat":53.578,"lon":9.952,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.578,"lon":9.952,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.808,"lon":9.007,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.02,"lon":11.477,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":51.292,"lon":6.868,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -2779,7 +2779,7 @@
 {"lat":42.67,"lon":23.284,"city":"Krasno selo","state":"","country":"Bulgaria"}
 {"lat":44.491,"lon":11.352,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
 {"lat":48.018,"lon":7.855,"city":"Freiburg im Breisgau","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.551,"lon":9.918,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.551,"lon":9.918,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":48.078,"lon":11.516,"city":"Munich","state":"Bavaria","country":"Germany"}
 {"lat":48.726,"lon":9.361,"city":"","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.771,"lon":9.146,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
@@ -2821,7 +2821,7 @@
 {"lat":47.291,"lon":9.659,"city":"","state":"Vorarlberg","country":"Austria"}
 {"lat":44.492,"lon":11.315,"city":"Bologna","state":"Emilia-Romagna","country":"Italy"}
 {"lat":51.068,"lon":13.779,"city":"Dresden","state":"Saxony","country":"Germany"}
-{"lat":53.637,"lon":10.095,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.637,"lon":10.095,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":50.923,"lon":7.077,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":52.511,"lon":13.393,"city":"Berlin","state":"","country":"Germany"}
 {"lat":50.95,"lon":6.92,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
@@ -2830,7 +2830,7 @@
 {"lat":48.704,"lon":9.21,"city":"Stuttgart","state":"Baden-Württemberg","country":"Germany"}
 {"lat":48.199,"lon":11.798,"city":"","state":"Bavaria","country":"Germany"}
 {"lat":51.079,"lon":13.717,"city":"Dresden","state":"Saxony","country":"Germany"}
-{"lat":53.517,"lon":9.985,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.517,"lon":9.985,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":49.871,"lon":8.651,"city":"Darmstadt","state":"Hesse","country":"Germany"}
 {"lat":50.893,"lon":5.741,"city":"","state":"Limburg","country":"Netherlands"}
 {"lat":51.559,"lon":6.987,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
@@ -2853,7 +2853,7 @@
 {"lat":50.93,"lon":6.939,"city":"Cologne","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":51.423,"lon":5.483,"city":"Eindhoven","state":"North Brabant","country":"Netherlands"}
 {"lat":48.825,"lon":9.071,"city":"","state":"Baden-Württemberg","country":"Germany"}
-{"lat":53.58,"lon":10.095,"city":"","state":"Hamburg","country":"Germany"}
+{"lat":53.58,"lon":10.095,"city":"Hamburg","state":"Hamburg","country":"Germany"}
 {"lat":51.184,"lon":7.256,"city":"","state":"North Rhine-Westphalia","country":"Germany"}
 {"lat":42.196,"lon":24.317,"city":"Pazardzhik","state":"","country":"Bulgaria"}
 {"lat":49.47,"lon":10.395,"city":"","state":"Bavaria","country":"Germany"}

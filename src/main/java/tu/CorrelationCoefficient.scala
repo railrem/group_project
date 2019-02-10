@@ -19,9 +19,9 @@ object CorrelationCoefficient {
 
     var dfWithGreenSpace = DataProcessor.addInfoByCity(dfWithAverageAndCities, "green_space", EcoUtil.getGreenAreaPercentage)
 
-//    var result = dfWithGreenSpace.toJSON.collect().mkString(",")
-//    result = "{\n  \"items\": [" + result + "]}"
-//    helpers.print(result)
+    var result = dfWithGreenSpace.toJSON.collect().mkString(",")
+    result = "{\n  \"items\": [" + result + "]}"
+    helpers.print(result)
 
     val assembler = new VectorAssembler()
       .setInputCols(Array("avg_P1", "avg_P2", "green_space"))

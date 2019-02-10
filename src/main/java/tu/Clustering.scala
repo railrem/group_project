@@ -50,31 +50,31 @@ object Clustering {
       res
     })
 
-    var optimalNumClusters = 20
-    //    var minWSSE = Double.MaxValue
-    //    var numClusters = 1
-    //    var errors = new util.ArrayList[Array[Double]]
-    /*  var clusterCountStr = "{\n  \"items\": ["
-     // for loop execution with a range
+    var optimalNumClusters = 19
+//    var minWSSE = Double.MaxValue
+//    var numClusters = 1
+//    var errors = new util.ArrayList[Array[Double]]
+//    var clusterCountStr = "{\n  \"items\": ["
+//    // for loop execution with a range
+//
+//
+//    for (numClusters <- 1 to 50) {
+//      val clusters = KMeans.train(output, numClusters, numIter)
+//      // Evaluate clustering by computing Within Set Sum of Squared Errors
+//      val WSSSE = clusters.computeCost(output)
+//      errors.add(Array(numClusters, WSSSE))
+//      clusterCountStr += "[" + numClusters + "," + WSSSE + "],"
+//      if (WSSSE < minWSSE) {
+//        minWSSE = WSSSE
+//        optimalNumClusters = numClusters
+//      }
+//    }
 
 
-     for (numClusters <- 1 to 50) {
-       val clusters = KMeans.train(output, numClusters, numIter)
-       // Evaluate clustering by computing Within Set Sum of Squared Errors
-       val WSSSE = clusters.computeCost(output)
-       errors.add(Array(numClusters, WSSSE))
-       clusterCountStr += "[" + numClusters + "," + WSSSE + "],"
-       if (WSSSE < minWSSE) {
-         minWSSE = WSSSE
-         optimalNumClusters = numClusters
-       }
-       //      helpers.print("Within Set Sum of Squared Errors = " + WSSSE)
-     }
-
-    helpers.print("cluster Count Measure")
-
-    clusterCountStr = clusterCountStr.dropRight(1) + "]}"
-    helpers.print(clusterCountStr)*/
+//    helpers.print("cluster Count Measure")
+//
+//    clusterCountStr = clusterCountStr.dropRight(1) + "]}"
+//    helpers.print(clusterCountStr)
 
     helpers.print("cluster count calculation")
     val clusters = KMeans.train(output, optimalNumClusters, numIter)

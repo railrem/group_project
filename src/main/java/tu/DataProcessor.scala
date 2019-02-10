@@ -2,7 +2,7 @@ package tu
 
 import java.lang.NullPointerException
 
-import org.apache.spark.sql.{DataFrame, SparkSession}
+import org.apache.spark.sql.{AccessShowString, DataFrame, SparkSession}
 import org.apache.spark.sql.functions.{avg, col, udf}
 import org.apache.spark.sql.types._
 import tu.utils.{DataLoader, EcoUtil, RequestHistory}
@@ -36,78 +36,83 @@ object DataProcessor {
   var schema3 = schema2
     .add(StructField("P0", DoubleType))
 
-  val requestHistory: RequestHistory = new RequestHistory()
+  var requestHistory: RequestHistory = new RequestHistory()
 
   def getAverageByCity(hdfsBase: String, sparkSession: SparkSession): DataFrame = {
 
     // Union all data with different scheme
-    val dataLoader: DataLoader = new DataLoader(hdfsBase)
+    var dataLoader: DataLoader = new DataLoader(hdfsBase)
 
     var df1 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema1Path, schema1).
-      select("lat", "lon", "P1", "P2")
+      select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
     var df2 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema2Path, schema2)
-      .select("lat", "lon", "P1", "P2")
+      .select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
     var df3 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema3Path, schema3)
-      .select("lat", "lon", "P1", "P2")
-    val df = df1
+      .select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
+    var df = df1
       .union(df2)
       .union(df3)
     df.printSchema()
 
     var citiesDF = sparkSession.read.json(hdfsBase + "geo.json")
     /*
-        val cityUdf = udf((lat: Double, lon: Double) => getCity(lat, lon))
+        var cityUdf = udf((lat: Double, lon: Double) => getCity(lat, lon))
 
         //adding city column
-        val dfWithCity = df.withColumn("city", cityUdf(col("lat"), col("lon")))
-       */
+        var dfWithCity = df.withColumn("city", cityUdf(col("lat"), col("lon")))
+    */
 
-    val df_asCity = citiesDF.as("dfcities")
-    val df_asData = df.as("dfdata")
+    var df_asCity = citiesDF.as("dfcities")
+    var df_asData = df.as("dfdata")
 
     var dfWithCity = df_asData.join(df_asCity, Seq("lat", "lon"))
 
-    val dfFileteredWithCity = this.filterEmptys(dfWithCity, "city")
+    var dfFiletered = filterEmptys(dfWithCity, "city")
+      .filter(r => {
+        var avgP1: Double = r.getAs("P1")
+        var avgP2: Double = r.getAs("P2")
+        try {
+          !(avgP1.isNaN || avgP2.isNaN)
+        }
+        catch {
+          case _: NullPointerException => false
+        }
+      })
+      .filter(col("P1") < 200)
+      .filter(col("P2") < 200)
+     
 
-//    val umlautUdf = udf((p: String) => procUmlauts(p))
-//    val dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
+
+    //    var umlautUdf = udf((p: String) => procUmlauts(p))
+    //    var dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
     //  calculate average P1 P2 by city
-    dfFileteredWithCity.createOrReplaceTempView("data")
-    var dfWithAverageAndCities = sparkSession.sqlContext
-      .sql("select city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by city")
+    //    dfFileteredWithCity.createOrReplaceTempView("data")
+    //    var dfWithAverageAndCities = sparkSession.sqlContext
+    //      .sql("select city, avg(P1) as avg_P1,avg(P2) as avg_P2 from data group by city")
+    //    
+    var dfGroupedBySensorId = dfFiletered.groupBy(col("sensor_type"), col("sensor_id"), col("dfcities.city"))
+      .agg(
+        mean(col("P1")).as("avg_P1"),
+        mean(col("P2")).as("avg_P2")
+      )
+//    dfGroupedBySensorId.orderBy(col("sensor_type"), desc("avg_P1")).show(10000, 10000)
 
-    /* val dfWithAverageAndCities = dfFileteredWithCity.groupBy(col("city"))
-       .agg(
-         mean(col("P1")),
-         mean(col("P2"))
-       )
-       */
+    //    dfGroupedBySensorId.show(1000)
+    var dfWithAverageAndCities = dfGroupedBySensorId.groupBy(col("city"))
+      .agg(
+        mean(col("avg_P1")).as("avg_P1"),
+        mean(col("avg_P2")).as("avg_P2")
+      )
+//    dfWithAverageAndCities.orderBy(desc("avg_P1")).show(10000, 100000)
 
-
-    val dfFileteredAverage = dfWithAverageAndCities.filter(r => {
-      val avgP1: Double = r.getAs("avg_P1")
-      val avgP2: Double = r.getAs("avg_P2")
-      try {
-        !(avgP1.isNaN || avgP2.isNaN)
-      }
-      catch {
-        case _: NullPointerException => false
-      }
-    })
-
-    val pUdf = udf((p: Double) => normalizeP(p))
-
-    var dfAvgfFiltered = dfFileteredAverage
-      .filter(col("avg_P1") < 100)
-      .filter(col("avg_P2") < 100)
-
+    var pUdf = udf((p: Double) => normalizeP(p))
 
     var cityInfoDf = sparkSession.read.json(hdfsBase + "city_info.json")
 
-    val df_asInfo = cityInfoDf.as("dfinfocities")
-    val df_asMainData = dfAvgfFiltered.as("dfmaindata")
+    var df_asInfo = cityInfoDf.as("dfinfocities")
+    var df_asMainData = dfWithAverageAndCities.as("dfmaindata")
 
-    var dfFinish = df_asMainData.join(df_asInfo, col("city") === col("src_name"),"leftouter")
+    var dfFinish = df_asMainData.join(df_asInfo, col("city") === col("src_name"), "leftouter")
     dfFinish
   }
 
@@ -119,7 +124,7 @@ object DataProcessor {
   }
 
   def procUmlauts(s: String): String = {
-    val deUm: Map[Char, String] =
+    var deUm: Map[Char, String] =
       Map('ö' -> "o", 'ü' -> "u", 'ä' -> "a").withDefault(_.toString)
 
     s.flatMap(deUm(_))
@@ -128,7 +133,7 @@ object DataProcessor {
 
   def filterEmptys(dataFrame: DataFrame, column: String): DataFrame = {
     dataFrame.filter(r => {
-      val t: String = r.getAs(column)
+      var t: String = r.getAs(column)
       try {
         !t.isEmpty
       }
@@ -140,7 +145,7 @@ object DataProcessor {
 
 
   def addInfoByCity(dataFrame: DataFrame, colName: String, callback: String => Integer): DataFrame = {
-    val udfCity = udf((city: String) => callback(city))
+    var udfCity = udf((city: String) => callback(city))
     dataFrame
       .withColumn(colName, udfCity(col("city")))
       .filter(col(colName).isNotNull)

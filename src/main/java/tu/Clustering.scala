@@ -23,14 +23,7 @@ object Clustering {
     trainKmeans(numIter, dfWithPopulation, "avg_P1", "normpop")
 
     trainKmeans(numIter, dfWithPopulation, "avg_P2", "normpop")
-
-    //    var dfWithSea = DataProcessor.addInfoByCity(dfWithAverageAndCities, "elevation_meters", CiteDetails.getElevationMeters)
-    //
-    //    trainKmeans(numIter,dfWithPopulation,"avg_P1","elevation_meters")
-    //
-    //    trainKmeans(numIter,dfWithPopulation,"avg_P2","elevation_meters")
-
-
+    
   }
 
   def normalizeP(p: Double): Double = {
@@ -50,7 +43,9 @@ object Clustering {
       res
     })
 
-    var optimalNumClusters = 19
+    var optimalNumClusters = 20
+    
+    
 //    var minWSSE = Double.MaxValue
 //    var numClusters = 1
 //    var errors = new util.ArrayList[Array[Double]]

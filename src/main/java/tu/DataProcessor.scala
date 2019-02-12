@@ -44,17 +44,18 @@ object DataProcessor {
     var dataLoader: DataLoader = new DataLoader(hdfsBase)
 
     var df1 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema1Path, schema1).
-      select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
+      select(, "sensor_id", "lat", "lon", "P1", "P2")
     var df2 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema2Path, schema2)
-      .select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
+      .select("sensor_id", "lat", "lon", "P1", "P2")
     var df3 = dataLoader.readParquet(sparkSession.sqlContext, dataLoader.schema3Path, schema3)
-      .select("sensor_type", "sensor_id", "lat", "lon", "P1", "P2")
+      .select("sensor_id", "lat", "lon", "P1", "P2")
     var df = df1
       .union(df2)
       .union(df3)
     df.printSchema()
 
     var citiesDF = sparkSession.read.json(hdfsBase + "geo.json")
+
     /*
         var cityUdf = udf((lat: Double, lon: Double) => getCity(lat, lon))
 
@@ -78,13 +79,10 @@ object DataProcessor {
           case _: NullPointerException => false
         }
       })
-      .filter(col("P1") < 200)
-      .filter(col("P2") < 200)
-     
-
-
+    
     //    var umlautUdf = udf((p: String) => procUmlauts(p))
     //    var dfWithCityWithoutUmlauts = dfFileteredWithCity.withColumn("new_city", umlautUdf(col("city"))).drop("city")
+
     //  calculate average P1 P2 by city
     //    dfFileteredWithCity.createOrReplaceTempView("data")
     //    var dfWithAverageAndCities = sparkSession.sqlContext
@@ -95,7 +93,7 @@ object DataProcessor {
         mean(col("P1")).as("avg_P1"),
         mean(col("P2")).as("avg_P2")
       )
-//    dfGroupedBySensorId.orderBy(col("sensor_type"), desc("avg_P1")).show(10000, 10000)
+    //    dfGroupedBySensorId.orderBy(col("sensor_type"), desc("avg_P1")).show(10000, 10000)
 
     //    dfGroupedBySensorId.show(1000)
     var dfWithAverageAndCities = dfGroupedBySensorId.groupBy(col("city"))
@@ -103,10 +101,8 @@ object DataProcessor {
         mean(col("avg_P1")).as("avg_P1"),
         mean(col("avg_P2")).as("avg_P2")
       )
-//    dfWithAverageAndCities.orderBy(desc("avg_P1")).show(10000, 100000)
-
-    var pUdf = udf((p: Double) => normalizeP(p))
-
+    //    dfWithAverageAndCities.orderBy(desc("avg_P1")).show(10000, 100000)
+    
     var cityInfoDf = sparkSession.read.json(hdfsBase + "city_info.json")
 
     var df_asInfo = cityInfoDf.as("dfinfocities")
@@ -115,13 +111,7 @@ object DataProcessor {
     var dfFinish = df_asMainData.join(df_asInfo, col("city") === col("src_name"), "leftouter")
     dfFinish
   }
-
-  def normalizeP(p: Double): Double = {
-    if (p > 100.0) {
-      return 100.0
-    }
-    p
-  }
+  
 
   def procUmlauts(s: String): String = {
     var deUm: Map[Char, String] =
